@@ -1,0 +1,4 @@
+method,pool_available,pool_coverage,scored,correct,selection_loss,covered_without_selection,wins_vs_sc,losses_vs_sc,pool_unavailable
+sc,111,96,111,90,6,0,0,0,9
+usc,111,96,104,84,5,7,0,0,9
+cisc,111,96,111,90,6,0,0,0,9

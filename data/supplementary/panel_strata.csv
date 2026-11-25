@@ -1,0 +1,5 @@
+stratum,cases,observable,sufficient,insufficient,unclear,no_consensus
+correct,6,6,2,3,1,0
+incorrect,6,6,0,6,0,0
+returned_empty,6,6,0,6,0,0
+unavailable,6,2,4,2,0,0

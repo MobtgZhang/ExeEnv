@@ -1,0 +1,93 @@
+{
+  "format": "public-normalized-v1",
+  "limitations": "No online calls or independent expert certification; role aliases do not imply independent training. Source identity checks are not proof of freeze time.",
+  "scope": "Allowlisted projection. Original source hashes are provenance anchors, not hashes of transformed public records. Public file integrity is independently bound by MANIFEST.json.",
+  "source_files": [
+    {
+      "original_sha256": "8727d046350a8686547fa1eb7d0c8db6ae52e2598d29e10fcf1cb875436d9ae6",
+      "source": "primary audit relations"
+    },
+    {
+      "original_sha256": "5d90ec183badb952f9b745cddf345d6699814cd47b34332434b746918dbca608",
+      "source": "primary frozen inputs and strict reference labels"
+    },
+    {
+      "original_sha256": "a4c3a41976ba4c48729449912d92c2ac7f8d387e1847d8dcf434706414a856f7",
+      "source": "trace_audit_20261110/policy_tasks.csv"
+    },
+    {
+      "original_sha256": "8e6c0dff75ddbb703c661a8d0a682d3c7692dda729bad82f43f3f824d410063a",
+      "source": "trace_audit_20261110/initial_outcomes.csv"
+    },
+    {
+      "original_sha256": "b4d308f530134ab04a1e2b76028fec3e44634ebfa6eebf55b17c54b2890ce8e8",
+      "source": "trace_audit_20261110/initial_partitions.csv"
+    },
+    {
+      "original_sha256": "dd5f6a44c6e13f7fdd1409c0660c510c1b0e9999a3af0f1f56d87c164b2fd431",
+      "source": "trace_audit_20261110/initial_shared_pool.csv"
+    },
+    {
+      "original_sha256": "6cb3220157fba82c67d3a0882d541432e86689901f3cdb8325f382404e9e7a66",
+      "source": "cohort_sensitivity_20261110/family_rates.csv"
+    },
+    {
+      "original_sha256": "23a745dbd8bc707fa46404f94c180e329512e7f2fabb69c411edbe648476c3df",
+      "source": "online_semantic_analysis_20261110/online_episodes.csv"
+    },
+    {
+      "original_sha256": "b918f8d72182e204360782d6915938fc6a8d0004e00c75b87a679ee21b15eb0a",
+      "source": "controlled_policy_replication_20261110/episodes.csv"
+    },
+    {
+      "original_sha256": "50509e9b3482bc5870fe009ffc8e0bf1b0c017b2b47f59639ca91314150a58cd",
+      "source": "ensemble_semantics_20261110/cases.csv"
+    },
+    {
+      "original_sha256": "9771b5a2d02a4ecde04d44bcb806113f82d1c3f52b94023f287eeae92b76c2d8",
+      "source": "ensemble_semantics_20261110/condition_votes.csv"
+    },
+    {
+      "original_sha256": "c9687e6d65ba44a3dc10866f0b2448f0e10eafd0ff3bc92471097a083a0188ec",
+      "source": "ensemble_semantics_20261110/peer_proposals.csv"
+    },
+    {
+      "original_sha256": "db42b8c2ac28d0aa6fe598803c33b93fe0275db2b2fd034bc3388564c51f8fcd",
+      "source": "review_diagnostics_20261111/panel_by_stratum.csv"
+    },
+    {
+      "original_sha256": "cd6882caa0934ad5ba17bdc0e403283a06ce441cdb30b6b6fd7fcc53ccde5273",
+      "source": "review_diagnostics_20261111/layered_status.csv"
+    },
+    {
+      "original_sha256": "be4edd8653763218e02993d360ca7c0330beb935ff712c18bbee947cff75c540",
+      "source": "completed-trajectory selection plan"
+    },
+    {
+      "original_sha256": "4aa3dac2e9f3bea10d05b241b8cddd0d049c9a81ce99b3ba4d102575eb405a4c",
+      "source": "sample_extension_20261110/summary.csv"
+    },
+    {
+      "original_sha256": "5e8bc49025f339e60f30d2e9e966920f2d4f93810b96b4c058be42fafc88ced4",
+      "source": "trace_audit_20261110/partitions.csv"
+    },
+    {
+      "original_sha256": "8e149ec912baed82cc28e069ac399f5a887acd759f8e196a698a2dc928e9a2e2",
+      "source": "trace_audit_20261110/shared_pool.csv"
+    },
+    {
+      "original_sha256": "ae9c3c7b8a120871feca314280e2823ae289276d9e5c425bfb000d7d59cef5c7",
+      "source": "fault_sensitivity_20261110/expected_outcomes.csv"
+    },
+    {
+      "original_sha256": "b7af354176552468cb77ea5fc81de7095e69557255d187ed7edc94ec753c835c",
+      "source": "trace_audit_20261110/policies.csv"
+    }
+  ],
+  "transformations": [
+    "Generator/judge identifiers replaced by roles",
+    "Request path aliases preserve one-to-many dependency identity",
+    "Provider envelopes, opaque fields, URLs, error bodies and configuration excluded",
+    "Only the CC-BY-SA scientific primary question projection is included; supplementary restricted-source text omitted"
+  ]
+}

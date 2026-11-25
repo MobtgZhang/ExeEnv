@@ -1,0 +1,10 @@
+method,both,both_net,target_only,target_only_matches,control_only,control_only_matches,neither,observed_net,lower,upper
+direct,101,-3,0,0,18,13,1,-16,-17,3
+draft,101,-4,0,0,16,13,3,-17,-20,2
+self_refine,87,-4,14,12,14,11,5,-3,-22,16
+sc,97,-4,4,2,14,12,5,-14,-23,5
+usc,91,-3,10,6,13,11,6,-8,-24,11
+cisc,97,-4,4,2,14,12,5,-14,-23,5
+cove,88,1,13,10,15,13,4,-2,-19,17
+critic,86,0,15,13,12,10,7,3,-19,22
+target_only,97,-5,4,4,15,13,4,-14,-22,5

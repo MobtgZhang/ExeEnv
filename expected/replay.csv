@@ -1,0 +1,5 @@
+policy,n,correct,unavailable,returned_empty,answered,agreement,fallback,wins,losses,tokens,removed_tokens,token_saving
+original,120,76,19,13,88,0,0,0,0,2190468,0,0.0
+fallback,120,89,3,13,104,0,16,13,0,2190468,0,0.0
+agreement,120,78,15,13,92,73,0,4,2,1801099,389369,0.17775607769663834
+agreement_fallback,120,87,3,13,104,73,12,13,2,1801099,389369,0.17775607769663834

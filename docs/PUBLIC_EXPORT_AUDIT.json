@@ -1,0 +1,18 @@
+{
+  "excluded_binary_extensions": [
+    ".png",
+    ".pdf",
+    ".pyc"
+  ],
+  "findings": 0,
+  "notes": "Generated plots use audited tables and role-free labels. The manuscript and private source records are intentionally outside this public package. No credential configuration was opened by the exporter or scan.",
+  "rules": [
+    "Credential-like values",
+    "Concrete generator/panel identifiers",
+    "Private workspace/user paths",
+    "Inference-service URLs",
+    "Credential/configuration filenames"
+  ],
+  "scope": "All public source, data, documentation, and generated result text",
+  "verified": true
+}

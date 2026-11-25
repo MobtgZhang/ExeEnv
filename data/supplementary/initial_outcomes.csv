@@ -1,0 +1,10 @@
+method,n,correct,incorrect,returned_empty,unavailable
+direct,60,33,27,0,0
+draft,60,36,23,1,0
+self_refine,60,34,20,4,2
+sc,60,34,26,0,0
+usc,60,33,26,1,0
+cisc,60,33,26,1,0
+cove,60,33,24,3,0
+critic,60,32,22,6,0
+cure_l,60,35,19,3,3

@@ -1,0 +1,9 @@
+method,n,draft,repair,wrong_regression,empty_loss,delivery_loss,final
+draft,60,36,0,0,0,0,36
+self_refine,60,36,0,0,1,1,34
+sc,60,36,1,3,0,0,34
+usc,60,36,1,3,1,0,33
+cisc,60,36,1,4,0,0,33
+cove,60,36,0,2,1,0,33
+critic,60,36,0,2,2,0,32
+cure_l,60,36,1,0,0,2,35

@@ -1,0 +1,1803 @@
+[
+  {
+    "answer": "7",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "7",
+      "5",
+      "8",
+      "3"
+    ],
+    "question": "How many open reading frames that encode proteins greater than 35 AAs in length are in the DNA sequence GCAGTTGGACATATAGTGCGGTCAGAGGTAGCTGCCCCTCTCGGGAATGCCGTATTGCCGAGTTTGTATGGGTATAGCTTCGGGGTCTCATAGTGCATCTCAGCAAGAGAAGATTTGTCGGTCACACACTGTCTCTAGGATTTCAGACGCCTTTAGCGGAACACCGCCGCGTAGTCCTCTTTCAAACAGTCCTCCCGTGGCGGCTTATTCTGAGCGTTGAGAAGGAATATGATTATGTAACGCTTGGGCAGATCGCCTGAACTTCGAATGATCGGAGACTCCTCAGCCTGGAACGCGCTGTAGTAAGGGAGCTCATGCGCTGGCGGATCGCGACTTCGTGGAATGGTGGCGCTTTCTATCTAGACAAAGGACCTCTGTGAACCTACTGTGGACGCCTGCGACCGGCAGAGGGAAACGCCTCAGTGGGTGTACAGCAGTGTTGGGCAGTGAATATTAAATATATCAGCAAAAGGGCCTCCAGTCTTGAGTGCTATAGCGTTACATCGATATCTTCATTGATGTCACTCGTCCCTAGATTACCTACTCGTTGTAAGGTTGGCACTAAGTGAACCTATACTCGGCGGCTTGCGTTTGTGTACTATGATCCTTGGCAAAAGTCTCGCCAGGTGACGCCCGGGCCTTTGACATGAATGGACTTAGGAGACTAGACATGAGACGTGTGGACCATCGGTGAGAAGTTCAGATCTTGAAGCTCAGACTAACAATGTGGATCTTCTAACGTTCTGTATTTAGCTTGGGCGAATGGGCGTGGGGCTATTTACCCTTCGAGGGACAGAGACATCGCAAGAATGTTCGGACTGAGGATAACTCGATGACGTTCGGTTCGACATCTTTTTGATTAACCCGCTATACTGTTTGTAACTTGGTTATGCTTCGACAACATTGTCTGTAACGTGACAATACGGTAGGGCGATAACCCCGAAAGTAGTAAGCTATCCCATAAAACACTAGCAAAATCAGCATTTCGTAAAACTGGCGGGACTGAACAACCCGGGAATTTCGTTGGTGAAATTGGAAACAGGGTGAGTCAGTTGCGGGAACCCAGGGGTTTAGGTGGTCATACGGTAAGCCGGTAGCAGTAGGTACCGCTATAGTGCCTTCCGACCCGGGAGGATCTATTGGGTCGGAATCTATAGACTCAGGTCATGGGCCTGTACTGTATGCCGTACCCATGTTAAACGCAAGGGGGGATAATATGATAAGCGTCACCGCTTGTTTACTACATTGGAGCTTGTGGTCAGAACTAGTCTCCTCTCGAACGCAATTCTACCCTGAGAACCCAGTTGAAGGATAGGTGGACTCGCGCCTCGCTCAAAATTGGTCGCCTGATAGACTCTAGCGCCTCCTAATGTGCCAACCCTGCGGCGTTTGGTTCCAGTTACGGGGCACAGCTTGTGTGGGGGTTCCCATTGGTTACAATCGCGTGACATTGCGCCGGCCTGGTATGCCCACTCTTTATTCATCTGGCCCTATCGCCCCAGGGTACTTGTTAGGACTATTTAAGATGACTAGGACGTCTTTGTTGGTCGAGTAGACATTATCCATCCTCGAAGATGTATCGCCGGAAATGAGTCATGACGAAAATGTTCTTTCGTAAGCCCATGGCCACATCAGCGTTGCCCAAAGGTGCAGCATGATAAATTGAGGGATGAATGAGCGAAAGGTTATCTCAAGCCCACAGATGCGGAATGGGAGGCATCGTTAATGGACTTTACATACGCAATAGGAAGTCTCTATCCAGGTGCCAATGAAGTAACTAACGCTGATTGCCCCGAGGTCCTACTTCCTCAACACGGCTGAGTGGGGGACAGGATGGTCGAACCTCGAGCGGCATAGATGCCTCTCATGTTAGCCACGAGGCTGCACAGTCTGGTGTTATCAATGGCCATTCCCTGTTATTACAGAGCCACTCTTTGCCTTCCGAAGCACCATGGTTTTGAAAGCTCAACAAAGCCTTTCTGCAGATTATGTAGACGGATCCGTATTTCGATAATCAAGGCCCTCGAAAAACGTATGCAATTGCACGGCCAAAGAGCTTTCCATTGATAAAGATTACAGGCACGTGATCGCCTATCGGGGCCTTGAGGACTTAAAACCCTTGGTATAGGACCTGCATCAAACCGGTTGCCTTCGAGACCA?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::dd72d2c9-3e4e-401b-9da9-0fb1cd7f03a2"
+  },
+  {
+    "answer": "CXE (Cas9-XTEN-hExo1)",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "The N-terminal domain (residues 1–352) of hExo1, which has catalytic exonuclease activity and is capable of binding to DNA [36], was chosen to fuse with Cas9 using a linker peptide (Fig. 1A). The different linker peptide and the location of the exonuclease could change the spatial position of Cas9 and the domain of exonuclease, thus might affect the efficiency of knock-ins. Therefore, to optimize the combination of linker peptides and location of exonuclease, we designed four editors, namely, CXE (Cas9-XTEN-hExo1), EXC (hExo1-XTEN-Cas9), CTE (Cas9-TGS-hExo1), and ETC (hExo1-TGS-Cas9), using two different linker peptides (XTEN or TGS linker) to fuse the domain of exonuclease to the C- or N-terminus of Cas9 (Fig. 1B). The HDR efficiencies of the four EXO editors were evaluated by inserting the EGFP and mCherry reporter to the human AAVS1 and GAPDH loci in human embryonic kidney 293 (HEK293) cells, respectively. The adenovirus 4 E1B55K and E4orf6 proteins, which mediate the ubiquitination and proteasomal degradation of DNA ligase IV, have been claimed to increase HDR efficiency by up to eightfold and essentially abolish NHEJ activity in human and mouse cell lines [8]. These two proteins were fused to the C-terminal of Cas9 by XTEN linker, forming two editors, namely, E1B and E4, respectively, which were used as the positive controls (Fig. 1B). The results showed that E4, E1B, and the EXO editors were able to increase HDR efficiency and reduce indel frequency compared with the Cas9 control (Fig. 1C, D). Notably, CXE resulted in the highest HDR efficiency and lowest indel frequency among the four EXO editors and was even significantly superior to E4 and E1B (Fig. 1C, D). The CXE editor enhanced the precise genome editing efficiency (relative HDR/indel ratio) up to 9.8-fold at AAVS1 locus and 2.5-fold at GAPDH locus relative to the canonical Cas9 (Fig. 1E). We also confirmed that the relative HDR/indel ratio of CXE was significantly higher than those of E4 and E1B (Fig. 1E)."
+    },
+    "options": [
+      "ETC (hExo1-TGS-Cas9)",
+      "CTE (Cas9-TGS-hExo1)",
+      "EXC (hExo1-XTEN-Cas9)",
+      "CXE (Cas9-XTEN-hExo1)"
+    ],
+    "question": "Which of the following designed DNA editors has the highest homology directed repair (HDR) efficiency?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::58f69c8d-cb94-4021-a84f-c549a7b976e1"
+  },
+  {
+    "answer": "Fastk",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Serpinb1a",
+      "Ehbp1l1",
+      "Fastk",
+      "Nlrp6"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_DECREASED_TUMOR_NECROSIS_FACTOR_SECRETION, which contains mouse genes annotated to decreased tumor necrosis factor secretion (MP:0008561) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::3eb40b8d-b777-4cf7-998d-e6cd51b7c3c5"
+  },
+  {
+    "answer": "null",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "lipid-enriched microdomains in the golgi apparatus",
+      "null",
+      "midpiece of the flagella in mature sperm"
+    ],
+    "question": "Where does the protein encoded by GARIN3 localize in human cells?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::5c808548-92c4-4ae7-990c-e2df81e3c2ae"
+  },
+  {
+    "answer": "1",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "For example, adenosine deaminases (A_deamin, PF02137 in InterPro129 database),enzymes involved in purine metabolism, were split into different clades when using amino acid sequence-based clustering methods but were all grouped together into a single A_deamin-clade using our structure-based clustering approach"
+    },
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2",
+      "5"
+    ],
+    "question": "How many clades of adenosine deaminases are there when grouped according to structure-based clustering?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::c9baf8e0-c4c7-4ba3-b5c4-18e9af8b2df1"
+  },
+  {
+    "answer": "Yes",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "Metabolic glycan labeling immobilizes dendritic cell membrane and enhances antitumor efficacy of dendritic cell vaccine"
+    },
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "question": "Does metabolic glycan labeling immobilize dendritic cell membrane and enhance antitumor efficacy of dendritic cell vaccine?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::d7833c0f-2a16-40d2-b6a0-6764aa3003a6"
+  },
+  {
+    "answer": "72 hours",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "In contrast, after inactivating ER-HOXA9 for >72 h, the cells were stably committed to differentiation and could no longer be returned to the progenitor state upon ER-HOXA9 reactivation (Figure 2B); the cells had achieved a ''point of no return'' and inexorably progressed to terminal differentiation."
+    },
+    "options": [
+      "40 hours",
+      "96 hours",
+      "24 hours",
+      "72 hours"
+    ],
+    "question": "In pre-commitment myeloid progenitor cells, for how many hours can estrogen be withdrawn before the cells can no longer return to their progenitor state?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::0a9d6516-95ef-4d7b-a28d-d7cde27b7b55"
+  },
+  {
+    "answer": "Yes",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "To test whether we could perform functional screens using base editors in primary HSPCs, we performed a systematic mutagenesis screen of splice sites in CD33"
+    },
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "question": "Has anyone performed a base editing screen against splice sites in CD33 before?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::da5b2a8f-ba08-4692-851f-2e0bf142a02f"
+  },
+  {
+    "answer": "ciproflaxin",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "A. baumannii readily evolved resistance to meropenem, ciprofloxacin, and gentamicin, but A. lwoffii only evolved resistance to ciprofloxacin"
+    },
+    "options": [
+      "ciproflaxin",
+      "gentamicin",
+      "meropenem",
+      "ampicillin"
+    ],
+    "question": "Acinetobacter lwoffii has been evolved in the lab to be resistant to which of these antibiotics?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::e3b5a4af-41d9-48db-becf-29a08d0ad28e"
+  },
+  {
+    "answer": "271, 0, 88, 0, 1, 0, 640",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "271, 0, 88, 0, 1, 0, 640",
+      "20, 17, 1, 13, 23, 5, 921",
+      "2, 17, 120, 73, 520, 267, 1",
+      "219, 44, 75, 31, 59, 419, 153"
+    ],
+    "question": "What fragment lengths should I expect to see after digesting the sequence AGTTCGTTAATGCCTGGGTATCCTGCCCACTACTGACTACAAGACGTTTCCGAAGACTCGCACTGCCTGCTTTGTCTTGACTTTCATCGACACTCGGGTACCGTATTTTCCCTCCAAAATCTAGTCCAGCTATTCAAGCGCGGGTAACACGCAGAGTTTAAGGATGGTACATATTGGAGACTAGCCGCAATACTAGGCCTATGGTCGTGACACATGAGTTGCAGGTGATAGTTTTGTGACTTGGGCCTAAGCAAACCTAGCTTGCCTTACCGGGATGACACTGAAGCCTTTCATCTGTCCCTATCGGAAGATCAGATTAGTATGGCGCCCCCCACGACTACCTCAACGGACCACCCGCCCGGGGGATGCTCTTATGATTCACTGCGCTTGAAATGAACTCAGCTCACGCTGAACGCGATGTAGCAATCTAGGCACTCTAGTAAAGAAGGATGAAGAAGGTTCCAGCGCGTAGTGGAGTTGTCGACCACAGTGGCGAAGGGATATTCGACAGGGTGATTGATCCTGATAGCACTAGTGATTTCTCGAACGGGCCAAACATTATAGTATCCCATGCCTGAGTGGGGTGGCATCTACGTCTGTCTCCTGTACGACAACTAGATGGCGACTGATCGCGTGTATTAACCGTTGTTTTTCAGCGTATCTGCAGGATCGTTTAGGCGGAGGACTCCCTAACCTGCCTCTTTAATCTTTTAGCTAGAGCGGACCGTTGAGATGATTATCTGTGGGCATTCTCCGTCGGCGTACATTCCACGTGGCGGTAGTCCTCTGTTACGTCCATAATAGGATTCGGTCGCGCCGGAAGGATCCGAAAGCGGCTCAAGCGCTATGGAGGGTAGCGACGGTGGACTAACCAGTTGCGGAGAGCATACTTCTTCAACCGAAGAGTTTCTTATGGTAGGCCGAGTTTTACTAGCGCACGTTACTATATGAAACCAGTGGGTTCCGACTGGCCTCCGTCGTCAGTTATCGTGCGGACGAC with the following enzymes: BcnI, NciI?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::9e88f12a-88cd-4077-9b0a-0e28c652b67a"
+  },
+  {
+    "answer": "48",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "The host protein galectin-3 binds to β-galactosides commonly found on the extracellular surface of the host cell membranes, and its relocalization can be used to detect membrane disruption events.51,52,53 To assess the mechanism of protrusion lysis, we infected galectin-3-GFP-expressing HeLa cells with either the B. thailandensis parental strain or T6SS-5-negative B. thailandensis (hcp-5 or vgrG-5 deletion). As a control, we infected the cells with S. flexneri, which is known to expose the extracellular-membrane-bound β-galactosides to the cytoplasmic galectin-3 during protrusion lysis.53 To localize the bacteria during infection, B. thailandensis strains were expressing mCherry2 from a neutral chromosomal site, and S. flexneri was expressing dsRed from a plasmid. For each strain, we analyzed single frames from a time-lapse collected between 12:30 and 16:00 hpi for at least 106 fields of view (295 μm × 295 μm) and counted how many galectin-3 accumulation events were present per 1,000 bacteria (at least 22,286 bacteria per strain in at least four biological replicates). During S. flexneri infections, we identified on average 213 galectin-3 accumulations per 1,000 bacteria (Figures 6A, and 6B; Video S7). Surprisingly, during infections by B. thailandensis T6SS-5-positive strain, we detected on average only 7 accumulation events of galectin-3 per 1,000 bacteria (Figures 6A, and 6B; Video S7). On the other hand, during the infections with the T6SS-5 negative B. thailandensis, we counted on average 48 (Δhcp-5) and 40 (ΔvgrG-5) galectin-3 accumulation events per 1,000 bacteria (Figures 6A, 6B, and S9A; Video S7)."
+    },
+    "options": [
+      "213",
+      "7",
+      "48"
+    ],
+    "question": "When HeLa cells that express galectin-3-GFP are infected with a T6SS-5-negative strain of B. thailandensis (B. thailandensis hcp-5 deletion), how many galectin-3 accumulation events can be expected for every 1000 bacteria on average?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::ea4ce240-2864-4ee5-9ffc-2dbda0f8f550"
+  },
+  {
+    "answer": "Fancf",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Mir301",
+      "Fancf",
+      "Ezh2",
+      "Ehbp1l1"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_GRANULOSA_CELL_TUMOR_INCIDENCE, which contains mouse genes annotated to increased granulosa cell tumor incidence (MP:0012411) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::5fc1121c-6cb8-425a-8f0d-4895e0060f87"
+  },
+  {
+    "answer": "IgE",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "antibody isotype analysis revealed AMP-CpG formulated EBV vaccine generated a mixture of IgA, IgM, IgG1, IgG2a, IgG2b, and IgG3 gp350-specific antibody isotypes"
+    },
+    "options": [
+      "IgG2a",
+      "IgG2b",
+      "IgG3",
+      "IgG1",
+      "IgM",
+      "IgE",
+      "IgA"
+    ],
+    "question": "Which antibody isotype is NOT produced in HLA-expressing mice by the AMP-CpG formulated EBV vaccine for gp350-specific antibodies?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::22306bd7-7e84-415d-aebb-11c6312eb081"
+  },
+  {
+    "answer": "tccaaaaactaatcacaacaatcg",
+    "benchmark": "lab_bench",
+    "context": {
+      "paper_title": "Defining an essential transcription factor program for naïve pluripotency",
+      "source": "https://doi.org/10.1126/science.1248882"
+    },
+    "options": [
+      "gaaggtcaattgggatgaaaa",
+      "ctaaaggcgcatctgcgta",
+      "ttgcaaagggttttcgagac",
+      "tccaaaaactaatcacaacaatcg",
+      "gaagtgcaattgggatgaaaa",
+      "tccaaaaactatacacaacaatcg"
+    ],
+    "question": "What is the forward primer sequence used for Real-time quantitative RT-PCR to amplify Sox2 gene?",
+    "subtask": "SuppQA",
+    "task_id": "labbench::SuppQA::8ba7a888-70c6-404e-949d-60e4145b8eb6"
+  },
+  {
+    "answer": "In Step 1, use 5g instead of 50g of uric acid crystals",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Protocol for preparing monosodium urate crystals for in vitro and in vivo studies in mouse and human cells\nDissolve uric acid in water\nTiming: 4 h\nThis step aims to dissolve the uric acid in water while setting up the solution to an appropriate temperature.\n1.\tPour the previously measured 50 g of uric acid crystals into an empty beaker with a magnetic stir bar.\n2.\tPlace beaker on the hot plate.\n3.\tAdd 650 mL of Ultrapure Distilled Water to the beaker.\na.\tIncrease the heat to 60°C and start the magnetic stirrer with 400 × g.\n4.\tPlace the thermometer into the beaker to monitor temperature ensuring that the thermometer is not touching the glass beaker or stir bar.\na.\tAim for thermometer to reach 60°C.\n5.\tWash the pH meter with distilled water and place the meter into the beaker to monitor the pH.\na.\tCover the top of the beaker with aluminum foil.\n \tNote: While minor water evaporation is not expected to significantly impact the final outcome, covering the beaker can help minimize evaporation and ensure more consistent results.\nb.\tNote down the pH every 30 min. Once pH does not change more than +/− 0.1 pH and temperature is ∼60°C, indicates that the uric acid solution has saturated.\nCrystallization of uric acid into monosodium urate crystals\nTiming: 16 h\nThis step aims to produce monosodium urate crystals with a needle-like shape to resemble the crystal found in the synovial fluid in gout patients.\n6.\tAdd 1 mL of 1 M NaOH at a time to the beaker.\n7.\tWrite down pH after pH stabilizes on the pH meter.\n \tNote: As more NaOH is added, the solution will slowly become more transparent, less cloudy\na.\tRepeat steps 6 and 7 until adding the 1 mL of NaOH results in the pH to spike ∼1 pH unit after stabilizing (critical point).\n \tNote: Around 11–14 mL of NaOH needs to be added before a noticeable pH spike will happen. Critical point is reached when pH is around 7.5. (Methods videos S2 and S3)\n \tNote: For reference, the critical point will reach when pH is around 7.50\n \t\n8.\tAdd one more 1 mL of NaOH.\n9.\tTurn off the heat and magnetic stirrer.\n10.\tTake beaker off the hot plate and let it sit. \na.\tCrystals will slowly start to form as temperature decreases – (Figure 1 and Methods video S4).\nb.\tLet the beaker sit 12–16 h on bench top for crystallization process to complete.\nWash, clean and dry monosodium urate crystals\nTiming: 5 h\nThis step aims to purify monosodium urate crystals to make them suitable for in vivo and in vitro studies.\n11.\tTransfer all the crystals from the beaker into 50 mL tubes with each tube containing 40 mL of crystal mixture.\n12.\tCentrifuge at 2000 × g for 5 min to separate the liquid and aspirate liquid (Figure 2).\n13.\tWash each 50 mL tube of crystals with 20 mL of 75% EtOH once (dilute 100% EtOH with sterile water) by pipetting up and down the mixture to mix the 75% EtOH.\n14.\tCentrifuge to separate liquid and aspirate it.\n15.\tWash each 50 mL tube of crystals once with 20 mL sterile PBS by pipetting up and down the mixture to mix the sterile PBS.\n16.\tCentrifuge to separate liquid and aspirate it.\n17.\tVacuum Filtrate the liquid from the crystals to begin the drying process.\na.\tOption 1: Use the Millipore Filter Stericup (Figure 3).\nb.\tOption 2: Set up a regular vacuum filtration system with a side-arm flask, Büchner funnel with filter paper, and vacuum trap.\nc.\tAfter vacuum filtration, the filtration system is opened, and the filter paper with crystals is carefully collected using a cell scraper.\n18.\tSpread crystals onto a broad surface of aluminum foil and bake at 80°C. \n19.\tResuspend crystals in fresh sterile DPBS (2–3 mg/mL).\nNote: MSUc can be stored at 4°C for up to 6 months and at −20°C for up to 1 year, ensuring their stability and usability for future experiments.\nMicroscopic evaluation and analysis of monosodium urate crystals\nTiming: 2 h\nThis step aims to evaluate the size, shape, and consistency of monosodium urate crystals.\n20.\tObtain a 100 μL aliquot of the MSU crystals.\n21.\tPlace aliquot on a microscope slide.\n22.\tVisualize the crystal preparation under microscope.\na.\tCrystals should have needle like shape (Figure 4)\n23.\tConduct RNA expression analysis (RT-qPCR or RNA Seq) of LPS-induced genes to check for LPS contamination in the MSU crystals.\nNote: The steps involving the use of needles must be done with care.\nStimulation of mouse bone marrow-derived macrophages and human monocyte-derived macrophages by monosodium urate crystals\nTiming: 2–5 h\nThis step aims to optimize the delivery of monosodium urate crystals to mouse and human macrophages for in vitro experiments. \n24.\tExtract bone marrow from femurs and tibias of wild-type mice (option 1) or isolate human peripheral blood mononuclear cells from whole blood (option 2).\na.\tCulture in DMEM/RPMI medium supplemented with 10% FBS, 100 units/mL penicillin and 100 μg/mL streptomycin, 2 mM L-glutamine, and 10 ng/mL recombinant murine M-CSF (option 1, for murine BMDM) or 25–50 ng/mL recombinant human M-CSF (option 2, for human MDM) at 37°C and 5% CO2 for six days.\nb.\tOn day six, replate the cells with the DMEM/RPMI.\nc.\tOne day after being in the fresh media, stimulate the cells for 5 h with 250 μg/mL of MSUc.\nd.\tIsolate RNA for quantitative PCR or RNA-Seq to check the expression of classical endotoxin-induced genes as read-out of endotoxin contamination (Figure 5).\n"
+    },
+    "options": [
+      "In Step 1, use 5g instead of 50g of uric acid crystals",
+      "In Step 6 add 0.01M NaOH",
+      "In Step 6 add 0.1M HCL",
+      "In Step 2, add 1000mL of Ultrapure Distilled Water to the beaker."
+    ],
+    "question": "When looking at the monosodium crystals you find that they are too small in size. What step could you do improve the size of the crystals?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::a55b740f-8ead-4d88-ab62-b4408ebc489a"
+  },
+  {
+    "answer": "COL18A1",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "TAS2R9",
+      "COL18A1",
+      "XPA",
+      "RHAG"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set RB_DN.V1_DN, which contains genes down-regulated in primary keratinocytes from RB1 [GeneID=5925] skin specific knockout mice. This gene set is a part of the C6 collection: oncogenic signature gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::9d7eeeea-1085-4f15-96f6-cf6faca98832"
+  },
+  {
+    "answer": "The stain in Mayer's Hematoxylin should be at pH 2.4-2.9.",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Hematoxylin and Eosin Staining Protocol\nStep 1: Prepare 95% ETOH in slide staining apparatus \n\nStep 2: Stain in Mayer's Hematoxylin pH 5.0 \n\nStep 3: Rinse slides 3X 15 min in tap water - if tap water is acidic, prepare Scott's tap water recipe in sigma insert\n\nStep 4: Rinse with DI water 30 Seconds\n\nStep 5: Place slide in 95% Ethanol for 1min\n\nStep 6: Place in Eosin Y for 1 min \n\nStep 7: Dehydrate and clear through 2 changes each\n95% Ethanol 2 minutes\n100% Ethanol 2 minutes\nXylene ( Histoclear as a substitute ) EMS Cat# 64114 \n\nStep 8: Mount with resinous mounting medium 200ul / slide."
+    },
+    "options": [
+      "In the step 3, slides should be rinsed 3X30 min in tap water.",
+      "In the step 3, slides should be rinsed 3X5 min in tap water.",
+      "I should avoid rinse with with DI water.",
+      "In the step 5, I should place slide in 70% Ethanol.",
+      "After the Hematoxylin staining, I should rinse slides 3X 15 min in acidic tap water.",
+      "The stain in Mayer's Hematoxylin should be at pH 2.4-2.9."
+    ],
+    "question": "I performed this H&E protocol and obtained a poor contrast between the nuclear and the cytoplasmic stain. The nuclei were too dark to allow good characterization of the tissue. What was the mistake in this protocol?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::e8afd1c6-2dea-43fd-9168-fd4ef1d18fbf"
+  },
+  {
+    "answer": "P1030S",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "L1517Q",
+      "H1431Q",
+      "H1435R",
+      "P1030S"
+    ],
+    "question": "According to ClinVar, which of the following variants to the following sequence (bracketed by xml tags) is most likely to be benign? <sequence>MTADKDKDKDKEKDRDRDRDREREKRDKARESENSRPRRSCTLEGGAKNYAESDHSEDEDNDNNSATAEESTKKNKKKPPKKKSRYERTDTGEITSYITEDDVVYRPGDCVYIESRRPNTPYFICSIQDFKLVHNSQACCRSPTPALCDPPACSLPVASQPPQHLSEAGRGPVGSKRDHLLMNVKWYYRQSEVPDSVYQHLVQDRHNENDSGRELVITDPVIKNRELFISDYVDTYHAAALRGKCNISHFSDIFAAREFKARVDSFFYILGYNPETRRLNSTQGEIRVGPSHQAKLPDLQPFPSPDGDTVTQHEELVWMPGVNDCDLLMYLRAARSMAAFAGMCDGGSTEDGCVAASRDDTTLNALNTLHESGYDAGKALQRLVKKPVPKLIEKCWTEDEVKRFVKGLRQYGKNFFRIRKELLPNKETGELITFYYYWKKTPEAASSRAHRRHRRQAVFRRIKTRTASTPVNTPSRPPSSEFLDLSSASEDDFDSEDSEQELKGYACRHCFTTTSKDWHHGGRENILLCTDCRIHFKKYGELPPIEKPVDPPPFMFKPVKEEDDGLSGKHSMRTRRSRGSMSTLRSGRKKQPASPDGRTSPINEDIRSSGRNSPSAASTSSNDSKAETVKKSAKKVKEEASSPLKSNKRQREKVASDTEEADRTSSKKTKTQEISRPNSPSEGEGESSDSRSVNDEGSSDPKDIDQDNRSTSPSIPSPQDNESDSDSSAQQQMLQAQPPALQAPTGVTPAPSSAPPGTPQLPTPGPTPSATAVPPQGSPTASQAPNQPQAPTAPVPHTHIQQAPALHPQRPPSPHPPPHPSPHPPLQPLTGSAGQPSAPSHAQPPLHGQGPPGPHSLQAGPLLQHPGPPQPFGLPPQASQGQAPLGTSPAAAYPHTSLQLPASQSALQSQQPPREQPLPPAPLAMPHIKPPPTTPIPQLPAPQAHKHPPHLSGPSPFSMNANLPPPPALKPLSSLSTHHPPSAHPPPLQLMPQSQPLPSSPAQPPGLTQSQNLPPPPASHPPTGLHQVAPQPPFAQHPFVPGGPPPITPPTCPSTSTPPAGPGTSAQPPCSGAAASGGSIAGGSSCPLPTVQIKEEALDDAEEPESPPPPPRSPSPEPTVVDTPSHASQSARFYKHLDRGYNSCARTDLYFMPLAGSKLAKKREEAIEKAKREAEQKAREEREREKEKEKEREREREREREAERAAKASSSAHEGRLSDPQLSGPGHMRPSFEPPPTTIAAVPPYIGPDTPALRTLSEYARPHVMSPTNRNHPFYMPLNPTDPLLAYHMPGLYNVDPTIRERELREREIREREIRERELRERMKPGFEVKPPELDPLHPAANPMEHFARHSALTIPPTAGPHPFASFHPGLNPLERERLALAGPQLRPEMSYPDRLAAERIHAERMASLTSDPLARLQMFNVTPHHHQHSHIHSHLHLHQQDPLHQGSAGPVHPLVDPLTAGPHLARFPYPPGTLPNPLLGQPPHEHEMLRHPVFGTPYPRDLPGAIPPPMSAAHQLQAMHAQSAELQRLAMEQQWLHGHPHMHGGHLPSQEDYYSRLKKEGDKQL</sequence> ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::5b918be3-3f47-44f3-9ea6-a6d59ea3a707"
+  },
+  {
+    "answer": "GAGCTCATGAAAAAAGGCACCGTTCTTAATTCT, CTGCAGCTGTGCTGGCGTGACGTTCTGA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GAGCTCATGAAAAAAGGCACCGTTCTTAATTCT, CTGCAGCTGTGCTGGCGTGACGTTCTGA",
+      "GAGCTCATGTTAAAAAAAACGTTACTGGCC, CTGCAGAGACAGCAACAGGAGAGTGCCAATGA",
+      "GAGCTCGAAAAAAGGCACCGTTCTTAATTCT, CTGCAGTTCTCTGTGCTGGCGTGACGTTCTG",
+      "GGTACCATGAAAAAAGGCACCGTTCTTAATTCT, GAATTCCTGTGCTGGCGTGACGTTCTGA"
+    ],
+    "question": "I want to clone a gene with the sequence ATGAAAAAAGGCACCGTTCTTAATTCTGATATTTCATCGGTGATCTCCCGTCTGGGACATACCGATACGCTGGTGGTGTGTGATGCTGGTTTACCCATCCCCAAAAGTACAACGCGTATCGATATGGCATTAACCCAGGGTGTACCTTCTTTTATGCAGGTGCTGGGCGTCGTCACAAATGAAATGCAGGTCGAGGCGGCCATTATCGCGGAAGAGATCAAACACCATAATCCGCAACTCCACGAAACGTTGCTCACTCACCTTGAGCAGCTGCAAAAACACCAGGGAAATACCATTGAAATTCGTTACACCACGCATGAACAATTCAAACAACAAACCGCAGAAAGTCAGGCGGTAATTCGCAGCGGAGAATGTTCTCCGTATGCGAATATCATTCTCTGTGCTGGCGTGACGTTCTGA into the pUC19 plasmid using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes SstI and PstI?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::a1b41f49-7519-4c4d-9b32-d4d9f84c3f58"
+  },
+  {
+    "answer": "43.6",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "o date, three-dimensional structures and comprehensive evidence for fold-switching are available only for EcRfaH (Belogurov et al., 2007; Burmann et al., 2012; Zuber et al., 2019), although other RfaH orthologs seem to employ a similar mechanism to carry out their function (Carter et al., 2004; Porter et al., 2022). Thus, we first asked whether this ability might be a general feature of RfaH proteins. We chose RfaH from Vibrio cholerae (VcRfaH) for a structural analysis by solution-state NMR spectroscopy as it is evolutionarily remote from EcRfaH (sequence identity Ec/VcRfaH: 43.6% [full-length] or 35.8% [KOW domain], respectively)."
+    },
+    "options": [
+      "52.1",
+      "45.6%",
+      "35.8%",
+      "43.6"
+    ],
+    "question": "How similar is the full length Vibrio cholerae RfaH to E. coli RfaH transcription protein ?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::b105af85-833e-48bc-ac78-48f73c9673fd"
+  },
+  {
+    "answer": "TTAAATTTGATCTGATGGTATAATAC, GGAAATAGTTTCCCAAGCTAGGA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "CATCTATTTTGGCAGCTCAAGGC, TTACCCTCCGTCTGGACTTCA",
+      "TTAAATTTGATCTGATGGTATAATAC, GGAAATAGTTTCCCAAGCTAGGA",
+      "CATGCACGCAACCTCTGCCCCACC, TTAACATAAACGATACTTAGGAT",
+      "TATCGTGTTCTCCCGAATACTTATTG, GCATCAAAGAAATTAACATAAACG"
+    ],
+    "question": "Which primer pair could I use to generate a 410 bp amplicon from the following template: GGGATCGTGCCTCTCATCCGGCACACAATCCAAGGATGTATATCAGATGACAAAGCCATGACTGAGTGGCACATCTATTTTGGCAGCTCAAGGCATGAGAGCCGCGGGATGCTATACAGCGAATTGGAACAGCCGCTCCCTCTTCCGTTATTATCGTGTTCTCCCGAATACTTATTGGACCGTCCTGTACTGGGACCATCCCAACTTTCACGCAGACTTGCAGGCGTATAAGTGCGATGCCAGGAGACGACGGACAACGACCCTTAGCGGATGATAATCGGGCTTGGACCGTAACGGATGATTGCCCGCCCAACAATTAATTCCCGCCGCCATCACCTACCACTTAGCTGGTCGCGGACATGCACGCAACCTCTGCCCCACCGATTGTTCCGTCAACGCGTACGGCTCTGACACGATTTGTTGGCTGGTTGGCAGTCTTGACACTTAAATTTGATCTGATGGTATAATACAGGAAACCATATGAAGCGCCAAATCGCGGGTCGCATCAGCACTTCCGGCGATCGGCTGCTTCATCCGTCACTATGTACATTGGTGACTGTCACCTAGTGAAAAGTTGCATCAAAGAAATTAACATAAACGATACTTAGGATGATGCGGTATTGTCAAATACTATGATAATGACGAGACCGTTGTTGGTCACCACCGATCCTGGAGCGGAAGGTTGAGAGTACTACGATCGTTTATCCAGATTACAAAGGTTGGTGAGATAGGAAGGAGCAGGATGCGGCCCGTGTGGGCACGACACCTCGCTTGGATGTATCTTGGCGGCGTAGACACTCTAAGAGTAACGCTTCATTCTGTGTTGAAAATTCCTAGCTTGGGAAACTATTTCCGTTACCCTCCGTCTGGACTTCAGAGATGCCCAACTGGGGATCTATCCAAGGCGTTACAGTGTATAATGCCTCTGTAGATTAGTCTATTACACGCCCTTCACAATAAAGCCATGTACTAGAAACCTACTAGCCCAATTTAATCTAAG?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::22e8aea5-feb9-43ac-94a6-2f48a23b7400"
+  },
+  {
+    "answer": "In the step 40, I must shake the tube/s vigorously for 15s.",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Protocol for isolating amnion cells from human and non-human Amnion collection\nTiming: 1 h\n1.\tPlace the placenta on a sterile tray. Find the point of rupture in the membranes and lift the fetal membranes (i.e., amnion-chorion-decidua parietalis).\na.\tWith sterile scissors, cut the membranes and place them on the tray with the decidua parietalis on the top and the amnion on the bottom. For a correct orientation: the amnion is smooth and shiny while the decidua parietalis is rough (Figure 1A).\nb.\tWith sterile tweezers, remove the blood clots (Figure 1B).\nc.\tRinse the fetal membranes with washing buffer with antibiotics (Figure 1C).\nd.\tPre-wet a second sterile tray with washing buffer with antibiotics and transfer the fetal membranes.\n2.\tWith a cell scraper, gently remove the chorion-decidua and collect the amnion (Figures 1D and 1E).\n3.\tWeigh and record the amnion weight.\n4.\tPlace the amnion in a pre-wet sterile Petri dish with washing buffer with antibiotics (Figure 1 F).\n5.\tFinely mince the amnion using opposing scalpels (Figure 1G).\n6.\tProceed with either tissue digestion to obtain amnion cell suspension for flow cytometry analysis or RNA extraction for RNA-seq experiments.\n7.\tAfter amnion collection, follow:\na.\tSteps 8–29 for cell isolation and flow cytometry analysis.\nb.\tSteps 30–71 for RNA extraction and RNA-seq library preparation.\nCritical: placenta must be collected and processed within 30 min after delivery.\nAmnion digestion, cell isolation, and cell staining for flow cytometry\nTiming: 3 h\nIn this section, we describe in detail the steps for optimal amnion tissue digestion and for amnion cell isolation. We recommend beginning with fresh tissues for amnion cell isolation\n8.\tPlace the minced amnion in a sterile Erlenmeyer flask and add the digestion buffer (see “Digestion buffer” table above) consisting of:\na.\t1 mL of stock solution of collagenase A.\nb.\t10 mL of stock solution of dispase II.\nc.\tPre-warmed medium at 37°C (89 mL).\n9.\tSeal the flask with parafilm wrapping film and incubate for 30 min at 37°C with rotation (225 RPM) (Figure 2A).\n10.\tMove the flask to the safety cabinet and add 200 μL of stock solution of DNaseI (final concentration 4 μg/mL).\n11.\tSeal the flask and incubate for 30 min at 37°C with rotation (225 RPM).\n12.\tA successful digestion results in the complete amnion dissociation (Figure 2B).\n13.\tFilter the digested amnion through a sterile 70-μm nylon mesh to remove cell clumps of residuals of undigested amnion (Figure 2C).\n14.\tPellet the cell suspension for 7 min at 600 × g (RT) (Figure 2D).\n15.\tGently discard the supernatant (see the troubleshooting section – problem 2).\n16.\tResuspend the cell pellet in 50 mL of sterile PBS 1× (Figure 2E).\n17.\tPellet the cell solution for 7 min at 600 × g (RT).\n18.\tRepeat steps 16 and 17.\n19.\tProceed with cell count with trypan blue exclusion test and record the cell viability.\n20.\tIn FACS tubes or in wells of rounded 96-well, resuspend 1 × 106 cells in 50 μL of blocking buffer/tube or well and incubate for 10 min at 4°C.\n21.\tAdd antibodies: Live/Dead Fixable Aqua Dead Cell Stain Kit and CD45.\n22.\tProtect the tubes/plates from the light and incubate for 20 min at 4°C.\n23.\tAdd 500 μL/tube or 150 μL/well of cold FACS washing buffer.\n24.\tSpin the tubes or plates for 4 min at 930 × g at 4°C.\n25.\tCarefully aspirate the supernatant without disturbing the cell pellet.\n26.\tRepeat steps 23→25.\n27.\tResuspend the cell pellet in 200 μL of BD stabilizing solution.\n28.\tWhere a plate was used for staining, transfer the cell solution in a FACS tube. If not, proceed directly to step 29.\n29.\tAcquire at least 500,000 event/tube. Representative flow cytometry gating strategy is shown in Figure 3.\nCritical: After each centrifugation, carefully aspirate the supernatant because cell pellet may be loose.\nRNA extraction, library preparation, and RNA-seq\nTiming: varies (>3 days)\n30.\tPre-label 3 sets of sterile and nuclease-free tubes:\na.\t2 mL tube.\nb.\t2 mL Phasemaker tube.\nc.\t1.5 mL tube.\n31.\tPre-cool the minicentrifuge at 4°C.\n32.\tCentrifuge the Phasemaker tubes for 30 s at 14,000 × g prior to use.\n33.\tUsing sterile tweezers, transfer 50–100 mg of minced amnion in a sterile 2 mL tube.\n34.\tAdd 2 sterile metal beads/tube.\n35.\tAdd 1 mL of Trizol reagent/tube (Figure S1A).\n36.\tTransfer the tube/s into the tissue lyser.\n37.\tAfter 3 min at 30/s check if the amnion is completely lysed (Figure S1B). If not, repeat step 37.\n38.\tTransfer each sample in one Phasemaker tube (Figure S1C).\n39.\tIncubate for 5 min at RT to allow complete dissociation of the nucleoproteins complex.\n40.\tAdd 0.2 mL of chloroform.\n41.\tIncubate for 15 min.\n42.\tCentrifuge the tube/s for 5 min at 14,000 × g at 4°C.\n43.\tThe solution will be separated into three phases: a colorless upper phase containing RNA, an interphase, and a lower red phenol-chloroform phase (Figure S1D).\n44.\tCarefully transfer the aqueous upper phase to a new 1.5 mL tube. Proceed to RNA precipitation. Total RNA precipitate forms a white gel-like pellet at the bottom of the tube (Figure S1E). Wash the RNA and solubilize the RNA.\n45.\tMeasure the concentration of extracted RNA using the Qubit RNA BR Assay, according to the manufacturer’s protocol (see the troubleshooting section – problem 3).\n46.\tEvaluate the quality (RNA integrity – RINe, and the DV200) of the extracted RNA using the Agilent TapeStation Eukaryotic RNA Assay (Figure 4B). If the concentration measured in the previous step exceeds 500 ng/μL, then dilute the RNA accordingly (between 20 to 500 ng/μL). Alternatively, equivalent methods such as BioAnalyzer, QIAxcel, LabChip GX, etc., can be used (see the troubleshooting section – problem 4).\n47.\tBoth human and non-human primate RNA samples are processed according to NEBNext rRNA Depletion Kit (Human/Mouse/Rat). We suggest starting with at least 200 ng of total RNA (see the troubleshooting section – problem 5).\n48.\tReferring to the Section 2 of the NEB manual E6350, perform the following steps: hybridization of probes to the RNA; RNase H digestion; DNase I digestion; RNA purification using NEBNext RNA Purification beads. Purified RNA has a volume of 5 μL.\n49.\tProceed with the library preparation using the NEBNext Ultra II Directional RNA kit. For partially degraded samples (RINe 2-7) continue with the fragmentation and priming step (steps 21a→d Section 2 of the NEB manual E6350), while for highly degraded RNA samples (RINe <2, usually Rhesus samples in our experience) skip to the priming step (steps 22a→d Section 2 of the NEB manual E6350).\n50.\tPARTIALLY DEGRADED (RIN 2-7) SAMPLES ONLY:\na.\tMix the rRNA-depleted sample (5 μL) with the 1st strand reaction buffer (4 μL) and random primers (1 μL).\nb.\tIncubate the 10 μL reaction for 8 min at 94°C, then immediately transfer the samples on ice.\nc.\tAdd 8 μL of strand specificity reagent and 2 μL of 1st strand synthesis enzyme mix. Incubate the 20 μL reaction for 10 min at 25°C; 30 min at 42°C; 15 min at 70°C; hold at 4°C (heated lid > 85°C).\nd.\tProceed to 2nd strand synthesis (step 23 Section 2 of the NEB manual E6350; downloadable from https://zenodo.org/records/10691497).\n51.\tHIGHLY DEGRADED (RIN <2) SAMPLES ONLY:\na.\tPrime the rRNA-depleted RNA by adding 1 μL of random primers and incubate for 5 min at 65°C (heated lid > 90°C).\nb.\tImmediately transfer on ice and add 8 μL of Strand Specificity Reagent, 4 μL of 1st strand reaction buffer and 2 μL of 1st strand synthesis enzyme mix.\nc.\tMix by pipetting and incubate the 20 μL reaction for 10 min at 25°C; 30 min at 42°C; 15 min at 70°C; hold at 4°C (heated lid > 85°C).\nd.\tProceed to second strand synthesis step 23 (Section 2 of the NEB manual E6350)\n52.\tProceed with the second strand synthesis, the following purification and EndPrep reactions according to the NEB manual (section 2, steps: 2.7, 2.8, 2.9; downloadable from https://zenodo.org/records/10691497).\n53.\tLigate the End-Repaired and dA-tailed cDNA fragments (60 μL) using 2.5 μL of a 10-fold dilution of the NEBNext Adaptor (dilution obtained using the Adaptor Dilution Buffer; kit NEBNext Multiplex Oligos for Illumina - 96 Unique Dual Index Primer Pairs), 1 μL of the ligation enhancer and 30 μL of the Ligation Master Mix.\n54.\tIncubate for 15 min at 20°C in a thermocycler with heated lid off (or with open lid).\n55.\tAdd 3 μL of the USERenzyme and incubate for 15 min at 37°C (heated lid > 50°C).\n56.\tProceed to the purification using 0.9 volumes (87 μL) of the Sample Purification Beads.\n57.\tEnrich purified adapter-ligated DNA fragments (15 μL) via PCR by mixing in the following components: 25 μL of NEBNext Ultra II Q5 Master Mix; 10 μL of dual index primer pair. Although discouraged, it is also possible to use:\na.\tCombinatorial dual indexed primers;\nb.\tSingle indexed i7 primer and universal i5 primer.\n58.\tIncubate the reaction for 30 s at 98°C for the initial denaturation; followed by 12 cycles of: 98°C for 10 s; 65°C for 75 s. The final extension is performed at 65°C for 5 min, then hold at 4°C.\n59.\tPurify the amplified libraries with 0.9 volumes of Sample Purification beads according to manufacturer’s guidelines, resulting in 20 μL of purified final library.\n60.\tQuantify the final libraries using Qubit BR DNA Assay and the fragment distribution checked using the Agilent TapeStation D1000 Assay (see the troubleshooting section – problems 6 and 7).\n61.\tThe final libraries are now ready to be enriched for the coding transcriptome using the Illumina TruSeq RNA Exome kit.\n62.\tMix approximately 200 ng for each of four libraries in one pool (4-plex pool). If the number of samples is lower or if a different plexity is desired, please check the reference guide.\n63.\tPerform two rounds of hybridization/capture according to the TruSeq RNA Exome Reference Guide (1000000039582; downloadable from https://zenodo.org/records/10691497).\n64.\tAfter the second elution from streptavidin beads is complete, purify libraries using 1.8 volumes (45 μL) of SPRIselect beads.\n65.\tMix the eluted enriched library pool (25 μL) with the Illumina PCR Primer cocktail (5 μL) and Enhanced PCR Mix (20 μL).\n66.\tAmplify the 50 μL reaction using the following program: initial denaturation for 30 s at 98°C; 10 cycles of: 98°C for 10 s, 60°C for 30 s, 72°C for 30 s; final elongation at 72°C for 5 min, then hold at 6°C.\n67.\tPurify amplified library pools using 1.8 volumes (90 μL) of SPRIselect beads and elute them in 30 μL.\n68.\tQuantify purified final library pools using Qubit HS DNA Assay and the fragment distribution checked using the Agilent TapeStation D1000 Assay (Figure 4C) (see the troubleshooting section – problem 7).\n69.\tDilute library pools and submit them for Next-Generation Sequencing (Illumina) according to the service provider recommendations. The recommended read length for sequencing is 50 paired-end, but other options are allowed (not shorter than 50 single-end).\n"
+    },
+    "options": [
+      "In the step 35, add 200ul of Trizol reagent/tube and 800uL of RNAse free water.",
+      "In the step 35, add 200ul of Trizol reagent/tube instead of 1mL.",
+      "In the step 41, I should incubate for 5 minutes and then mix the tube by inversion.",
+      "In the step 40, I must gently mix the tube/s by inversion 2/3 times.",
+      "In the step 40, I must shake the tube/s vigorously for 15s."
+    ],
+    "question": "During RNA extraction of amnion cells with TRIzol, the upper aqueous phase didn't separate properly. What is the problem in the protocol and how can I solve it?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::aae5af8b-f27d-4646-9248-a98354fc9a65"
+  },
+  {
+    "answer": "ATGCCTGCAGGTCGACTCTAGAGGATCCCCATGCGCTGTAAAACGCTGACTG, CGACGGCCAGTGAATTCGAGCTCGGTACCCTTAGTTACCACTCAGCGCAGGTTTGTT",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "ATGCCTGCAGGTCGACTCTAGAGGATCCCCATGGCCAATGTTGAAATCTA, CGACGGCCAGTGAATTCGAGCTCGGTACCCTTATTTCAGCAGGGGATCCAGTC",
+      "GATTACGCCAAGCTTGCATGCCTGCAGGTCATGCGCTGTAAAACGCTGACTG, GAGCTCGGTACCCGGGGATCCTCTAGAGTCTTAGTTACCACTCAGCGCAGGTTTGTT",
+      "ATGCCTGCAGGTCGACTCTAGAGGATCCCCATGGCGCTGTAAAACGCTGACTGCTGCAG, CGACGGCCAGTGAATTCGAGCTCGGTACCCAGTTACCACTCAGCGCAGGTTT",
+      "ATGCCTGCAGGTCGACTCTAGAGGATCCCCATGCGCTGTAAAACGCTGACTG, CGACGGCCAGTGAATTCGAGCTCGGTACCCTTAGTTACCACTCAGCGCAGGTTTGTT"
+    ],
+    "question": "I want to clone the bamE gene from E. coli into the plasmid pUC19. I'm going to linearize the plasmid with SmaI. Which primer pair can I use to amplify the gene for Gibson assembly into the linearized vector?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::f35f21b8-43e2-4ac6-bb3e-d4dba6543bca"
+  },
+  {
+    "answer": "Cortical excitatory projection neurons and GABAergic interneurons",
+    "benchmark": "lab_bench",
+    "context": {
+      "paper_title": "Autism genes converge on asynchronous development of shared neuron classes",
+      "source": "https://doi.org/10.1038/s41586-021-04358-6"
+    },
+    "options": [
+      "glia",
+      "microglia",
+      "Cortical interneurons and GABAergic projection neurons",
+      "Cortical inhibitory projection neurons",
+      "Cortical excitatory projection neurons and GABAergic interneurons",
+      "progenitors"
+    ],
+    "question": "What cell types had greater expression of the ASD signature?",
+    "subtask": "SuppQA",
+    "task_id": "labbench::SuppQA::aa904a36-3656-45a8-a0d2-912c04dd2558"
+  },
+  {
+    "answer": "Drying the pellet for a maximum of 90 seconds in step 7.",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Step 1: Prepare all necessary reagents and bring to room temperature:\nAmpure Beads\n80% ethanol\nElution buffer (eg H2O)\n\nSection: Add Beads\nStep 2: Aspirate desired volume of Ampure beads from reservoir and mix well into sample plate by mixing total volume minus  one microliter less -- 20 times.  \n\nSection: Incubate\nStep 3: Incubate samples and beads at room temperature for 5 minutes.\n\nStep 4: Transfer plate onto Alpaqua 384 Post Magnet Plate with 3D-printed adaptor and incubate at room temperature for another 5 minutes to allow for the formation of a magnetic pellet.\n\nSection: Ethanol washes\nStep 5: Aspirate 200ul freshly prepared 80% ethanol from reservoir and add to samples while on the magnetic rack.  Incubate at room temperature for 30 seconds. \n\nStep 6: Slowly aspirate supernatant and discard.  Repeat the wash step for a total of 2 washes. \n\nSection: Air dry pellet\nStep 7: Remove and discard the supernatent for the second wash step. Allow the magnetic pellet to air dry while on the magnetic rack for 5 minutes. \n\nSection: Resuspend\nStep 8: Remove plate from magnetic stand, and resuspend beads in desired elution buffer and volume. Mix well. \n\nSection: Incubate\nStep 9: Incubate at room temperature for 5 minutes.  Transfer plate onto Alpaqua 384 Post Magnet Plate with adaptor with 3D-printed adaptor and incubate at room temperature for another 5 minutes.\n\nSection: Recovery of Purified cDNA\nStep 10: Slowly aspirate supernatant, now containing cDNA, and transfer to final PCR plate."
+    },
+    "options": [
+      "Drying the pellet for a maximum of 90 seconds in step 7.",
+      "Incubate at 37 °C for 1 minute in step 9.",
+      "Use 20% ethanol in step 5.",
+      "Drying the pellet for a minimum of 1 hour in step 7."
+    ],
+    "question": "After repeating the list protocol, you notice low yields. Which of the following will improve your yields?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::a516333c-21b1-47cf-851f-4c1f34f83aaf"
+  },
+  {
+    "answer": "SSH1",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "NFKB1",
+      "MTMR6",
+      "BBC3",
+      "SSH1"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set HOFT_CD4_POSITIVE_ALPHA_BETA_MEMORY_T_CELL_BCG_VACCINE_AGE_18_45YO_ID_56D_TOP_100_DEG_AFTER_IN_VITRO_RE_STIMULATION_DN, which contains genes down-regulated in CD4-positive, alpha-beta memory T cell 56d vs 0d in adults (18-45) after exposure to BCG vaccine , time point 56D , administered ID (intradermal). Comment: top 100 most differentially expressed genes comparing Day 0 and Day 56 responses after in vitro re-stimulation with BCG-infected autologous dendritic cells. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::9a5fe936-c5fc-422d-8307-fa6503a08b32"
+  },
+  {
+    "answer": "CD86",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "CD86",
+      "PCDHA13",
+      "SEMA6B",
+      "MAP3K5"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set LI_PBMC_MENOMUNE_A_C_Y_W_135_AGE_18_45YO_CORRELATED_WITH_ANTIBODY_RESPONSE_3DY_NEGATIVE, which contains genes negatively correlated with antibody response in peripheral blood mononuclear cell in adults (18-45) after exposure to Menomune A/C/Y/W-135 , time point 3D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::cee51a3f-9e9d-457f-8a00-3a86e176f74f"
+  },
+  {
+    "answer": "95, 121, 122",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "To determine the basis for KRAS selectivity we interrogated amino acid differences between HRAS, NRAS and KRAS (Fig. 2b). Most notable was the substitution of H95 in the α3 helix of KRAS with L and Q in NRAS and HRAS, respectively. KRAS mimetic substitution at the 95th residue in NRAS (that is, L95H) rendered NRAS almost as sensitive as KRAS to the effect of the drug (Fig. 2c). By comparison, the Q95H substitution in HRAS had only a partial effect, suggesting that this isoform has further selectivity constraints. Residues 121 and 122 distinguish HRAS from NRAS and KRAS."
+    },
+    "options": [
+      "12, 13, 141",
+      "95, 121, 122",
+      "12, 13, 61",
+      "32, 35, 38",
+      "85, 121, 122"
+    ],
+    "question": "Which three residues with evolutionary divergence in the G domains of RAS isoforms also impose selectivity constraints of pan-KRAS non-covalent inhibition?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::b331480e-dfc7-4e92-931a-c71f491c4795"
+  },
+  {
+    "answer": "4",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "5",
+      "4",
+      "7",
+      "3"
+    ],
+    "question": "How many fragments should I expect to see when I digest the sequence TCATCACAAGCTGTGTGCGGTGAGTGACTCTACAGCTGTCAGATCGAGCCCGAGTGCTGTTATGCATCGTCATACAGAGTATTCGCGTGTGGAGCTACTATTCTATGTTGGCAAGTGGGCCATTGCTCTAGGAGCAACGCTTCGCCAAGTCAGCGGATTACTTAGCTCGTGATCTCAATAATCCGTCTTCCGTACCATGATAGTTGCGTATGGAGGTAATGGATGCGGCAACATCCCGGCCCGGTCGACCTTAATAACAATTCAAGGGGTAAGGCGCGTGGGCCCTGAGACCCACGTACGGCCCCCCTTGTAGTTAAATGACGCCCAACCTTACCTAACCACGTACTGTCGAAGATATAGAAAGTGAGTTACAGTACCTCGTGTACAACCTTCACCCTCTGTTGTGGGGCAATGAACGCTCCTGTGGGCACTAACGCGGGTAGGCCGTCTGTCTGCGTGAGCATGAGGCCGAGAACCACGGCATCCACTCGTCGCAGGAGTATCATTCTGACTTCGGTATTGACCCAATCACACGGATAGTATGCCGTACGCTCGGAGAGATTGGCAGTCATACGTGATACAAGACCGGATAGGCGTTCCTTTATCGAGAAACACCCATCAACTCAACATTATCAACCGTCCTTGAGGGTGTTCGTCGGCCATAATACATGTAATGTTAGACTCGGAGTTTTCTATATTTAACCGGGTACAGGTTAATAGACTCATTTCACTTGCCTTGAGTCACGCTCCCTATTTTGGAACGGCCCTCGATGGCCTACCGGACACCATCCGGGTGGGGCATGCACGTTGTCTGTGTGAAACAGATGTCCGCACGAAGGTAGCATAAGCTTAAATTTGAGAAATTAAGGCCAGACCATTGGCCGAGTTGCGATTGTAAGCCACCGGTCGGTAAAAGTAAGTTATAAAAGCAGTGAGCAGCTGGCGAACGCGCACATCAACGGCCTAGCGGGAAATATTTTTGTTGGCGACATGTACAGAT with the enzymes Hpy99I, SphI?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::f4d8de2c-3315-4d46-9113-34d38c7b3cb2"
+  },
+  {
+    "answer": "MLKLRWLVDRLSLKEYVSTGNNSSDSGSVGLGALSRRGGRQQY*",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "MLKLRWLVDRLSLKEIVSTGNNSSDSGSVGLGALSRRGGRQQY*",
+      "MLKLRWLVDRLSLKEYVSTGNNSSDSGSVGLGALFRRGGRQQY*",
+      "MLKLRWLVDRLSLKEYVSTGNNSSDSGSVGLGALSRRGGRQQY*",
+      "MLKLRWLKDRLSLKEYVSTGNNSSDSGSVGLGALSRRGGRQQY*",
+      "ATGTTAAAGCTACGATGGTTAGTTGATCGCCTCTCTCTGAAAGAATATGTGAGCACAGGGAATAACTCTTCTGATTCAGGATCGGTCGGCCTTGGGGCTCTGTCGCGGCGCGGCGGACGTCAGCAATATTAA"
+    ],
+    "question": "What is the AA sequence of the longest ORF in the DNA sequence 'CTATCCATGATGTGAGAGCGCCCGAGCACATATGTTCAGGTGCCCACCCAGGGTGCGACTGATCCGGACTTGTCTCCTAAGTATCGGGTCTCACGATCGCCGCCACCCGCGAATTTCATAACGATGTTAAAGCTACGATGGTTAGTTGATCGCCTCTCTCTGAAAGAATATGTGAGCACAGGGAATAACTCTTCTGATTCAGGATCGGTCGGCCTTGGGGCTCTGTCGCGGCGCGGCGGACGTCAGCAATATTAATTGATCAAACAGTGCCACTCGAGGATTGACTACTAGCATCCCCCGCTCCATATGGGGTCTTGCCTGGGTAATGCCCGTAAGTGAAGGGACGTTTATCTATGATCTACTTCAGTTTTCATCAGTCGCAGGAGGTCGTTGAAGAGTGGTAAAACCGAACGGTATTATGCCACCGGGGTCTACCCACGTGGAGCGCGCGAGGCTTTGCATTTGAATCCGTCAAATTCGTATAAGTTTAACTTGTTCTGGGCCAGGTGCATGAAGCCACTCTTCTATTGAAAAGTCGAGTCTTGCATGGTCTCCCTCCACAACACCACACAGTCCTCGGTCAGAAGCACCCGAGTGACCGTTCCGTAATGCTGACAACCCTGTTCTGGCCACAGGAGGACGGGCCTACACGTCCGCTATAACCGTGCATCATATTAGCTATGATGACTTATATCTACGATCAGGATCTTCTTTTCTCACTACGGACGACCCGTAAACTAGCGCCCGCTGGTCCAAAATCAAAATTCCGGTTGACCTATACCCTCGCAGTCAGATCTGGATAGTCACTGGGGACTCACGCTCTTTGTTGGCTCTCTGGTACAGGCATTGGGCATAGACAGACATGTGGGCGATTTTACC'?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::7f3b67a8-6cb7-4431-8aad-1fc5d4f494d9"
+  },
+  {
+    "answer": "In the Step 8, the pH of the 0.1M boric acid should be pH 8.5 not pH 6.",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Protocol for Quantitative Analysis of Synaptic Vesicle Clustering in Axons of Cultured Neurons: Prepare Coated Coverslips\n\nTiming: 2 days\n\n1. Incubate coverslips in concentrated nitric acid in ceramic racks for at least 24 h at 24°C–26°C.  \n\n2. Discard the nitric acid in a chemical fume hood in accordance with institutional guidelines.  \n\n3. Rinse coverslips in a Petri dish by incubating with deionized water for 30 min, then discard the rinse solution.  \n\n4. Repeat Step 3 five times.  \n\n5. Sterilize coverslips in a muffle furnace (JEIO Tech; Cat# MF-G) at 240°C for 4 h.  \n\n6. Transfer coverslips to a sterilized Petri dish in a culture hood and store them at 24°C–26°C.  \na. Prepared coverslips can be stored in a culture hood after exposure to ultraviolet light for 30 min and used for up to ∼1 month.  \nb. Perform steps 7 and 8 one day prior to dissection procedures.  \n\n7. Place a sterilized coverslip in each well of a 12-well plate.  \n\n8. Add 1 mL of 0.1 mg/mL poly-D-lysine in 0.1 M boric acid (pH 6) to wells containing coverslips, and allow plates to sit for 12–16 h at 37°C in a CO2 incubator.  \n\n9. After 12–16 h, wash the coverslips with autoclaved deionized water on a clean bench."
+    },
+    "options": [
+      "In the Step 8, the pH of the 0.1M boric acid should be pH 8.5 not pH 6.",
+      "In the step 1, I should Incubate coverslips in concentrated nitric acid in ceramic racks for at least 24h at 37°C.",
+      "In the Step 8, the pH of the 0.1M boric acid should be pH 4 not pH 6.",
+      "In the step 3, I should rinse coverslips in a Petri dish by incubating with deionized water for 2h, then discard the rinse solution.",
+      "In the step 3, I should rinse coverslips in a Petri dish by incubating with miliQ water for 30 min, then discard the rinse solution.",
+      "In the step 1, I should Incubate coverslips in concentrated nitric acid in ceramic racks for at least 12h at 24°C–26°C."
+    ],
+    "question": "I followed this protocol to make coated coverslips to be introduced on each well from a 12-well plate, and attach cultured neurons extracted from rat foetuses. However, after plating dissociated neurons on my coated coverslips, I could barely see any neuron. I suspect that something is wrong in the protocol to prepare coated coverslips...",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::dd06a1ee-2492-4878-884a-e73282cd755f"
+  },
+  {
+    "answer": "721",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "721",
+      "542",
+      "453",
+      "699"
+    ],
+    "question": "What is the expected amplicon length if I used the primer pair CAGGCCGCCAAGGGCCCATAG,AGTACTGCGTAATAGCACAGCCCGT in a PCR from the following template: AACAGGCCGCCAAGGGCCCATAGGACCGTTGCCTCCACAAACCGTAGGTAAGGGTTAATGGGCTATGTATCGTCTGCATACGCTACGTTTAGTGGTGAAATTTGCTGCTTCGTCCGAGCGCGGTCGAATCAGCCTCGGGTTGATCTATTATTGAACGGGTATGTTGCGGCCAGTACCAGTAGCTGGCAGGTTACGAGCATGGGACAGAGAGGTTCACCTAAAAGAGCGGCGATTTACTTTAGACGCTCTTTAAGGCGGCGGTCTGTACCCTCTACTCGCTAGCACTGGGTTCAGACAGTTGCAGGGCTCTTGAGTATCCTTCACACTTCCTATCGCTGAGCGATCCGCGTTAATTATAGCTTATCCGATGCCGCGGTTCGGGCCAGACAATGACAACTCTGCTTTGATGCCCACTGGTTGCGTTACTGCGTATGCTATATCAGAAATCATGGTGGAGACCCGATGCTGTTATATAGTATCATCGCCGATATCAGCGTCAACCTTCTGAAAAAGTGAGGGGTACGCTGGACAGCCACCCCTCGAGCACGACGACTGGTCGGCCTGCGTATTAAGACGTTGCCATTGGGTAATGACAAGACATCTCGCGTATATTGAGCCAGCACTATAATATTATCCGGATATACGTCCAGCCGTGAAACTAAGCAAAGGGGCATGATTGGAAAAAGGCACGTTGATCCACGGGCTGTGCTATTACGCAGTACTTTGAGGGACTTGAGTGTTTCATATGTCTTCATAAGACTTGAGACTAGGAACTACGGATTCAGCGATCCTTCTCGCGCTAGCCCAATTCACAAGACCAGAATCGGTCCAGGGCCAAGTTGGGTTAGGTCACAAACGGTAGGTTGCCCCTTACAATCGTTAACACTGGCTATTCGCCTTTGGGCTAGTTATCATTACATCAATATCAGACAGACTGGTTGTGGAAAAGCGTCCAAATTAGCTGAATCCCGATACGTATTAGACGTGTAGGACCACTAAA?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::e20876e2-6ba3-4ebf-91e4-44796284bca2"
+  },
+  {
+    "answer": "C1D",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "PDP1",
+      "BACH1-AS1",
+      "CERS4",
+      "C1D"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set HOEK_NK_CELL_2011_2012_TIV_ADULT_3DY_UP, which contains genes up-regulated in natural killer cell 3d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 3D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::717cab73-5c39-4653-ae75-f0937159bab0"
+  },
+  {
+    "answer": "GGTCAGCACCGCAGCTACGCGG, GTAGGCGATTATTGTTTTATGCG",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GAGTTGAGCCCCAAGGGGACCGTA, CATAGTTCTTTTGATATATGAGAAAA",
+      "GGATTCCCGTTGCAACATGCTATACCCC, GTACGCATAAAACAATAATCG",
+      "GGTCAGCACCGCAGCTACGCGG, GTAGGCGATTATTGTTTTATGCG",
+      "TACAGCTCACTCAAGCTGATTG, GCGAGGACGAAACCGGATGTTTGACGA"
+    ],
+    "question": "Which primer pair could I use to generate a 374 bp amplicon from the following template: ACGTGCCGGAGGCAAACTCTAACTTCGCTAGCCAAGGAGGAGCGTGATCCGCGAGAGAATAGCCCCAAACTATCAGGACCGGGTTAATCTACGCGCTGGATTCCCGTTGCAACATGCTATACCCCATTGAGGTGCAAAATCCCCAACCAACTACAGCTCACTCAAGCTGATTGTGCCTAGCCGTGAGTGCACACGAATTAGTTTCTAATACCAGAATTTTTGGGCATAAGTACAGATAGGGAGAGTTCGGCGAGAAGTACCGCCAGGTGATCGTAACTTGAACCGTATATGAGTGCTTGACGTGGTCACACTCGAGTTGAGCCCCAAGGGGACCGTATCCAGGCAATGAGTGACCAGTGGTCAGCACCGCAGCTACGCGGTGAGAAGCGACGTTGACAGATTCTTTATGTACGCCAAACCTAACTTGAGGGAGTCGCGCCGCCAATCTCCGCCAAGACTCTTTCGGCCGAATTCCGCGTACCTTGTTCGGCGACCCGACAGGTGTTCACTAATACGGGGGGGGGTTGGTAAGAATCCGCGACTAGCGTTCGGGACGATTTCGACTTCCTGAGCTCGAATGCGGCCGGGGAGGCACCCCCTATCTAGGCTTACATGCAAACTCTTGTGTCTTTTTCTGCACGTAGTCATTCATATACTACACATAGTTCTTTTGATATATGAGAAAAGATGATCATGGGCATTCCCAGTACGCATAAAACAATAATCGCCTACGAGGGCACACGCAGATAGAAATGATCCTATGTTCTAGGGTATATCAGAAGAGCGTTTTGCGGATAGGGGCCAGTGGATACGTTGTCGCTGGTTTAACGCTGCGAGGACTGAATGTGGTTATGTGCTTGTATCCCTCTGAACACCTGCGTCGACTCTAGCGAGGACGAAACCGGATGTTTGACGAAGGATCTCCTTATACCCCATCGGATGCCATCCAGAGGGGGCCCGGTCCTGCCCGATTGCAGACTGCACTTGTGCCGATCCATCC?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::c6d09cb3-8e57-459b-a268-38ee3bd9738a"
+  },
+  {
+    "answer": "in Step 3 plating 40,000 cells per well",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Generation of human induced pluripotent stem cell-derived cerebral organoids\n\nGenerating embryoid bodies (EBs)\nTiming: 20–30 min\nThe purpose of this step is to generate embryoid bodies (EBs). EBs will appear as a spherical cluster of cells with translucent borders, which do not attach to the walls of the multi-well plates.\n1.    \tGrow iPSCs to 80% confluency. On day 1, passage iPSCs in ReLeSR, as indicated above (Figure 1).\na.    \tThe use of healthy iPSCs is crucial for the successful generation of cerebral organoids. iPSCs should be grown to a confluency of 70%–80% and should appear as flat colonies.\n2.    \tResuspend the resulting pellet in 1 mL DMEM/F12 and calculate cell density, only counting live cells when determining the final cell density.\n3.    \tResuspend the respective number of iPSCs in an appropriate volume of NIM using the following guidelines:\na.    \tThe generation of a single EB requires 4,000 live iPSCs/well.\nb.    \tEach well requires a total volume of 200 μL of resuspended iPSCs in NIM (neural induction medium).\nc.    \tCalculate the total number of wells to be used, based on the number of live hiPSCs available (Step 2).\nd.    \tCalculate the total number of iPSCs needed by multiplying 40,000 by the number of wells to be used (step 3c).\n        \tNote: For 96 wells, 3.84 × 10^6 iPSCs in a total volume of 19.2 mL are needed.\ne.    \tCalculate the volume of NIM needed.\n4.    \tPipette 200 μL of hiPSC suspension per well of an ultra-low cell attachment U bottom 96-well plate.\n5.    \tCentrifuge the multi-well plate at 300×g for 3 min at 22°C with maximum acceleration and deceleration.\n6.    \tIncubate EBs at 37°C with 5% CO2.\n7.    \tOn day 2 (approximately 12–15 h after EB induction), visualize the cells in the U-bottom 96-well plates under a bright-field microscope to determine whether the successful formation of EBs has occurred (Figure 1). EBs will appear as round clusters of cells with translucent borders. EBs may also be surrounded by debris. This is normal. As long as the debris can be removed by refreshing the media at the predesignated time points, it will not affect the subsequent generation of cerebral organoids.\nGenerating EBs and initiating germ layer differentiation\nTiming: 10 days\nThe purpose of this step is to initiate neural progenitor cell differentiation of EBs.\n8.    \tOn day 4, refresh the media by removing all 200 μL of NIM (preferably using a multi-channel pipette), without disturbing the EBs, and replacing it with 200 μL of freshly prepared NIM.\n9.    \tIncubate EBs at 37°C with 5% CO2.\n10.\tOn day 7, remove all 200 μL media (preferably using a multi-channel pipette), without disturbing the EBs. Replace with 200 μL of STEMdiff Neural Induction Media (this is the STEMCELL Technologies media without ROCK inhibitor or FGF2).\n11.\tIncubate EBs at 37°C with 5% CO2.\nGenerating forebrain cerebral organoids\nTiming: minimum 7 days\nThe purpose of this step is to generate cerebral organoids (COs) exhibiting an optically clear neuroectoderm.\n12.\tOn day 10, transfer each EB to a single well of an ultra-low cell attachment 24-well plate. Each EB is incubated in 500 μL of Organoid Media per well.\nOptional: To accelerate neuronal maturation, supplement the Organoid Media with 20 ng/mL of BDNF, 20 ng/mL GDNF or 20 ng/mL FGF2.\n13.\tIncubate the ultra-low cell attachment 24-well plates containing EBs on an orbital shaker set at 80 rpms, and incubate at 37°C with 5% CO2.\nNote: It is important to use an orbital shaker made specifically for tissue culture, because orbital shakers not designed specifically for this purpose will generate excessive heat that may negatively affect the growth of cerebral organoids.\n14.\tFully replace the Organoid Media every 3 days using a Pasteur pipette, rather than an aspirator. Observe the morphology of the growing organoids, and only propagate the growth of healthy-looking COs.\n15.\tIncubate COs at 37°C with 5% CO2 on a CO2-resistant orbital shaker (Fisher Scientific; Catalog #88-881-101).\n16.\tIt is possible to transfer COs in individual flasks (12 cm2) for long-term culture (> 30 weeks in vitro).\nNote: COs can be maintained for at least 6 months.\n"
+    },
+    "options": [
+      "In Step 1 grow to 90% confluency",
+      "In Step 1 grow to 50% confluency",
+      "In Step 6 Incubate at 60C ",
+      "in Step 3 plating 400 cells per well",
+      "in Step 3 plating 40,000 cells per well"
+    ],
+    "question": "After incubating in step 11 you notice that you have not grown may embryoid bodies. What could you do to improve to improve the number of embryoid bodies?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::5e17c256-a2c1-48b8-8a30-bda9dba998bc"
+  },
+  {
+    "answer": "GTCGACATGAATACTGAAGCCACGCACGACCAA, AAGCTTCAATGCCGAACAATCACCGGCGCAGTAA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GCATGCATGAATACTGAAGCCACGCACGACCAA, GAATTCCAATGCCGAACAATCACCGGCGCAGTAA",
+      "GTCGACGAATACTGAAGCCACGCACGACCAAA, AAGCTTACAATCACCGGCGCAGTA",
+      "GTCGACATGCTCGACACAAATATGAAAACTC, AAGCTTTACCTGATTCGCACCAAAACTGCATAA",
+      "GTCGACATGAATACTGAAGCCACGCACGACCAA, AAGCTTCAATGCCGAACAATCACCGGCGCAGTAA"
+    ],
+    "question": "I want to clone the rodZ gene from E. coli into the plasmid pUC19 using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes SalI and HindIII?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::3bfbdf06-a238-4cd7-ada7-8b54d895123a"
+  },
+  {
+    "answer": "Incubate the plate at 4C instead of 37C in step 51",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Lentivirus-mediated organoid transduction\nTo study the molecular mechanisms of bacteria-epithelium interaction, it may be necessary \nPart 1. Preparation of organoid stem cells for viral transduction\nThis step allows the generation of small pieces of organoid fractions containing stem cells, which are the targets of viral transduction.\nDay 1. Matrigel coating\nTiming: ∼10 min\n48.\tCoat the 24 wells plates with 10 μL Matrigel to evenly cover the wells.\na.\tWash the wells with 500 μL of cold PBS so that the Matrigel can be evenly spread.\nb.\tUsing a cold tip, evenly spread 10 μL/well of Matrigel and incubate at 25°C to solidify the Matrigel.\nDay 1. Organoid stem cells for virus infection\nTiming: ∼30 min\n49.\tLiquefy the Matrigel containing SC-enriched organoids (Generation of stem cell-enriched organoids to facilitate microinjection).\na.\tAspirate the medium and add 500 μL/well of Cell Recovery Solution.\nb.\tIncubate the plate at 4°C (e.g., in the fridge).\n50.\tAfter 5–10 min, place the plate on ice. Using cold 1 mL pipet tips, scratch the Matrigel several times to break it down.\n51.\tPut back the plate at 37°C until the Matrigel is dissolved. This takes total of ∼ 15 min.\n52.\tPlace the plates on ice. Using 1 mL cold pipet tip, harshly pipet up and down to physically dissociate the organoids into small pieces.\n53.\tCollect the organoids in a 15 mL Falcon tube on ice.\n54.\tAdd at least 3X volume of cold Advanced DMEM/F12 and mix well to be homogenous.\n55.\tCentrifuge at 4°C, 300g for 5 min.\n56.\tThe cell pellet should be visible after the centrifuge. Carefully discard the supernatants. This is to remove the Matrigel component.\n57.\tResuspend well the cell pellet by adding 4 mL of cold Advanced DMEM/F12.\n58.\tCentrifuge at 4°C, 150g for 1 min.\n59.\tCarefully discard the supernatants to completely remove Matrigel and tap the tube to prevent aggregation of the pellet.\n60.\tAdd 500 μL of 37°C pre-warmed TrypLE Express. Gently pipet once or twice to mix homogeneously.\n61.\tIncubate for 3 min in the 37°C water bath.\n62.\tAdd warm Advanced DMEM/F12 up to 4 mL and centrifuge at 300g for 5 min.\n63.\tCarefully discard the supernatants containing dead cell debris and TrypLE Express.\n64.\tResuspend the pellet by adding 4 mL of warm Advanced DMEM/F12.\n65.\tCentrifuge at 200g for 2 min to completely wash out TrypLE Express.\n66.\tDiscard the supernatants as much as possible, but do not disrupt the pellet.\n67.\tTap-resuspend the cells with the residual Advanced DMEM/F12.\n68.\tLabel the tube with what will be infected. The virus mixture and the 2.5X concentrated SC-enriching organoid medium (Materials and equipment) will be added to this tube (see the next step).\nPart 2. Virus infection\nThis step allows the infection of the organoid stem cells with lentivirus mixture to deliver i) the Tet-activator and ii) the pTREG3-mutant gene of interest into the genome. \nA negative control for infection is performed by replacing the viral mixture with culture media. This control is important for the antibiotic selection of successful transduction.\nDay 1\nTiming: ∼1 h\n69.\tPrepare virus solution from the virus mixture (Materials and equipment).\na.\tAdd 100 μL of Enhancer to the Lentivirus mixture to become the final 297.5 μL.\nb.\tAs the enhancer is viscous, gently tap-resuspend to mix homogeneously (or very gently pipet up and down).\nc.\tAdd 2.5 μL of TransDux MAX, gently tap-resuspend to mix homogeneously.\n70.\tCarefully pipet the virus solution of 300 μL into the tube with organoid stem cells from Step 20.\n71.\tGently tap the tube so that the cells and virus mix homogenously.\n72.\tAdd the 200 μL of 2.5X medium (pre-warmed, Table 2) so that the final [cell + virus mixture] will be 1X. Gently pipet mix.\n73.\tIncubate the tube in a 37°C water bath for 1 h. Within this 1-h incubation, gently tap the tube and mix the cell and the virus every 15 min.\n74.\tCarefully pipet the cell-virus mixture and place them in the Matrigel coated well.\n75.\tIncubate at 37°C for 1 day. During this 1-day incubation, viable cells will be attached to the Matrigel.\nDay 2. Infected stem cells being sandwiched by the Matrigel\nTiming: 20 min\n76.\tPrepare 1X SC-enriching organoid medium (500 μL/well).\n77.\tTake out the plate of step 27 from the incubator and carefully discard the medium containing the virus and dead cells. Troubleshooting 4 (∗).\n78.\tPlace an additional 100 μL/well of liquid Matrigel on the plate so that the viable cells are located at the center between the top and the bottom layer of Matrigel (forming a Matrigel sandwich, Figure 4).\n79.\tPlace the plate in the 37°C incubator for 5 min to solidify the newly added Matrigel.\n80.\tTake out the plate and add the 1X SC-enriching organoid medium to cover the Matrigel.\n81.\tPlace back the plate into the 37°C incubator and grow the stem cells to form organoids.\n\nPart 3. Antibiotic selection\nThis step allows the selection of organoids transduced with both the tet-activator (neomycin-resistant) and the gene of interest (puromycin-resistant). \nDays 4–5\nTiming: ∼10 min\n82.\t2–3 days later, when the transduced stem cells form small but closed organoids, change the medium with fresh SC-enriched organoid medium with antibiotics (1 μg/mL puromycin + 100 μg/mL Neomycin).\n83.\tGrow for 2–3 days more.\nDay ∼6\nTiming: ∼10 min\n84.\tThe viable organoids should be visible. \n85.\tReplace the medium with a regular ENR medium containing Neomycin and Puromycin.\n86.\tGrow until the organoids become big in presence of antibiotics. Change the medium every 2 days.\n87.\tWhen the organoids become sufficiently big with dead cells accumulating in the lumen, passage the organoids in a regular ENR medium containing Neomycin and Puromycin.\n88.\tChange the medium every 2–3 days (ENR medium + antibiotics).\n89.\tAmplify/grow in sufficient amounts for the maintenance and experiments.\nNote: As the organoids underwent simultaneous infections, the survival in the presence of the two antibiotics can be lower than that of a single infection. Sequential infection can also be done.\nPart 4. Doxycycline induction\nTo detect successful induction, we used a bicistronic expression of the fluorescent reporter protein (Figure 4).\nDay ∼20\nTiming: ∼10 min\n90.\tPassage the organoids for dox-induction and control (no addition of dox).\n91.\tWhen the organoids grow sufficiently (∼ 4–5 days), add 2 μg/mL doxycycline in the dox-induction well.\n92.\tTreat doxycycline for at least 16 h.\n93.\tTest the induction based on the detection method.\n"
+    },
+    "options": [
+      "Incubate the plate at 4C instead of 37C in step 51",
+      "Aspirate the medium and add 200 μL/well of Cell Recovery Solution.",
+      "Incubate the plate at 40C instead of 37C in step 51",
+      "Aspirate the medium and add 100 μL/well of Cell Recovery Solution."
+    ],
+    "question": "While carrying out this protocol, the Matrigel will not liquefy while trying to harvest organoid fragments. What might you change to remedy this?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::644d2672-9f73-418e-9e7d-999eea8354fd"
+  },
+  {
+    "answer": "C55Y",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "R43G",
+      "C55Y",
+      "A482S",
+      "P45L"
+    ],
+    "question": "According to ClinVar, which of the following variants to the following sequence (bracketed by xml tags) is most likely to be pathogenic? <sequence>MLLAVLYCLLWSFQTSAGHFPRACVSSKNLMEKECCPPWSGDRSPCGQLSGRGSCQNILLSNAPLGPQFPFTGVDDRESWPSVFYNRTCQCSGNFMGFNCGNCKFGFWGPNCTERRLLVRRNIFDLSAPEKDKFFAYLTLAKHTISSDYVIPIGTYGQMKNGSTPMFNDINIYDLFVWMHYYVSMDALLGGSEIWRDIDFAHEAPAFLPWHRLFLLRWEQEIQKLTGDENFTIPYWDWRDAEKCDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYNSHQSLCNGTPEGPLRRNPGNHDKSRTPRLPSSADVEFCLSLTQYESGSMDKAANFSFRNTLEGFASPLTGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLRRHRPLQEVYPEANAPIGHNRESYMVPFIPLYRNGDFFISSKDLGYDYSYLQDSDPDSFQDYIKSYLEQASRIWSWLLGAAMVGAVLTALLAGLVSLLCRHKRKQLPEEKQPLLMEKEDYHSLYQSHL</sequence> ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::503491fc-862d-41cf-81e5-9ebe929a30ca"
+  },
+  {
+    "answer": "GCACCCCGCGGGCAGGTGGGAG, AGGAAGAGATGGTTGGACGTAAATA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GTGGTCACCTTATTCCGTGCTGC, TGTCAGGGGTGTGATGCGATCTC",
+      "GCACCCCGCGGGCAGGTGGGAG, AGGAAGAGATGGTTGGACGTAAATA",
+      "GCACCACGACTGAACAGTTTT, AAGTGGTCAGAAAAACGGTGAAAAT",
+      "GATTGACCTCGACCTAGGAGTCCCG, GGCAGTTTAGCATAACGATTTC"
+    ],
+    "question": "Which primer pair could I use to generate a 713 bp amplicon from the following template: AGCACTGGATGTCGTTCAATTAAACACCATTCTTCGTTGGTGGAGTAAAATATGTGAAGGAGGCATGTCTCATGTTCGCGCACCACGACTGAACAGTTTTGGATGAACACCCCACGCAAGTGTAGGTGGTCACCTTATTCCGTGCTGCGGAGCACCCCGCGGGCAGGTGGGAGTATCTCATTCGCACCAACGTTCCGCCTGCCAAAAAACTTGTGCATAACCGACAAAAGATCCCCATCATCGAGTCTGTCCCGGCAAAATTCACACAGATACAGCGCAACACACGAAAGACTAGACTGTCGCGTGCCTCCCCCCCACTGGTTGACGTATCGTTTCCGTCGTTGACGTGGTAAGCAAAATCCCCTGATCGCCATATTGATCAGATTGACCTCGACCTAGGAGTCCCGCTATGTGTCAGCCCGCCATGACGAGCTCTCCCTCCGCGTTGTAACCATGACTTTTAGAAAGATCGCAATTCACGGCGACGAACTTGCGAGCTCAGGACCGATATTGGATTCTGACATTTGCGACCGCAACTTAATTGAGATCTCGTCAACCGCCCACCGAGTACTGTGTCAAGTACTCGGGTCGAAGAAGAACCTCTGAGGAGGGTACGTCCCAACTGATTAGGCCACATAGAGTTCGTAAATGAAACAAATGTCAGGGGTGTGATGCGATCTCACGGAGGTCGAGCACGCCCCACTCGAACAAGGATGCGGCGACGCGCGATACTGCGGTTAGCAGGTATTATCGGGAGGCAGTTTAGCATAACGATTTCAAGGCGCAGAAGATTCGGGCGGTGAAATTTTATTACTGGCCATCAATTCGTGCCATGCTTCTATTTACGTCCAACCATCTCTTCCTCCCAACGCTGATCGCTATTCCACTGCCTCACTTCACACGAAGACCGCAGAGACATAAGTGGTCAGAAAAACGGTGAAAATATGGGAAGAATCATCGTGAAGCTGATGGACACTCGGCTCGTTCATGGTCAGGCCAT?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::f3fc1706-821a-47a2-a102-45538c0d1869"
+  },
+  {
+    "answer": "9",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "12",
+      "11",
+      "9",
+      "7"
+    ],
+    "question": "How many open reading frames that encode proteins greater than 13 AAs in length are in the DNA sequence AATGGGACCCTAGGAGAATTCTAGGATTTTGAGCGTTTCCTCCTAGAAGATTTTGGTGACAAATATCAGTTGCTATAACCGAATACCAATATTTACCAACCAGCAAAGGGCATTTTACGGCATGGGTTCAGATAAGCACAGTGGGATAATTGGCAGGGATTCATGATTGTCTGGGGCATACCATTACCATTGCACTAACTCGCGCGTCTTCTCCGACCGAGGCCGTCGCAGGTGATTTGCTTACTGGGCTAATACAACGGTGAGCGTGTACTTCCTCTAAGCACAGGCGTCCCTTATCAGCGCTAATAAACTGTGTGCTGTGCCTGGGCGACTGAGTGCATTCAGGGACTCGTGTGACCTTCCACGAGAAGGGGTGCTCAACTTGAAATATGGTAGTTTACATAGCCATGGCCCCCCACAGTGATAGAATAGAATCTACGAAAGAACATGGAGACTTTTGCGCTGCGACCACTCCGAATACGAACAAAAGCTCCAGAGACAAAGCTACGTCCTGCCTTTCTGGCTTGATTCAGGTTAATAATCTCCGCCTTCTGAAAGATAACTGGTATCAACCTGTATTTACTATCCACGCGCTCTAGAGAATCCAATCTAGTGACGGCCAATGAATCACTTCCATTTTGTTCTATATTTGTTGCAAACGCGCGACCTGGGTTCCAGTTCGTTAGCTGCGGTATCAACTGCTCTCCTCGGGAAAAGCACGAGGAAGATGCGATAGTACAGGCACTCGGAGCGTTTCCGACTGTTTTCTTTCAGCCTCGAGCTGTCATCTAGTTGTGGTCATACAGATGCATTATCTCTACTCACTTAATGGGACCTGCCGAACAACCCTAGGCGGTGCGCCGGGTTGATGATCCAATTTCCGGGGTCATACAGTTCTGTCGTGCTTATACCAGACTAATGTCCGGGACGGCTATCAGCCTTGATGTATCTCGGAAGAAGAGTCTCTCTGCGAGCTCGTCGCATCTAATCGTCCACGTTCACGGCGCCCCTGAGTGGGAAAAGCCGGAAACATAG?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::5e0c7fde-411c-4d2d-be4f-2df35a1b3c92"
+  },
+  {
+    "answer": "TGFA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "VWA3B",
+      "TGFA",
+      "EYA1",
+      "PAX1"
+    ],
+    "question": "Which of the following genes is associated with otofaciocervical syndrome according to DisGeNet but not according to OMIM?",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::add3b869-e16b-4ab4-b41b-1b61b3b40107"
+  },
+  {
+    "answer": "In step 8, incubate the plates facing down",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Bacterial Transformation Protocol\nStep 1: Transfer competent cells (DH5a) from -80 to wet ice for 5-10 min or until thawed.\n\nStep 2: Add 1ng to 50ng of DNA directly to cells. Incubate for 10 minutes on ice.\n\nStep 3: Heat shock cells for 45 seconds at 42C in a heat block. (Do not go over 45 seconds!) You can kill bacteria by keeping them at high temps for too long.\n\nStep 4: Transfer cells to ice and incubate for 5 minutes.\n\nStep 5: Add cells to sterile culture tubes with 5ml of LB + selection antibiotic. Ensure lid is not tight to ensure proper aeration of the cultures.\n\nStep 6: Incubate starter culture for 1h at 230rpm in a shaker at 37C.\n\nStep 7: Add 100ul of starter culture after incubation to warmed LB plate. Spread using roller beads.\n\nStep 8: Incubate plates o/n at 37C with the plate facing up.\n\nStep 9: In the morning, select colonies and culture in 3-5ml of Luria Broth (LB) overnight for Mini-prep in following morning.\n\nStep 10: Isolate the DNA from the culture.\n\nStep 11: Digest the plasmid with appropriate restriction enzyme and visualize with gel electrophoresis to determine if the plasmid insert is correct.\n\nStep 12: Send out the plasmid for sequencing before using to make virus, or functional studies.\n"
+    },
+    "options": [
+      "In step 8, incubate the plates facing down",
+      "Skip performing the starter culture and plate cells immediately after step 4",
+      "In step 7, use 50 µL of starter culture",
+      "After step 8, incubate plate for 1 hour, not overnight"
+    ],
+    "question": "After completing the protocol as listed, colonies grow in patterns instead of isolated colonies. Which of the following may address this?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::6d2e1370-8c82-4142-9bcc-6675e730aa46"
+  },
+  {
+    "answer": "7875",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "A high-sensitivity phosphoproteomic analysis of murine brown adipocytes treated with either inosine or the adenylate cyclase activator forskolin (forsk) identified 38, 451 phosphopeptides. Upon forsk and inosine treatment 7875 and 8613 phospho-sites were regulated (FDR<0.05), respectively"
+    },
+    "options": [
+      "7875",
+      "2535",
+      "8613",
+      "38451",
+      "1792"
+    ],
+    "question": "How many phosphorylation sites see significant regulation in murine brown adipocytes when treated with forskolin?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::cbe93a43-09cd-4cb4-9edd-f22fe8c28415"
+  },
+  {
+    "answer": "TNFSF15",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "TNFSF15",
+      "PPP1CB",
+      "MRI1",
+      "RPS29"
+    ],
+    "question": "Which of the following genes has a BPTF binding site located within its promoter region (-1000,+100 bp around its TSS) according to the Gene Transcription Regulation Database? ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::74471e41-ceb0-4353-86a2-c14677101056"
+  },
+  {
+    "answer": "Rpl11",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Gba",
+      "Rasgrf2",
+      "Mir125b-1",
+      "Rpl11"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_INCIDENCE_OF_TUMORS_BY_IONIZING_RADIATION_INDUCTION, which contains mouse genes annotated to increased incidence of tumors by ionizing radiation induction (MP:0004500) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::46d695cb-95ef-40c0-8c30-a5afba9c4746"
+  },
+  {
+    "answer": "344",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "265",
+      "344",
+      "618",
+      "299"
+    ],
+    "question": "What is the expected amplicon length if I used the primer pair TGTCTATTCCACTTGTGCAACAGATA,CCGCTTGTACTTCAAGTCCG in a PCR from the following template: CGGCCGGTTCTCGAAGGAAAGGATCCATGTGGCGATGTCACTAAGCAGCAACGGGCCGCCCTTACCCGAGCCTTGCTCACTCTCAATCGGTGTACCTTCGCCCGCCGGTACAGGAGTATTTCCAATCCATAGCAATTCCATGTCAAGGAACGTTTTGCAGTAAACGTACGATTGGAGCACCCGGCGTAGTAGCGATTAGGCCCGAATGCACTGGGCGAGCATAATTTCGCTTTAATGTCGACGGGGAGAGTCAGGGTCAGGGGGCGCGACCTTACAAGTTTATGACCCAGTAGCGAACGGACGAACTATGACTAAGTGGATTTCAAACATACCAGACCTAAATCGACGCACGGTCCTACTCCTACAAGTGCGGGGAATCTGTAAGTGTTTTTGGGCCCCCAACGATTACTAACTGTCTATTCCACTTGTGCAACAGATAGAGTTAATTCATATGCTCCAATCTCCGGACACGAGAAACCCGGATTAGGCTCTTTTACTATCCGCAAGCATTGAGCTGTAAATTAATGGAGGAAGAGTGCCTCACGAACTCCCCTCGTTGCACCTTCCCGATCATTGCTTAAATGCTGCCAAGGTATCCAGTCCGAGTGACAATTGGCTTTGTTCCAGATAGCGGTCCTGCTCATAGTTCGTTGGTGCAGCTTTTGCGGGCTGAGGAGACACCGAATTGGCGAATTAAGAAGTGCCTGCGGTATCCGATCGCTATCAAGCATAAAGTTCGGACTTGAAGTACAAGCGGAATGTAGGGATGGAGACAGCCAGTGGAATCACGATTCAAAGTGTCGCAGAGCAACGCCTCGCGAAAGGTCTTTCTGGCATTGGTCGTATGGACGTCCAGGTAGCCACAGCTCTAAAAAAGCCTATAACTGGAGCTGCAACGCTATTAGCGCGGAGGCTGACCGGGTGACACCGGCGCATAAGAAGTGTGATGAGCAAAAAGGACTAAGCTAAAACGTGTCGAGCAGGGTGGTTAAATTAGCGT?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::76898577-768c-4e26-8c81-968fb26f7f65"
+  },
+  {
+    "answer": "MISRHPSEVLYLSAVRMLRRHIRAQRGNACRPHRRLSKRAPNKRFCSFITREVRSRMTNTKPP*",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "ATGATCAGTCGACATCCATCAGAGGTCCTTTACCTCTCCGCTGTTCGTATGCTCCGCCGTCATATTCGAGCCCAACGGGGCAATGCTTGTCGACCTCACCGAAGGTTGTCGAAAAGGGCGCCGAACAAGCGGTTCTGCTCATTTATAACTCGTGAAGTGAGATCCAGAATGACAAACACAAAGCCACCTTGA",
+      "MISRHPSEVLYLSAVRMLRRHIRAQRGNACRPDRRLSKRAPNKRFCSFITREVRSRMTNTKPP*",
+      "MESRHPSEVLYLSAVRMLRRHIRAQRGNACRPHRRLSKRAPNKRFCSFITREVRSRMTNTKPP*",
+      "MISRHPSEVLYLSAVRMLRRHIRAQRGNACRPHRRLSKRAPNKRFCSFITREVRSRMTNTKPP*",
+      "MISRHPSEVLYLSAVRMLRRHIRAQRGNACRPHRRLSKRAPNKNFCSFITREVRSRMTNTKPP*"
+    ],
+    "question": "What is the AA sequence of the longest ORF in the DNA sequence 'TCTGTTCTCGTCTGTAGGTACATCTCCCGAAGGCCTAAATAGCTGCCTTGCCTACTCATATGCGTCGTCTTGCTCGCTATTAGGACGACTGCTAGCAGATCCGGAGCTGAGCGTCATTCATCTTAATTTGGACCTAGCTCAGAGCCGGTGGAGTCTCCCCCATACTGTTTCCCTAAGGCGGAGGACAACCTCAGGAACTCTGGTGACCAAATGAGAAATGGGTAAAAGCAAACCAAGATAGGAGCTCAGGGGATATACAAGTCACATCTTGCCATGCCCTGGTGGTGCTTCTACTATTCAGACCAGCCTTGACAAATACAATTTTGAATCTACCTTACGAATGAACTACATTTGACTTATACGTTAAGGCACGTGCGGGGCCCATATTTTACATTATATTTGTCACGATAGGAGGCCTCAGTTAAGATCGACCGCGCTGTATCTGCAACCTAGATCTCATTGGCCTAACATCCTTTTAAGCCGCTTGTTTACGACAAAAAAAAAAGGTGTGGTGGCTTGTGCACTTACCCAGTAGTGTTCCTCGTCGATCTTAGGAATGACGCTCGGGGCAAACAAGATGGCGGTAGTTGTTTTATAGCAAATGTGTCTCCTCCTCACTGATGATGCGTAGCATCCGGCAAAAGTATCTTTGCCGTACTTGGTGCGCAGGGCCAATCTGGCGGCCGGGTACCATTTCGTACCCAAACAAGGACGAGCCTATTCCGCAAAGGCAGTTCGCTCGATCATGATTGCCCACTGTTCGGCTAGCTCTTCAAAAGCATGGAAGATTCGTTAATTCAGTGAAAGTGAGTACCCTACTAGTTCGACCAACGAAGGCAGTGACTAAAATTACACCAGCAATTTACCTCGGCTTCACCATTCCACCGTATGGTCGAATTATTCGTGAAAAACGCAGTCTACATTAATCCTATATTCAAGGTAGTGAACCACAAGAGTCAAATTCCAGAAAACTAACTGAAGTATTGGCCGCTAGCACTCCCGCGTAAGCGGCGAATTTGCGGAACTCGGATAGCGCCGCCATACATTAGCTAGCGGGTTGAACATAATTCCAGGGTGTCAGGCAACGATCAATGGACAAATCTTATAGTCTGGATCTATAGCCTATTCAGAAGAGAACGACAGTTTAGCGTTCGCCTAAGGTTTTCAGTTGCGTAGCACCGCGCAGAGCCCTTCCCGATCTGCCCTCCCTATGCACTACTCTATTTCTATTCCCTAAGCGGTGAGTCCACAAAAATCCGGGTGGGCCGACAAACGTCCAAATCATAGGTCCTACGCGCTGTAGCCTGAATTAGTTGTATGCGCTTTTACGCATTACTCAAGATCCTGCTCGTCGTAGTTCTGATTGTAAGCAATACCAGACCGCATGAAGTGTCCAGGCATGAATAATGATTTGTAATGCCACCGCTAAAGCTGCCGCCACTCCGCCTCGGTATATCCGCACGCCATTCTACTTTCTTCGCAAAACTAAATATCTCAATAGTTTCTTCCGTACAGACCTAATGGTCAACTAATAGGCAATCGCTTTAAGTTTAATTCTCCCGAGTACCGACGTGTGTAACTATAAGGTCTACCCTTCCTCTCGCCCTTTGAACAGAAAAGCTCTAATAGGTGTGAAAGATGAACTGATTTGAAGATCTGTTGCAACGTTAAGCTGTGACCCCGAAAACATTACTCCGGGAGTCAGATGTGATCGCGTATGACGCCCCTTCCATACTTTTACCTAGGAACCGCCGTGCTCAAGAGAAAACTAGCAATAATAACAGCCGGCCTTCTCCAACGTTTGATTAACCCAAGGTCGGCGAGAATTCGATGGTCTCATGGACTACGGAGCCACGGACCGCACCGTGACAAAGTATGATGGCACATAGCCTACCATAATACTTAACCATTCGGAGGGATCACGTATGCCAACGACCTGATTCAATTTCATACATACTATTCCATGCCCGTTGGCGGCATATTTTGACCCGACTTGTACTATAGTAGGTCGTCCATGAAATCTTTTCGTCGATGATCAGTCGACATCCATCAGAGGTCCTTTACCTCTCCGCTGTTCGTATGCTCCGCCGTCATATTCGAGCCCAACGGGGCAATGCTTGTCGACCTCACCGAAGGTTGTCGAAAAGGGCGCCGAACAAGCGGTTCTGCTCATTTATAACTCGTGAAGTGAGATCCAGAATGACAAACACAAAGCCACCTTGAACCTTACTGTGAGTGCAAAGAAAGCACATATAGGAGGCGGGATATCGTAGGTAAAGGTTTCCAGGATTTTAAGTGTACCGATATCGCGGGAGTCCACCCTCAATTGTCTGAAATGAAACCACTTTGAACTCCGTTACTTAAAAAGGATCACCTTTCTGCCTCCCGCTTTACTATGCAGCCACAAACGGCCCGAGGTCCGTGGAAATGCCATGGTCCGCGGGCCTCCGGGTGCGCCGTGCCGTCTGCTTCGTTCATAGGATTCCCTTCATACACTCTCGATCATACGGCTCATACTTCATTCGCCTCTCTCATTAGTTGCGCCGACGCTAACTCATGGAAAGTACGGCAAGAAGCGCCGCACGTCCTACCTTTACAGGGCGCGCGGTTTGTAGGTCA'?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::85a93675-1bc9-48a9-9549-3312fa611b13"
+  },
+  {
+    "answer": "FCGR1A",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "PCGF6",
+      "TDRP",
+      "SNX31",
+      "FCGR1A"
+    ],
+    "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR378F according to miRDB v6.0? ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::59e556e5-876a-4bef-934e-fd89199c67f4"
+  },
+  {
+    "answer": "1300 anstrom^2",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "his structure was then used to determine the M. smegmatis DarR structure (Fig. 1a) (Supplementary Table 1). There are two M. smegmatis DarR dimers in the crystallographic asymmetric unit (ASU) and one DarR subunit in the M. baixiangningiae DarR structure. A M. baixiangningiae DarR dimer with the same assembly as the M. smegmatis DarR dimer is generated by crystallographic symmetry (Fig. 1a, b). Formation of the DarR dimer by interaction of the two monomers results in the burial of ~1300 anstrom^2 of surface from solvent. T"
+    },
+    "options": [
+      "100 anstrom^2",
+      "300 anstrom^2",
+      "1300 anstrom^2",
+      "13000 anstrom^2"
+    ],
+    "question": "Formation of a mycobacterial repressor DarR dimer results in how much of the surface being buried from the solvent?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::ab5eb050-d134-4445-9307-6faa08be7474"
+  },
+  {
+    "answer": "TCTAGAATGACGCATCTGGAACTGGTTCC, GTCGACTGCTGCTGAAAAAACAGGAGGGATGA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GTCGACATGACGCATCTGGAACTGGTTCC, CCCGGGTGCTGCTGAAAAAACAGGAGGGATGA",
+      "TCTAGAATGACGCATCTGGAACTGGTTCC, GTCGACTGCTGCTGAAAAAACAGGAGGGATGA",
+      "TCTAGATGACGCATCTGGAACTGGTTC, GTCGACTGAAAAAACAGGAGGGAT",
+      "TCTAGAATGCTAATTCGAGTAGAAATTCCCA, GTCGACACGAGCATTTCAATCGCTTTTAA"
+    ],
+    "question": "I want to clone the rbbA gene from E. coli into the plasmid pUC19 using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes XbaI and SalI?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::edc8f52b-2054-4ed3-9d8a-1263966e39cb"
+  },
+  {
+    "answer": "Let the tissue slow thaw inside the cryostat for 30 min at -18C ",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Protocol to detect senescence-associated β-galactosidase and immunoperoxidase activity in fresh-frozen murine tissues\nTissue freezing\nTiming: 20 min\nThis section describes the procedure to properly freeze the tissue after euthanasia of animals.\nA1. Pour 2-methylbutane in a metal container, as follows:\na.\tPlace it into a Styrofoam box containing liquid nitrogen, and cover with lid.\nb.\tAllow to equilibrate for 10 min.\nA2. Immediately after animal euthanasia.\na.\tCut a piece of tissue and add glue to one side of it and glued on square pieces (2 × 2 cm) of 3-mm thick cork sheet, using Tissue-Tek O.C.T. Compound.\nb.\tImmersed in cold 2-methylbutane for cryopreservation, for 10 min.\nc.\tStore the tissue at −80°C for further sectioning.\nFresh-frozen tissue sectioning\nTiming: 2 h\nThis section describes the steps for sectioning fresh-frozen tissues before the staining procedure.\nA3. Take the tissue glued to the cork sheet from the ultra-freezer and let it thaw at 4C for 30 min.\nA4. Glue the tissue to the cryostat by adding Tissue-Tek O.C.T Compound to the back of the cork sheet.\nA5. Cut the tissues into 10-μm thick slices with the cryostat and recover them on glass-charged microscope slides.\nA6. Let the tissue adhere on to slide. The tissue slice will adhere quickly and become partially transparent.\nA7. Store the slides in a slide storage box inside a freezer set at −20°C until use.\nHistochemistry for detecting SA-βGal activity\nTiming: 54 h\nThis section describes the procedures for detecting SA-βGal activity in slices from fresh-frozen tissues (Figure 1). \n1.\tTake the slides from −20°C freezer.\na.\tLet them thaw at 4°C for 1 h.\nb.\tPlace the slides in a humidity chamber.\nc.\tAdd 200 μL of fixative solution for 5 min.\n2.\tWash the slides three times by adding 40 mL of 1X-PBS in a Coplin jar for 5 min each at 20°C–25°C.\na.\tPrepare the SA-βGal solution (see materials and equipment section).\nb.\tRemove 1X-PBS from the Coplin jar.\n3.\tAdd 40 mL of SA-βGal staining solution (pH 6.0).\na.\tIncubate at 37°C for 48 h protected from light.\nb.\tSeal the Coplin jar to prevent evaporation of the solution.\n4.\tRinse the slides with 40 mL of 1X-PBS at 20°C–25°C three times for 1 min each.\n5.\tRemove the excess liquid with tissue paper, and observe under the bright-field microscope.\nNote: The result of SA-βGal activity is observed as a blue color precipitated in senescent tissue areas.\n6.\tKeep the slides in the Coplin jar containing 40 mL of 1X-PBS at 20°C–25°C while starting the IPO activity detection.\nImmunohistochemistry (IHC) for detecting IPO activity\nTiming: 24 h\nAfter performing SA-βGal activity staining, the following steps are required to complete the double labeling protocol (Figure 2). Therefore, slices kept in a Coplin jar containing 1X-PBS Block tissue slices with 200 μL of 1X-PBS-1% albumin in a humidity chamber at 4°C for 2 h.\na.\tWash tissue slices by adding 40 mL of 1X-TBST in the Coplin jar three times for 2 min each at 20°C–25°C.\nb.\tRemove the excess of 1X-TBST from each slide with tissue paper; place them in a humidity chamber.\n7.\tBlock endogenous peroxidase with 200 μL of peroxidase blocker (included in the Mouse/Rabbit ImmunoDetector DAB HRP Brown kit) for 15 min at 20°C–25°C.\na.\tPlace the slides in a Coplin jar.\nb.\tWash them with 40 mL of 1X-TBST five times for 2 min each at 20°C–25°C.\nc.\tPlace the slides in a humidity chamber, remove the excess liquid.\n9.\tAdd the primary antibody of interest according to the right dilution (see key resources table) using 200 μL of the antibody diluted in 1X-TBST-1% albumin.\na.\tIncubate the tissue slices with primary antibody ∼18 h in a humidity chamber at 4°C.\nb.\tWash tissue slices five times with 40 mL of 1X-TBST in a Coplin jar for 2 min each at 20°C–25°C.\nc.\tPlace the slides in a humidity chamber, remove the excess liquid.\n10.\tAdd 200 μL of ImmunoDetector Biotinylated Link reagent (included in the Mouse/Rabbit ImmunoDetector DAB HRP Brown kit).\na.\tIncubate for 10 min at 20°C–25°C.\nb.\tWash the slides three times with 40 mL of 1X-TBST in a Coplin jar for 2 min each at 20°C–25°C.\n11.\tIncubate the slides with ImmunoDetector HRP Label (included in the Mouse/Rabbit ImmunoDetector DAB HRP Brown kit) in the humidity chamber for 30 min at 4°C.\na.\tPlace the slides in a Coplin jar.\nb.\tWash them three times with 40 mL of 1X-TBST for 2 min each at 20°C–25°C.\n12.\tPrepare a white surface on the laboratory table, using a white paper sheet and place the slides on it.\n13.\tAdd one drop of DAB chromogen (included in the Mouse/Rabbit ImmunoDetector DAB HRP Brown kit) to the slice.\na.\tQuickly observe under the microscope until the brown label of the reaction is detected. Usually, it takes between 15 to 30 s at 20°C–25°C.\nb.\tAfter detecting the brown label, stop the reaction by immersing the slide in a Coplin jar containing 40 mL of distilled water.\nc.\tTake the slide from the Coplin jar.\nd.\tRemove the excess liquid with tissue paper; place it back on a white surface on the laboratory table.\n14.\tCounterstain the tissue slices by adding 100 μL hematoxylin and incubate 15 s at 20°C–25°C.\na.\tWash the slide twice with warm (∼50°C) distilled water for 2 min each.\nb.\tRemove the excess liquid with tissue paper.\nc.\tLet the slides dry for 10 min before mounting.\n15.\tAdd a drop of mounting medium on the slice and carefully cover it with a coverslip.\nNote: Use either a dissecting forceps or a needle to slowly lower the coverslip onto the tissue slice, avoiding air bubbles remaining on the tissue.\n16.\tLet the mounting medium dry ∼18 h at 20°C–25°C.\n17.\tClean the slide with 70% alcohol for subsequent analysis under the microscope.\n18.\tUse a bright-field microscope to take desired pictures of the tissue area of interest.\n"
+    },
+    "options": [
+      "Store the tissue in a -60C freezer instead of a -80C",
+      "Cut the tissue using a laser cutter rather than a knife",
+      "Let the tissue thaw fast inside the cryostat for 60 min at 30C ",
+      "Let the tissue slow thaw inside the cryostat for 30 min at -18C ",
+      "Let the tissue thaw slowly inside the cryostat for 60 min at 4C "
+    ],
+    "question": "I notice that after looking at the tissue histologically that a large number of the cells have been destroyed. What changes could I make the protocol?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::be697753-fe7c-4ed5-ad28-4853e435d21e"
+  },
+  {
+    "answer": "FKBP1BP1",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "FKBP1BP1",
+      "OR11H4",
+      "ACTN1",
+      "SLC22A17"
+    ],
+    "question": "Which of the following human genes is located at chr14q21 according to Ensembl Release 110? ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::d0ef18af-caba-44c3-a0e0-9a758798743d"
+  },
+  {
+    "answer": "TM3",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "Previously, we have used ColabFold software to create homology models of HcKCR1 and HcCCR5. RMSD of Cα atoms between the model and the structure was 0.60 Å for HcKCR1 and 0.61 Å for HcCCR. The models were particularly good for helices TM1, TM6, and TM7 (Supplementary Fig. 7). However, the homology models were weak in the extracellular TM2-TM3 loop region and did not predict partial unwinding of TM3 at the extracellular end, an unusual feature of HcChRs that they share with ChRmine16, 17"
+    },
+    "options": [
+      "TM6",
+      "TM1",
+      "TM3",
+      "TM7"
+    ],
+    "question": "For the channelrhodopsin found in Hyphochytrium catenoides (HcKCR1), the homology based structure predicted by ColabFold has a poor prediction for which one of the following transmembrane helices out of the 7 seven transmembrane helices in the structure ?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::5a2128ad-3127-4595-b810-db128d1a2335"
+  },
+  {
+    "answer": "Microcin V",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "The only microcin homolog identified in all phylogroups was microcin V; it was the most enriched in phylogroup A and the most depleted in phylogroup D"
+    },
+    "options": [
+      "Microcin L",
+      "Microcin PDI",
+      "Microcin H47",
+      "Microcin V",
+      "Microcin E492",
+      "Microcin S",
+      "Microcin I47",
+      "Microcin M"
+    ],
+    "question": "Which microcin homolog is present in all known E. coli phylogroups?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::76bcaeeb-93bd-4951-99b9-cf4613de1a37"
+  },
+  {
+    "answer": "Centrifuge at 300g in step 55",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Lentivirus-mediated organoid transduction\nTo study the molecular mechanisms of bacteria-epithelium interaction, it may be necessary \nPart 1. Preparation of organoid stem cells for viral transduction\nThis step allows the generation of small pieces of organoid fractions containing stem cells, which are the targets of viral transduction.\nDay 1. Matrigel coating\nTiming: ∼10 min\n48.\tCoat the 24 wells plates with 100 μL Matrigel to evenly cover the wells.\na.\tWash the wells with 500 μL of cold PBS so that the Matrigel can be evenly spread.\nb.\tUsing a cold tip, evenly spread 100 μL/well of Matrigel and incubate at 37°C to solidify the Matrigel.\nDay 1. Organoid stem cells for virus infection\nTiming: ∼30 min\n49.\tLiquefy the Matrigel containing SC-enriched organoids (Generation of stem cell-enriched organoids to facilitate microinjection).\na.\tAspirate the medium and add 500 μL/well of Cell Recovery Solution.\nb.\tIncubate the plate at 4°C (e.g., in the fridge).\n50.\tAfter 5–10 min, place the plate on ice. Using cold 1 mL pipet tips, scratch the Matrigel several times to break it down.\n51.\tPut back the plate at 4°C until the Matrigel is dissolved. This takes total of ∼ 15 min.\n52.\tPlace the plates on ice. Using 1 mL cold pipet tip, harshly pipet up and down to physically dissociate the organoids into small pieces.\n53.\tCollect the organoids in a 15 mL Falcon tube on ice.\n54.\tAdd at least 3X volume of cold Advanced DMEM/F12 and mix well to be homogenous.\n55.\tCentrifuge at 4°C, 3000g for 5 min.\n56.\tThe cell pellet should be visible after the centrifuge. Carefully discard the supernatants. This is to remove the Matrigel component.\n57.\tResuspend well the cell pellet by adding 4 mL of cold Advanced DMEM/F12.\n58.\tCentrifuge at 4°C, 150g for 1 min.\n59.\tCarefully discard the supernatants to completely remove Matrigel and tap the tube to prevent aggregation of the pellet.\n60.\tAdd 500 μL of 37°C pre-warmed TrypLE Express. Gently pipet once or twice to mix homogeneously.\n61.\tIncubate for 3 min in the 37°C water bath.\n62.\tAdd warm Advanced DMEM/F12 up to 4 mL and centrifuge at 300g for 5 min.\n63.\tCarefully discard the supernatants containing dead cell debris and TrypLE Express.\n64.\tResuspend the pellet by adding 4 mL of warm Advanced DMEM/F12.\n65.\tCentrifuge at 200g for 2 min to completely wash out TrypLE Express.\n66.\tDiscard the supernatants as much as possible, but do not disrupt the pellet.\n67.\tTap-resuspend the cells with the residual Advanced DMEM/F12.\n68.\tLabel the tube with what will be infected. The virus mixture and the 2.5X concentrated SC-enriching organoid medium (Materials and equipment) will be added to this tube (see the next step).\nPart 2. Virus infection\nThis step allows the infection of the organoid stem cells with lentivirus mixture to deliver i) the Tet-activator and ii) the pTREG3-mutant gene of interest into the genome. \nA negative control for infection is performed by replacing the viral mixture with culture media. This control is important for the antibiotic selection of successful transduction.\nDay 1\nTiming: ∼1 h\n69.\tPrepare virus solution from the virus mixture (Materials and equipment).\na.\tAdd 100 μL of Enhancer to the Lentivirus mixture to become the final 297.5 μL.\nb.\tAs the enhancer is viscous, gently tap-resuspend to mix homogeneously (or very gently pipet up and down).\nc.\tAdd 2.5 μL of TransDux MAX, gently tap-resuspend to mix homogeneously.\n70.\tCarefully pipet the virus solution of 300 μL into the tube with organoid stem cells from Step 20.\n71.\tGently tap the tube so that the cells and virus mix homogenously.\n72.\tAdd the 200 μL of 2.5X medium (pre-warmed, Table 2) so that the final [cell + virus mixture] will be 1X. Gently pipet mix.\n73.\tIncubate the tube in a 37°C water bath for 1 h. Within this 1-h incubation, gently tap the tube and mix the cell and the virus every 15 min.\n74.\tCarefully pipet the cell-virus mixture and place them in the Matrigel coated well.\n75.\tIncubate at 37°C for 1 day. During this 1-day incubation, viable cells will be attached to the Matrigel.\nDay 2. Infected stem cells being sandwiched by the Matrigel\nTiming: 20 min\n76.\tPrepare 1X SC-enriching organoid medium (500 μL/well).\n77.\tTake out the plate of step 27 from the incubator and carefully discard the medium containing the virus and dead cells. \n78.\tPlace an additional 100 μL/well of liquid Matrigel on the plate so that the viable cells are located at the center between the top and the bottom layer of Matrigel (forming a Matrigel sandwich, Figure 4).\n79.\tPlace the plate in the 37°C incubator for 5 min to solidify the newly added Matrigel.\n80.\tTake out the plate and add the 1X SC-enriching organoid medium to cover the Matrigel.\n81.\tPlace back the plate into the 37°C incubator and grow the stem cells to form organoids.\n\nPart 3. Antibiotic selection\nThis step allows the selection of organoids transduced with both the tet-activator (neomycin-resistant) and the gene of interest (puromycin-resistant). \nDays 4–5\nTiming: ∼10 min\n82.\t2–3 days later, when the transduced stem cells form small but closed organoids, change the medium with fresh SC-enriched organoid medium with antibiotics (1 μg/mL puromycin + 100 μg/mL Neomycin).\n83.\tGrow for 2–3 days more.\nDay ∼6\nTiming: ∼10 min\n84.\tThe viable organoids should be visible. \n85.\tReplace the medium with a regular ENR medium containing Neomycin and Puromycin.\n86.\tGrow until the organoids become big in presence of antibiotics. Change the medium every 2 days.\n87.\tWhen the organoids become sufficiently big with dead cells accumulating in the lumen, passage the organoids in a regular ENR medium containing Neomycin and Puromycin.\n88.\tChange the medium every 2–3 days (ENR medium + antibiotics).\n89.\tAmplify/grow in sufficient amounts for the maintenance and experiments.\nNote: As the organoids underwent simultaneous infections, the survival in the presence of the two antibiotics can be lower than that of a single infection. Sequential infection can also be done.\nPart 4. Doxycycline induction\nTo detect successful induction, we used a bicistronic expression of the fluorescent reporter protein (Figure 4).\nDay ∼20\nTiming: ∼10 min\n90.\tPassage the organoids for dox-induction and control (no addition of dox).\n91.\tWhen the organoids grow sufficiently (∼ 4–5 days), add 2 μg/mL doxycycline in the dox-induction well.\n92.\tTreat doxycycline for at least 16 h.\n93.\tTest the induction based on the detection method.\n"
+    },
+    "options": [
+      "Incubate the tube in 50°C water in step 73",
+      "In step 67, use a sterile pipette tip to resuspend cells by pipetting up and down repeatedly",
+      "Centrifuge at 300g in step 55",
+      "Incubated for 3 days in step 75"
+    ],
+    "question": "After step 75, you notice a low number of adherent cells. Which of the following would address this?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::cad5e744-2600-4674-a8ad-8a02897c6fd4"
+  },
+  {
+    "answer": "Ctnnb1",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Ctnnb1",
+      "Rassf1",
+      "Jam3",
+      "Ralgds"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_PROSTATE_GLAND_ADENOCARCINOMA_INCIDENCE, which contains mouse genes annotated to increased prostate gland adenocarcinoma incidence (MP:0009220) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::a87c6187-3bc8-4fda-916c-7e55c47d07d3"
+  },
+  {
+    "answer": "A259G",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Q143R",
+      "R141Q",
+      "A259G",
+      "R99W"
+    ],
+    "question": "According to ClinVar, which of the following variants to the following sequence (bracketed by xml tags) is most likely to be benign? <sequence>MYKMEYSYLNSSAYESCMAGMDTSSLASAYADFSSCSQASGFQYNPIRTTFGATSGCPSLTPGSCSLGTLRDHQSSPYAAVPYKLFTDHGGLNEKRKQRRIRTTFTSAQLKELERVFAETHYPDIYTREELALKIDLTEARVQVWFQNRRAKFRKQERAAAAAAAAAKNGSSGKKSDSSRDDESKEAKSTDPDSTGGPGPNPNPTPSCGANGGGGGGPSPAGAPGAAGPGGPGGEPGKGGAAAAAAAAAAAAAAAAAAAAGGLAAAGGPGQGWAPGPGPITSIPDSLGGPFASVLSSLQRPNGAKAALVKSSMF</sequence> ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::ece9ffa0-164c-4c01-8ba2-33d7f0e78878"
+  },
+  {
+    "answer": "Cul9",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Ikbkb",
+      "Cul9",
+      "Lonp1",
+      "Cyp19a1"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_SARCOMA_INCIDENCE, which contains mouse genes annotated to increased sarcoma incidence (MP:0002032) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::2d2d4733-8762-44f9-881a-8e86a3ec7f5c"
+  },
+  {
+    "answer": "367",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "731",
+      "367",
+      "799",
+      "486"
+    ],
+    "question": "What is the expected amplicon length if I used the primer pair CTTTAATCCAACCAATAATCGCAAGA,AGGCTACCATTAGTGCATAC in a PCR from the following template: TGCGTCATGCTGTGAGCAGCTGTCACGAAGGCTGATCAGTTCGGCAATATAAAGTGTCAATCATGAAGAAGGCAGAATGCTGGATCCGTCAGCGCATCTTATCCTTCGTTTCTATAATGTGCCACCACAGCTTTGAGGTTAATTGCTAACATGTCTCGACCTGCCTTATTCTCTACGTGTTTCTACATATCTCCTCTATACTTCTTAACTGGTATCTAACACGTCTCAATGAATCCCGGACAACGAGGGATACTCATTATATAGTGAGAATTAAGTAGGGGAGCATGCACCATGTCAGTAGTTACCCAGCAAACACTTGGATTGTGAGCCCCTTTAATCCAACCAATAATCGCAAGATAACTTATTAGGTCAGCATTCCTGTCCGCTCGGACGACATGCAAGATTACTGCTGGCACTTAATAAGGGAGGGTACACGTGTTGCGCTTCAGTCAGAACCCGTGTGCCGATTAAATATATAGCGGGCAAAATCACCCTGATCTGTTCCCTCGTAGTTTAGGTCCATGCCAGCATCTGACTTTTTCGGCTTTTCTTCAGTTCCCTGTGGCTGTGGGACTAGCAGGGACGCCGTCAAACTAGCAACGATCACCCGCCATGTGAATTCGTTAACAAGCACTATGAGGAAGGGGGGCCCGAGCAATCCTGCGATTTGAGCTACACGTATGCACTAATGGTAGCCTTAGTGCTCCGGATTCTGAGAGTGGGACTTGACCATATGGAAGGACTCGTCGCCGGTAGCCTTCACAGTGCGCGACGGAAATAGGGCATCTAACGGGTCTTCATGTTTGAGCCTGAATGTCCCAACTCAACGTCTAGCATTATTCCCCAGACGCCGAAATACCCTTTGAGTGGTTGATGTCTGCGTTAATAGTAAAACCATTCTAGCTAGAGTATCGAGCATACGTCGCCTTCGGTTGGATAGGTCGACGGTTCGAGGCGAGAGTAACTACGATCGCGCGGTTTCGAGGAAGTTCATTGGGCA?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::813202a6-216d-41a9-99f8-c12e94cc6e06"
+  },
+  {
+    "answer": "Asn326",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "A large oligosaccharide density was observed in the cryo-EM map of Nav1.6, attaching to Asn326 (Fig. 2C). Clear branches were resolved in this glycan density, allowing us to trace nine monosaccharides unambiguously."
+    },
+    "options": [
+      "Phe302",
+      "Asn326",
+      "Leu288",
+      "Trp324"
+    ],
+    "question": "At which amino acid position is a large oligosaccharide density observed in the cryo-EM map of Nav1.6?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::5c4c602c-9624-4eae-ac44-efe4c0dd10e6"
+  },
+  {
+    "answer": "CAPS2",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "CAPS2",
+      "PSG9",
+      "CHRND",
+      "TCHH"
+    ],
+    "question": "Which of the following genes has a HDAC4 binding site located within its promoter region (-1000,+100 bp around its TSS) according to the Gene Transcription Regulation Database? ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::8e95d62a-4a9d-4339-bde4-c88bd092037d"
+  },
+  {
+    "answer": "E99G",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "S769T",
+      "E22K",
+      "E99G",
+      "K820R"
+    ],
+    "question": "According to ClinVar, which of the following variants to the following sequence (bracketed by xml tags) is most likely to be pathogenic? <sequence>MDSTLTASEIRQRFIDFFKRNEHTYVHSSATIPLDDPTLLFANAGMNQFKPIFLNTIDPSHPMAKLSRAANTQKCIRAGGKHNDLDDVGKDVYHHTFFEMLGSWSFGDYFKELACKMALELLTQEFGIPIERLYVTYFGGDEAAGLEADLECKQIWQNLGLDDTKILPGNMKDNFWEMGDTGPCGPCSEIHYDRIGGRDAAHLVNQDDPNVLEIWNLVFIQYNREADGILKPLPKKSIDTGMGLERLVSVLQNKMSNYDTDLFVPYFEAIQKGTGARPYTGKVGAEDADGIDMAYRVLADHARTITVALADGGRPDNTGRGYVLRRILRRAVRYAHEKLNASRGFFATLVDVVVQSLGDAFPELKKDPDMVKDIINEEEVQFLKTLSRGRRILDRKIQSLGDSKTIPGDTAWLLYDTYGFPVDLTGLIAEEKGLVVDMDGFEEERKLAQLKSQGKGAGGEDLIMLDIYAIEELRARGLEVTDDSPKYNYHLDSSGSYVFENTVATVMALRREKMFVEEVSTGQECGVVLDKTCFYAEQGGQIYDEGYLVKVDDSSEDKTEFTVKNAQVRGGYVLHIGTIYGDLKVGDQVWLFIDEPRRRPIMSNHTATHILNFALRSVLGEADQKGSLVAPDRLRFDFTAKGAMSTQQIKKAEEIANEMIEAAKAVYTQDCPLAAAKAIQGLRAVFDETYPDPVRVVSIGVPVSELLDDPSGPAGSLTSVEFCGGTHLRNSSHAGAFVIVTEEAIAKGIRRIVAVTGAEAQKALRKAESLKKCLSVMEAKVKAQTAPNKDVQREIADLGEALATAVIPQWQKDELRETLKSLKKVMDDLDRASKADVQKRVLEKTKQFIDSNPNQPLVILEMESGASAKALNEALKLFKMHSPQTSAMLFTVDNEAGKITCLCQVPQNAANRGLKASEWVQQVSGLMDGKGGGKDVSAQATGKNVGCLQEALQLATSFAQLRLGDVKN</sequence> ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::81eb4056-86e4-4c06-b281-e70e2e33fe68"
+  },
+  {
+    "answer": "FARSB",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "PPFIA4",
+      "SLC39A13",
+      "FARSB",
+      "MROH1"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_RESPONDERS_7DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell 7d vs 0d in young adults (21-30) (responders) after exposure to Inactivated influenza vaccine , time point 7D. Comment: most (70-80%) of cohort were white. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::08dd88d4-b500-49f0-a8a9-78c3ec243978"
+  },
+  {
+    "answer": "GATTACGCCAAGCTTGCATGCCTGCAGGTCGTGAAGATTGATGCATCCCGTCGG, GAGCTCGGTACCCGGGGATCCTCTAGAGTCTTAGTGTGCATGGAGATACTCCGC",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "ATGCCTGCAGGTCGACTCTAGAGGATCCCCGTGAAGATTGATGCATCCCGTCGG, CGACGGCCAGTGAATTCGAGCTCGGTACCCTTAGTGTGCATGGAGATACTCCGC",
+      "GATTACGCCAAGCTTGCATGCCTGCAGGTCATGCTGGAGTTGTTGTTTCTGCTTTTGC, GAGCTCGGTACCCGGGGATCCTCTAGAGTCTTACAGGCCATCAAGACCGCG",
+      "GATTACGCCAAGCTTGCATGCCTGCAGGTCGTGAAGATTGATGCATCCCGTCGG, GAGCTCGGTACCCGGGGATCCTCTAGAGTCTTAGTGTGCATGGAGATACTCCGC",
+      "GATTACGCCAAGCTTGCATGCCTGCAGGTCATGGAAGATTGATGCATCCCG, GAGCTCGGTACCCGGGGATCCTCTAGAGTCAGTGTGCATGGAGATA"
+    ],
+    "question": "I want to clone the napF gene from E. coli into the plasmid pUC19. I'm going to linearize the plasmid with HindII. Which primer pair can I use to amplify the gene for Gibson assembly into the linearized vector?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::53b30411-24d3-45b1-91a8-957ed1a2847f"
+  },
+  {
+    "answer": "R",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Ile",
+      "Asn",
+      "R",
+      "Cysteine"
+    ],
+    "question": "What is the AA encoded at position 5 in the longest ORF contained within the sequence TTTGATCTACGGCGCGCAATGTTTAGAAACCTGTCGCCTCTATTACTGATACGCTGGGTTAGGAGAAGCGTGTGGGGTGACCAATTTACCCGGGTAGGTTACGTAGTTTGGCAGGTATGATGGCTGTCAAACAACCATGAAAGAAAAGTACTTGGCCGCAAATTTTACCTCCATGTGATTGTGAATCAGCAACGGATATGAACTCTACAACCCGTGATGTTGTGGTTTGTGGGATATTTGTATAAGAACTCGAAGACGTCCGAGGAGTAATCTCCGCTGAATCCCGCTAACCAGTGATCACCACAACCAATAAATGTGTGTATCTGCCGTCAAGGGTGTGGTCAGGTTTAGTGAGCTCGGATACGTAGGATTGTCGATCAGACGACATGATACATCTCACGCTTAGACCTGAACAGCTGGACACGTCCACGCTAGAAGTAAGGCCATAGTACAATATAAGTAAGGTTTTTGACGTTCGACTGAACGGTGACACGATGATCGTCCATCGTCACACAGCTCCTGAGTTGGGCGCACGGATCCGATCGTGGCCGGGCCCCCCAAAGTGTCCCACTCAGTCCGTTAACCGTTTCTTGTTCCCAGAGAGCGAAAAGTCCTTCGCGCGACGTGCCTAAACGTAAGAGCTTGGCGCCGCCACGAGGACAGGAACTGCTCGCAGCGTACTAACACGCGGGTGTCTTTCGAATTGGTTCACTTCACGGACAATTGAAAGGCTGATCCTTACTGCGTGGAATTCACAAGAACGCGTCGTAAAGTTTACTAACCAGTCTGGGCTAACACTTCAAGCCAGGACATTGCTAAGAAGAGAGGCGATCGTTTTGGCTTAAGGAACGTTCAACGCATTTCGACCCGAGAAACCGGGCGTGTAGTGAAATTCGCGATACCCATGCCAATATGCCGATACACATTAACCTCGGCGCTTGCACCGATCCACTTCGCGCCTAAGGTCGTGCAGCTCCCAGCTATGAATATGTGCAACGAGACTGGACTACGTCACTTCACGTCTGTGTGCACATCAGCGTGGTAATACTATCCTGCAAAGGGTGCTTAGAGTTTGCCATGATGCGAGTGGTTTTAGGTCACTCCAGGTGAAGCCTAGTGCCCTCGTGTCTGATTTGTCCTGCGCCCTCTCCGGATAAGCTGACTTTGTGCCTCTATCCTTTTGAGCTTCGCATTCCAGTGAACCGATGCGCTGTCATGCCTACACGAACTGGGACCTCATAAGGAGATGCACGGCTACTCCCGTGTTAAAACCCCGAATTGCAGCGCGGGTTATCCGTTGCGCGGAGGCGTGATATTCACGTTATTGTAGGAGGGCCAGGGGCCGAGGCATCCAGTTCGGCTTAGAATAGGCAACGATCCGAACAGGCGCCGGTATAACCCGCTGAGTAAGAGCAGGAGAACCGTTAGGACTTGAATTAATAACGTGCACATCTTGGGAACATGGTTGGATACAACAACAAATGTCGCTTAAGCGAGTCCTGACGATACCCGCTTACGCTGGCAATTCTCTTATATCATACTTACGGTATGCATCAGCCGCTAGTCGCACGGATTTGAGCAACATACGTGTGACCACGTGATGTTATTGGAGAACCGTTCTGGCGAATCAATGACAAGTATGAGAGTCCCTAGACTGGGTACAGTAGGTAGTATAGTACTTTGACTGTTTCCTCGCATAATAAGAGTCAACGCCTTCGGGTAGTACAACCGGCAAGTTTGTGGCACTTCTGAAGGGTAGGCGTGTCTGACTATCGCCGCGCTCAGGCAGAGTGACTCAGCCAGACAGACGCCACT?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::ce072c8c-f7ee-4e26-a1c3-ea68d0dec5d7"
+  },
+  {
+    "answer": "In Step 11 , plate the cells on matrigel",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Reprogramming fibroblasts and mononuclear blood cells into iPSCs using Sendai virus\n\nPreparation of Reagents and Materials\nStep 1: Prepare fibroblast culture medium.\nCombine the following:\n45 mL of DMEM (+Glutamate) base medium\n5 mL of fetal bovine serum (FBS), ES-qualified\nNEAA 1x (Gibco or like)\nOptional:Pen/Strep\n\nFor media, re-warm to room temperature before use. Store Fibroblast Culture Medium at 2C - 8C for up to 4 weeks.\n\nStep 2: Reprogramming using Cyto Tune Sendai vectors.\nCount the cells using the desired method (e.g., Countess™II Automated Cell Counter), and calculate the volume of each virus needed to reach the target MOI using the live cell count and the titer information on the CoA.\nWe perform the transductions with MOIs of 5, 4, and 6. These MOIs can be optimized depending on your specific application/cell type. The typical SeV titer is ~108 CUI/mL.\n\nStep 3: mTesR or (optional) ReproTeSR™ medium for maintenance of adherent cells undergoing reprogramming.\nPreparing 500 mL of mTeSR™. If preparing other volumes, adjust accordingly.\nCombine the following:\n100 mL 5x mTeSR™ supplement (stored ≥-20°C and thawed overnight in TC fridge).\n400 mL mTeSR™ for blood reprogramming base medium.\n\nSection: Reprogramming Process notes\nStep 4: Transduce somatic cells with the Sendai virus from the ™ CytoTune™-iPS 2.0 kit at day 0, and culture in fibroblast Medium.\n\nStep 5: After Day 6, culture the cells in mTeSR™ for the remainder of the reprogramming induction phase until iPS cell colonies emerge.\n\nSection: Day by Day Reprogramming Process notes\n\nStep 6: Day - 2: Replate fibroblasts on TCP or Matrigel-coated TCP surface.\n\nStep 7: Day – 1: Change with a fresh fibroblast medium.\n\nStep 8: Day 0: Transduce the cells using the ™ CytoTune™ 2.0 Sendai reprogramming vectors at the appropriate MOI. Incubate the cells 0 seconds. \n\nStep 9: Day 1: Replace the medium with fresh complete fibroblast medium to remove the ™ CytoTune™ 2.0 Sendai reprogramming vectors.\n\nStep 10: Day 4: Start transitioning into an mTeSR™ family medium by replacing half of the fibroblast medium with mTeSR™ Medium.\n\nStep 11: Day 5: Replace the entire medium with mTeSR™ Medium to conclude the transitioning, and continue culturing cells on tissue culture treated plates.\n\nStep 12: Day 6–21: Replace spent medium with fresh mTeSR™ Medium every day and monitor the culture vessels for the emergence of iPSC colonies. When iPSC colonies are ready for transfer, perform live staining, and pick and transfer undifferentiated iPSCs onto fresh vitronectin-coated culture dishes for expansion.\n\nStep 13: Culture iPSCs and maintain iPSC line by manual passaging into mTeSR1 or mTeSRplus media as per the manual passaging SOP."
+    },
+    "options": [
+      "In Step 1 , use 5 mL of DMEM (+Glutamate) base medium",
+      "In Step 1 , use 50 mL of DMEM (+Glutamate) base medium",
+      "In Step 11 , plate the cells on matrigel",
+      "In Step 11 , wash the cells with antibiotics prior to culturing cells on tissue cultured plates"
+    ],
+    "question": "After culturing the iPSCs you notice you have very little yield of the cells. What could you do to improve the number of cells?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::6bc0df89-5aae-47b4-9d2e-2ebc5fa08e96"
+  },
+  {
+    "answer": "In step 40, use chloroform instead of ethanol",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Protocol for isolating amnion cells from human and non-human Amnion collection\nTiming: 1 h\n1.\tPlace the placenta on a sterile tray. Find the point of rupture in the membranes and lift the fetal membranes (i.e., amnion-chorion-decidua parietalis).\na.\tWith sterile scissors, cut the membranes and place them on the tray with the decidua parietalis on the top and the amnion on the bottom. For a correct orientation: the amnion is smooth and shiny while the decidua parietalis is rough (Figure 1A).\nb.\tWith sterile tweezers, remove the blood clots (Figure 1B).\nc.\tRinse the fetal membranes with washing buffer with antibiotics (Figure 1C).\nd.\tPre-wet a second sterile tray with washing buffer with antibiotics and transfer the fetal membranes.\n2.\tWith a cell scraper, gently remove the chorion-decidua and collect the amnion (Figures 1D and 1E).\n3.\tWeigh and record the amnion weight.\n4.\tPlace the amnion in a pre-wet sterile Petri dish with washing buffer with antibiotics (Figure 1 F).\n5.\tFinely mince the amnion using opposing scalpels (Figure 1G).\n6.\tProceed with either tissue digestion to obtain amnion cell suspension for flow cytometry analysis or RNA extraction for RNA-seq experiments.\n7.\tAfter amnion collection, follow:\na.\tSteps 8–29 for cell isolation and flow cytometry analysis.\nb.\tSteps 30–71 for RNA extraction and RNA-seq library preparation.\nCritical: placenta must be collected and processed within 30 min after delivery.\nAmnion digestion, cell isolation, and cell staining for flow cytometry\nTiming: 3 h\nIn this section, we describe in detail the steps for optimal amnion tissue digestion and for amnion cell isolation. We recommend beginning with fresh tissues for amnion cell isolation\n8.\tPlace the minced amnion in a sterile Erlenmeyer flask and add the digestion buffer (see “Digestion buffer” table above) consisting of:\na.\t1 mL of stock solution of collagenase A.\nb.\t10 mL of stock solution of dispase II.\nc.\tPre-warmed medium at 37°C (89 mL).\n9.\tSeal the flask with parafilm wrapping film and incubate for 30 min at 37°C with rotation (225 RPM) (Figure 2A).\n10.\tMove the flask to the safety cabinet and add 200 μL of stock solution of DNaseI (final concentration 4 μg/mL).\n11.\tSeal the flask and incubate for 30 min at 37°C with rotation (225 RPM).\n12.\tA successful digestion results in the complete amnion dissociation (Figure 2B).\n13.\tFilter the digested amnion through a sterile 70-μm nylon mesh to remove cell clumps of residuals of undigested amnion (Figure 2C).\n14.\tPellet the cell suspension for 7 min at 600 × g (RT) (Figure 2D).\n15.\tGently discard the supernatant (see the troubleshooting section – problem 2).\n16.\tResuspend the cell pellet in 50 mL of sterile PBS 1× (Figure 2E).\n17.\tPellet the cell solution for 7 min at 600 × g (RT).\n18.\tRepeat steps 16 and 17.\n19.\tProceed with cell count with trypan blue exclusion test and record the cell viability.\n20.\tIn FACS tubes or in wells of rounded 96-well, resuspend 1 × 106 cells in 50 μL of blocking buffer/tube or well and incubate for 10 min at 4°C.\n21.\tAdd antibodies: Live/Dead Fixable Aqua Dead Cell Stain Kit and CD45.\n22.\tProtect the tubes/plates from the light and incubate for 20 min at 4°C.\n23.\tAdd 500 μL/tube or 150 μL/well of cold FACS washing buffer.\n24.\tSpin the tubes or plates for 4 min at 930 × g at 4°C.\n25.\tCarefully aspirate the supernatant without disturbing the cell pellet.\n26.\tRepeat steps 23→25.\n27.\tResuspend the cell pellet in 200 μL of BD stabilizing solution.\n28.\tWhere a plate was used for staining, transfer the cell solution in a FACS tube. If not, proceed directly to step 29.\n29.\tAcquire at least 500,000 event/tube. Representative flow cytometry gating strategy is shown in Figure 3.\nCritical: After each centrifugation, carefully aspirate the supernatant because cell pellet may be loose.\nRNA extraction, library preparation, and RNA-seq\nTiming: varies (>3 days)\n30.\tPre-label 3 sets of sterile and nuclease-free tubes:\na.\t2 mL tube.\nb.\t2 mL Phasemaker tube.\nc.\t1.5 mL tube.\n31.\tPre-cool the minicentrifuge at 4°C.\n32.\tCentrifuge the Phasemaker tubes for 30 s at 14,000 × g prior to use.\n33.\tUsing sterile tweezers, transfer 50–100 mg of minced amnion in a sterile 2 mL tube.\n34.\tAdd 2 sterile metal beads/tube.\n35.\tAdd 1 mL of Trizol reagent/tube (Figure S1A).\n36.\tTransfer the tube/s into the tissue lyser.\n37.\tAfter 3 min at 30/s check if the amnion is completely lysed (Figure S1B). If not, repeat step 37.\n38.\tTransfer each sample in one Phasemaker tube (Figure S1C).\n39.\tIncubate for 5 min at RT to allow complete dissociation of the nucleoproteins complex.\n40.\tAdd 0.2 mL of 80% ethanol and shake the tube/s vigorously by hand for 15 s.\n41.\tIncubate for 15 min.\n42.\tCentrifuge the tube/s for 5 min at 14,000 × g at 4°C.\n43.\tThe solution will be separated into three phases: a colorless upper phase containing RNA, an interphase, and a lower red phenol-chloroform phase (Figure S1D).\n44.\tCarefully transfer the aqueous upper phase to a new 1.5 mL tube. Proceed to RNA precipitation. Total RNA precipitate forms a white gel-like pellet at the bottom of the tube (Figure S1E). Wash the RNA and solubilize the RNA.\n45.\tMeasure the concentration of extracted RNA using the Qubit RNA BR Assay, according to the manufacturer’s protocol (see the troubleshooting section – problem 3).\n46.\tEvaluate the quality (RNA integrity – RINe, and the DV200) of the extracted RNA using the Agilent TapeStation Eukaryotic RNA Assay (Figure 4B). If the concentration measured in the previous step exceeds 500 ng/μL, then dilute the RNA accordingly (between 20 to 500 ng/μL). Alternatively, equivalent methods such as BioAnalyzer, QIAxcel, LabChip GX, etc., can be used (see the troubleshooting section – problem 4).\n47.\tBoth human and non-human primate RNA samples are processed according to NEBNext rRNA Depletion Kit (Human/Mouse/Rat). We suggest starting with at least 200 ng of total RNA (see the troubleshooting section – problem 5).\n48.\tReferring to the Section 2 of the NEB manual E6350, perform the following steps: hybridization of probes to the RNA; RNase H digestion; DNase I digestion; RNA purification using NEBNext RNA Purification beads. Purified RNA has a volume of 5 μL.\n49.\tProceed with the library preparation using the NEBNext Ultra II Directional RNA kit. For partially degraded samples (RINe 2-7) continue with the fragmentation and priming step (steps 21a→d Section 2 of the NEB manual E6350), while for highly degraded RNA samples (RINe <2, usually Rhesus samples in our experience) skip to the priming step (steps 22a→d Section 2 of the NEB manual E6350).\n50.\tPARTIALLY DEGRADED (RIN 2-7) SAMPLES ONLY:\na.\tMix the rRNA-depleted sample (5 μL) with the 1st strand reaction buffer (4 μL) and random primers (1 μL).\nb.\tIncubate the 10 μL reaction for 8 min at 94°C, then immediately transfer the samples on ice.\nc.\tAdd 8 μL of strand specificity reagent and 2 μL of 1st strand synthesis enzyme mix. Incubate the 20 μL reaction for 10 min at 25°C; 30 min at 42°C; 15 min at 70°C; hold at 4°C (heated lid > 85°C).\nd.\tProceed to 2nd strand synthesis (step 23 Section 2 of the NEB manual E6350; downloadable from https://zenodo.org/records/10691497).\n51.\tHIGHLY DEGRADED (RIN <2) SAMPLES ONLY:\na.\tPrime the rRNA-depleted RNA by adding 1 μL of random primers and incubate for 5 min at 65°C (heated lid > 90°C).\nb.\tImmediately transfer on ice and add 8 μL of Strand Specificity Reagent, 4 μL of 1st strand reaction buffer and 2 μL of 1st strand synthesis enzyme mix.\nc.\tMix by pipetting and incubate the 20 μL reaction for 10 min at 25°C; 30 min at 42°C; 15 min at 70°C; hold at 4°C (heated lid > 85°C).\nd.\tProceed to second strand synthesis step 23 (Section 2 of the NEB manual E6350)\n52.\tProceed with the second strand synthesis, the following purification and EndPrep reactions according to the NEB manual (section 2, steps: 2.7, 2.8, 2.9; downloadable from https://zenodo.org/records/10691497).\n53.\tLigate the End-Repaired and dA-tailed cDNA fragments (60 μL) using 2.5 μL of a 10-fold dilution of the NEBNext Adaptor (dilution obtained using the Adaptor Dilution Buffer; kit NEBNext Multiplex Oligos for Illumina - 96 Unique Dual Index Primer Pairs), 1 μL of the ligation enhancer and 30 μL of the Ligation Master Mix.\n54.\tIncubate for 15 min at 20°C in a thermocycler with heated lid off (or with open lid).\n55.\tAdd 3 μL of the USERenzyme and incubate for 15 min at 37°C (heated lid > 50°C).\n56.\tProceed to the purification using 0.9 volumes (87 μL) of the Sample Purification Beads.\n57.\tEnrich purified adapter-ligated DNA fragments (15 μL) via PCR by mixing in the following components: 25 μL of NEBNext Ultra II Q5 Master Mix; 10 μL of dual index primer pair. Although discouraged, it is also possible to use:\na.\tCombinatorial dual indexed primers;\nb.\tSingle indexed i7 primer and universal i5 primer.\n58.\tIncubate the reaction for 30 s at 98°C for the initial denaturation; followed by 12 cycles of: 98°C for 10 s; 65°C for 75 s. The final extension is performed at 65°C for 5 min, then hold at 4°C.\n59.\tPurify the amplified libraries with 0.9 volumes of Sample Purification beads according to manufacturer’s guidelines, resulting in 20 μL of purified final library.\n60.\tQuantify the final libraries using Qubit BR DNA Assay and the fragment distribution checked using the Agilent TapeStation D1000 Assay (see the troubleshooting section – problems 6 and 7).\n61.\tThe final libraries are now ready to be enriched for the coding transcriptome using the Illumina TruSeq RNA Exome kit.\n62.\tMix approximately 200 ng for each of four libraries in one pool (4-plex pool). If the number of samples is lower or if a different plexity is desired, please check the reference guide.\n63.\tPerform two rounds of hybridization/capture according to the TruSeq RNA Exome Reference Guide (1000000039582; downloadable from https://zenodo.org/records/10691497).\n64.\tAfter the second elution from streptavidin beads is complete, purify libraries using 1.8 volumes (45 μL) of SPRIselect beads.\n65.\tMix the eluted enriched library pool (25 μL) with the Illumina PCR Primer cocktail (5 μL) and Enhanced PCR Mix (20 μL).\n66.\tAmplify the 50 μL reaction using the following program: initial denaturation for 30 s at 98°C; 10 cycles of: 98°C for 10 s, 60°C for 30 s, 72°C for 30 s; final elongation at 72°C for 5 min, then hold at 6°C.\n67.\tPurify amplified library pools using 1.8 volumes (90 μL) of SPRIselect beads and elute them in 30 μL.\n68.\tQuantify purified final library pools using Qubit HS DNA Assay and the fragment distribution checked using the Agilent TapeStation D1000 Assay (Figure 4C) (see the troubleshooting section – problem 7).\n69.\tDilute library pools and submit them for Next-Generation Sequencing (Illumina) according to the service provider recommendations. The recommended read length for sequencing is 50 paired-end, but other options are allowed (not shorter than 50 single-end).\n"
+    },
+    "options": [
+      "In step 40, use water instead of ethanol",
+      "In step 42, centrifuge for 15 minutes at 37 °C",
+      "In step 40, use chloroform instead of ethanol",
+      "In step 40, use isopropanol instead of ethanol"
+    ],
+    "question": "After completing the protocol as listed, a positive control sample suggests low RNA yield. Which of the following may address this?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::b3f6c09c-7d37-4a73-8b7c-e609c69a6a48"
+  },
+  {
+    "answer": "The nucleus is more stiff than the cytoplasm.",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "Our results show that distinct nuclear and cytoplasmic viscoelastic behaviors exist in the IHAs but not in the GBM cells. In particular, the average nuclear stiffness of IHAs (1398 ± 428 Pa) is fourfold higher than the stiffness of the cytoplasm (331 ± 74 Pa) (Fig. 4 A). Similarly, the nuclear relaxation time of IHAs (0.35 ± 0.08 min) (Fig. 4 C) is significantly lower than the cytoplasmic relaxation time (0.66 ± 0.12 min). However, there is no statistical difference between the viscosity of the nucleus (2527 ± 871 Pa·min) and cytoplasm (4432 ± 1026 Pa·min) in IHAs (Fig. 4 B). In comparison, none of the viscoelastic properties of GBM cells differ significantly between the nucleus and cytoplasm (Fig. 4, D–F)."
+    },
+    "options": [
+      "The relaxation time of the nucleus is higher than that of the cytoplasm.",
+      "The viscosity of nucleus is approximately the same as the viscosity of the cytoplasm.",
+      "The nucleus is less stiff than the cytoplasm.",
+      "The nucleus is more stiff than the cytoplasm."
+    ],
+    "question": "Which of the following viscoelastic properties is specific to the nuclei and cytoplasm of immortalized human astrocytes (IHAs) and not those of invasive human glioblastoma cells (GBM)?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::2dc20a2f-de54-4bfe-a34f-1ba395f342cf"
+  },
+  {
+    "answer": "CTGCAGATGAGTAACTGGCCTTATCCCCGCATC, AAGCTTTGGTCCGAACTTTACGGCCCAATAG",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "CTGCAGGTGAGCTATTACGCCTTTGAGGGGTTAA, AAGCTTACGGATGTGACGCCTAAACGGTGA",
+      "CTGCAGTGAGTAACTGGCCTTATCCCCGC, AAGCTTGAACTTTACGGCCCAAT",
+      "CTGCAGATGAGTAACTGGCCTTATCCCCGCATC, GAGCTCTGGTCCGAACTTTACGGCCCAATAG",
+      "CTGCAGATGAGTAACTGGCCTTATCCCCGCATC, AAGCTTTGGTCCGAACTTTACGGCCCAATAG"
+    ],
+    "question": "I want to clone the ugpQ gene from E. coli into the plasmid pUC19 using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes PstI and HindIII?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::0bddee9b-ab64-44ee-91ef-d6fb316bbb07"
+  },
+  {
+    "answer": "Increase the incubation time to 30 min at 37°C in step 9.",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Protocol for isolating amnion cells from human and non-human Amnion collection\nTiming: 1 h\n1.\tPlace the placenta on a sterile tray. Find the point of rupture in the membranes and lift the fetal membranes (i.e., amnion-chorion-decidua parietalis).\na.\tWith sterile scissors, cut the membranes and place them on the tray with the decidua parietalis on the top and the amnion on the bottom. For a correct orientation: the amnion is smooth and shiny while the decidua parietalis is rough (Figure 1A).\nb.\tWith sterile tweezers, remove the blood clots (Figure 1B).\nc.\tRinse the fetal membranes with washing buffer with antibiotics (Figure 1C).\nd.\tPre-wet a second sterile tray with washing buffer with antibiotics and transfer the fetal membranes.\n2.\tWith a cell scraper, gently remove the chorion-decidua and collect the amnion (Figures 1D and 1E).\n3.\tWeigh and record the amnion weight.\n4.\tPlace the amnion in a pre-wet sterile Petri dish with washing buffer with antibiotics (Figure 1 F).\n5.\tFinely mince the amnion using opposing scalpels (Figure 1G).\n6.\tProceed with either tissue digestion to obtain amnion cell suspension for flow cytometry analysis or RNA extraction for RNA-seq experiments.\n7.\tAfter amnion collection, follow:\na.\tSteps 8–29 for cell isolation and flow cytometry analysis.\nb.\tSteps 30–71 for RNA extraction and RNA-seq library preparation.\nCritical: placenta must be collected and processed within 30 min after delivery.\nAmnion digestion, cell isolation, and cell staining for flow cytometry\nTiming: 3 h\nIn this section, we describe in detail the steps for optimal amnion tissue digestion and for amnion cell isolation. We recommend beginning with fresh tissues for amnion cell isolation\n8.\tPlace the minced amnion in a sterile Erlenmeyer flask and add the digestion buffer (see “Digestion buffer” table above) consisting of:\na.\t1 mL of stock solution of collagenase A.\nb.\t10 mL of stock solution of dispase II.\nc.\tPre-warmed medium at 37°C (89 mL).\n9.\tSeal the flask with parafilm wrapping film and incubate for 5 min at room temp with rotation (225 RPM) (Figure 2A).\n10.\tMove the flask to the safety cabinet and add 200 μL of stock solution of DNaseI (final concentration 4 μg/mL).\n11.\tSeal the flask and incubate for 30 min at 37°C with rotation (225 RPM).\n12.\tA successful digestion results in the complete amnion dissociation (Figure 2B).\n13.\tFilter the digested amnion through a sterile 70-μm nylon mesh to remove cell clumps of residuals of undigested amnion (Figure 2C).\n14.\tPellet the cell suspension for 7 min at 600 × g (RT) (Figure 2D).\n15.\tGently discard the supernatant (see the troubleshooting section – problem 2).\n16.\tResuspend the cell pellet in 50 mL of sterile PBS 1× (Figure 2E).\n17.\tPellet the cell solution for 7 min at 600 × g (RT).\n18.\tRepeat steps 16 and 17.\n19.\tProceed with cell count with trypan blue exclusion test and record the cell viability.\n20.\tIn FACS tubes or in wells of rounded 96-well, resuspend 1 × 106 cells in 50 μL of blocking buffer/tube or well and incubate for 10 min at 4°C.\n21.\tAdd antibodies: Live/Dead Fixable Aqua Dead Cell Stain Kit and Nestin.\n22.\tProtect the tubes/plates from the light and incubate for 20 min at 4°C.\n23.\tAdd 500 μL/tube or 150 μL/well of cold FACS washing buffer.\n24.\tSpin the tubes or plates for 4 min at 930 × g at 4°C.\n25.\tCarefully aspirate the supernatant without disturbing the cell pellet.\n26.\tRepeat steps 23→25.\n27.\tResuspend the cell pellet in 200 μL of BD stabilizing solution.\n28.\tWhere a plate was used for staining, transfer the cell solution in a FACS tube. If not, proceed directly to step 29.\n29.\tAcquire at least 500,000 event/tube. Representative flow cytometry gating strategy is shown in Figure 3.\nCritical: After each centrifugation, carefully aspirate the supernatant because cell pellet may be loose.\n"
+    },
+    "options": [
+      "Do not remove the chorion-decidua in step 2. ",
+      "Increase the incubation time to 30 min at 37°C in step 9.",
+      "Use a homogenizer 5 in step to more completely process the amnion.",
+      "Do not remove blood clots as suggested in step 1b."
+    ],
+    "question": "You complete the protocol as listed but notice low count numbers during FACS. Which of the following may increase your count numbers?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::553e7a6c-8b20-42cb-a174-39da05d9458a"
+  },
+  {
+    "answer": "4",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "4",
+      "7",
+      "0",
+      "3"
+    ],
+    "question": "How many open reading frames that encode proteins greater than 38 AAs in length are in the DNA sequence CATCGCAGGCAAGCGAATCGTGGGAAATCTGAATCAAATTAAGGCCAACCGACAATAGTAAGCCCGGATCGAAAATAACCTGCGGAACAGTAGGAGGCCCCGTCGCAGGCTCGAACTGGGATTCTTAAACCGCTCTGTTCATCACGAGCCCATGACTTCGGCGAATGGCCGCAGCTTCCGGCATAATGCGGGGCCACACCATGTCGTCGGACCAATGTGGGCGGTAGCTAGGGGAGATGGTACGGCATTCCATGCCTTAACCGGTAAGGCCGCGGAATAAGATGCCATTGCTTAAGATTTCCTGGAAGGTGAAGCTTCATAGAAGGGCACGGTAGGAAGTTACGGGGTAGCGGTTTTTTAACGGGGTACAGGGTTCCAACAGAGAGTGCGCCCACCCCCGCAGACACAGCCCGCTATTCCGGTGTATTGAAACATAAATTAAGAGGACCCACGTTCACTATGTCATTCATATTAGCCCCAGCCTAGATCTGCGAACGTAGCGGCTCGCTGACATAGAGCATACCGACTTCACGGTCAAGAAGTAGGGTAGTACCATGAGAGCAGCAACTGGTTACCTAGGTTGCGAAAGGGCGCGATGTTCTAACGCGGCTTAATCAAAGGGTCTGTCGGCCTCTTGTCGTACCTTAGAATTTACTAACCCGGCGCGAAGATGCGCCAGAATGTCTCCTCCTGGCAGATGTTAACTTCTGAGAAACCGTAGAAATAAAAATCAGGAACGGCAACTTTTCTCCAGGCCCAGGAAAACTAGTGGTATGGTTGCGACGGTACGAGTGTTTACGGCAGAAACGCAGCACGAAGATGGCGTTTAAGTACTAGTTGTTGTGGGGTTTGCAGAGCATAGTGGAGCTACTTTCATGTTCGATATGAAAAGCTGGTATGCCTAACCCAGGCAGGTATATTTGAACGCCTAGTATCGGCTAGAATGACCAAGGGCGTTTGATGGGGTATGTTCGTGCCGCCTGCCAAGCTGTAGACATCAAGTTCATACGATGCGTGGATTCTATCCGCTTGGCCTGCATGTTTTGGTCCACTGAAGGGCCTCTGAGGCACGAGAGACATGTCGCGGAGAAAATCCTTTAGCTGTATGGCGCAGGCGCGGATGAGACACTCTCGAAGGAAAGCGGAATTTGTTTGACCGGATGGGCAAATGCTTGTTTTATGACATCTGCCTGTTTCAATGAATAGGACCTCCGTGGATGGCTCTAGCAACGGTACATAGCGCACCCAAAAACAGTCTGGTCTTTGCCACTCTCCGCGGAGAAAGATACGCACCGCGGTGAGCCGGAAGAGGAGCTGCTAACGTGATTATGGGACCGCGGGCCGTAAAGATCTGGCCTAGGGGCATCATTCAATTCGATGCTTCGATGTTGGGCATCATGATCCGTACACCATAAGGAGCATCGTTGAGGCGTTCGCTACCGCGTCTCGTGAATCCCGAGTATGGACTTCACCGCAAAGCTGGACTGTCTTCATCGTGAAAATGCATAACAGTATTGCGCACTGTGATGTAAACAGCCTACTTAGGCCTCTAGTCACTGACAATGATGGGTAATCCCAGGGAAGAAGCCTGGTGACACTCTCCAAAGCGAAGCAGATTCGGAAGGTAATCACCCTCCATGCGTCCAGGGCATATACGGTCGGTACGGCTGCGCCGCTGGATTTTAGAGCGCTCTTTTTACACGTAGAGCGTACAAGGTGCGATCAGCGGTTTATACTCAGGCGCATGATCGCTGAACGGAGATACTCCTCCATGTTCCCGGCGACTAAACTCCAAAGTTCGACCGCGTATTCCACCCCAAACTTACAATTCTGCGTCGTCGGGGTGCCGACGGTCCCCCTCCCTAAGTCTCTTCGTTACTAGAGGGCTGCAGTATTACGACAGCGGGGTTGAGAAGGAACTGCAATGGTGCACCCTAGGGCGTCCTCAGCCAGTACCACACTTTTTGACCACATACCGTTTGAGTTCGCCATCGTTACAGTCAGGAAAACACTGTGGGCCCACCCCGGCCAAGAATCGAAGACGCCGGTTAGGGGCACCTAATACCATCCCCGCTCGACCGGCAGTGTGGCCTTATCAAGAGGTGTGCCTATTTGCGCCTACTATAAATTGGTCGTCGGAAACTAGGTATGATGCTCTTTCCCGCAAGATCCCCAACACACGGGGAACGTATGCTATGCAATCCCCAAACGGGTACTTGGCGTCTGCGTGCTTGCGACCTATACCTTGCTTGC?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::c0477a43-f8a3-4eb7-831b-142f2821f702"
+  },
+  {
+    "answer": "PBE1",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "The effect of CWC15 on SE degradation promoted us to test if CWC15 is associated with the 20 S proteasome using the BiFC assay. Among four selected 20 S proteasome subunits known to interact with SE43, CWC15 interacted with PAB1, PAG1 and PBA1, but not PBE1, in the nucleus (Fig. 6a)."
+    },
+    "options": [
+      "PBA1",
+      "PAB1",
+      "PAG1",
+      "PBE1"
+    ],
+    "question": "In Arabidopsis, which of the following 20 S proteasome subunits has CWC15 not been shown to interact with in its role promoting degradation of the protein Serrate?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::28ebecdf-949e-4d20-aca9-5989b7a9d6e9"
+  },
+  {
+    "answer": "Lzts1",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Lzts1",
+      "Tank",
+      "Eef1e1",
+      "Arhgef4"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_MAMMARY_GLAND_TUMOR_INCIDENCE, which contains mouse genes annotated to increased mammary gland tumor incidence (MP:0010299) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::912f138d-ca63-441f-9330-9eb02aabc7b6"
+  },
+  {
+    "answer": "51",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "51",
+      "26",
+      "50",
+      "52"
+    ],
+    "question": "What is the percent GC of the DNA sequence TGTTCCACGCGATCGGCTGCTGTGAACTCCAAAAACTAAGTATTCTCCGGGCTCAACTACGTCCAGTGT? Round to the nearest integer.",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::3bff0c74-55c6-4192-b823-eddb04ced769"
+  },
+  {
+    "answer": "Smo",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Brd2",
+      "Smo",
+      "Zfand2b",
+      "Cdx2"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_RHABDOMYOSARCOMA_INCIDENCE, which contains mouse genes annotated to increased rhabdomyosarcoma incidence (MP:0002036) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::dc144aa6-f1ae-4f5c-b04a-3ba999d05a60"
+  },
+  {
+    "answer": "C1orf21",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "ZDHHC23",
+      "ACTR1B",
+      "FBLN7",
+      "C1orf21"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set RELA_DN.V1_DN, which contains genes down-regulated in HEK293 cells (kidney fibroblasts) upon knockdown of RELA [GeneID=5970] gene by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::c7c4edfa-b883-4cac-82af-bc9cf1877cbe"
+  },
+  {
+    "answer": "Plk1",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Dmtf1",
+      "Plk3",
+      "Plk1",
+      "Pcyt1b"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_LUNG_CARCINOMA_INCIDENCE, which contains mouse genes annotated to increased lung carcinoma incidence (MP:0008714) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::dff20c26-8c56-40c7-88a5-45baaae1f272"
+  },
+  {
+    "answer": "MMP2",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "COL11A1",
+      "THBS2",
+      "MMP2",
+      "ASPN"
+    ],
+    "question": "Which of the following genes is associated with intervertebral disc disease according to DisGeNet but not according to OMIM?",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::7787efef-b6fe-478c-b9df-2119f92249da"
+  },
+  {
+    "answer": "48",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "47",
+      "48",
+      "24",
+      "49"
+    ],
+    "question": "What is the percent GC of the DNA sequence TACACTGCTACAGATGAAAGATGTTCTCGGATGGGTCTATTCGAATACACGTTCAGCCCTGCGGCACCTAGTCTACAGATTCATCGGATGAAGCCCCGGAACAACCTTAGACCAACCGCGAAACAAAGCAAGCCCGATCATAGTCGATGCAGTAGGTTGCTTCTTCGATAGTCCGTGACAACTCCAATGGCATGACTCCTCCCACCACAGTTCCCCAACGAAGGGTCCAACCCGACTTCATGAAGCGCTTTAATAGTTTTAGCGGAGCGTAACGTGAGCGCCCCAATGTATTGGAATGTTATCCATCGCTTAGATGGAACGAACGTTGACTTCTTAGGAGTGAGATCCAGATATAATGCCCGATGATTGGCCTTCAGACGAGCCGATCCAAAAACCATGAAAAGCTGGAGTTCCTCCTCATCCCTAGTTCATTAATATGCCCCGGACTCCGGTGCCACACGTTAAAAATTTTAAGCTCTGTGCAGGAACCGTATCTAGGTGCATAACTGAGGGGCCACAAAGCTGTGAGACACTCAGTGCTCTATCTTACCCTTTAACCTTGGGGAAGTACCTTGCCCGGATCATAGCGGCATGTAGTTATGGAAGTTTTAAAGAAGCTGCAGCAACAGTTAATTAGCGGGACTCCCTCTCGTTTTCCAAACTAAGCGTCCGAAAAATCATCACTACTGGATCGTTATTTCTTACATAACGGATCTCCTGTCGGTTTTTTGCACCATAAAAATCGTATACGGGCGCTTCATACGGTTCACCACGCTTCTAACGAAAAGCTCCATGGAGCCCGCTCGGGCGTAACTAGTGGTCTATCGAATCGCATTTATAAATCTTAACCTCGTCCAGCTATACGGGCGCGACGCTTTTCAAAGGCCACTCGGAAATGCTTTCATTGGGAATTTAGAATCCCTGGTTGGTACAGACCAATGGGGGTCGAGTAGTACCCGTCCTGACACAGATAGTCAATGACTCGGTAATATACCACAAATTGAGGAACAGATGAATTATCGTGCTTAATATTTAGCGCCATGAGTGCGCCATGTTTGCAGACTTGCGCTATCGGTAGTACGATTCAGAGCCCCATCAACGACTTTTTGGTCAGGCCACTACCACCAATCTTGCGAACCGGTTGTACGTTGGGATGACGCCGGAACTGCGCACAACTTAGGAGCCGACTATGCATAGAAATTATTTCATAGAACGCGTGACCTAGCGAGCTGGGTAGAAGGTACGACGCGCGCCTCTACTGTCGCTTGCTCCCTAATCGACATATTCTCTTCGCTCCGCGCTACCGTTCTCTCAGACTTTTCAGCCCCTATCTGGCTACCACCCCATTCGGCCCAGTCTGCCTTCACAGTGTGTGACCAAAGCTTTATATGTGATGACGACGTCCAAGGACACCGGCACCACATCATAGTGTCGCGGACGATTTCGTATAGTAACCGCAAAGAGCGAAGCTTAGCGTTGGGCTTTCTGAATCTGTGACAGCTAGAGCATTCCACGAGTAAATAAGATACGGAGCCCAGCTCAACCAAAACGACCTTTACGGGGGAAGGCAACGCTCCATCCTTGCTATACTGGACCATTACGTATACGCCTAGCACGGTAACGAAGTCACCTGTTTTACACCTAGCTCAGATTGGTAAACAACCGATTAGCACTCAGTAATTATAGAATGTTAGAAGCTCAGCGTTACTCAGTGAACGCACGATG? Round to the nearest integer.",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::78b23d13-8f64-427a-8a7a-0ed8459a8c15"
+  },
+  {
+    "answer": "Prkar1a",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Adamts3",
+      "Per2",
+      "Prkar1a",
+      "Sav1"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_FIBROSARCOMA_INCIDENCE, which contains mouse genes annotated to increased fibrosarcoma incidence (MP:0010363) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::cc29f1a1-f61c-47c5-8b6d-58d5f72829ca"
+  },
+  {
+    "answer": "Yes",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "Having demonstrated robust tagmentation over large ranges of cDNA, Tn5 and reaction volumes, we realized an opportunity to exclude several time-consuming and expensive experimental steps, including excessive cDNA preamplification, concentration measurements, bioanalyzer QC traces and cDNA amount normalization (Figure 2a). Instead, cDNA products after preamplification at fewer cycles could directly be tagmented without the abovementioned steps – this strategy we termed Smart-seq3xpress."
+    },
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "question": "Has anyone assessed doing tagmentation of cDNA directly in the PCR mix without cleaning and quantifying the cDNA first?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::7cf0fcde-fea8-420c-8531-2f2fe9e38980"
+  },
+  {
+    "answer": "771",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "603",
+      "606",
+      "771",
+      "361"
+    ],
+    "question": "What is the expected amplicon length if I used the primer pair GTACTCGGCGAATTTCGCGGTAAGT,TGGGCGTTAACGCCGCCGATTCG in a PCR from the following template: AAACGTCGCGCCAAAACACGGTCTCCCCCGAGTCTCCGGCTGACCTCTCGTTGGACCCATCAGATTTGCCCTCCGTGAGGAACCGCTAATACCTCTCTCGTGCAGTCCAGAAAATCGTGAGCTGGTTAGCGCCGGGTAGATATCATGTCCTAAGTGTACTCGGCGAATTTCGCGGTAAGTAGTCCTGCGTTGTAACTGTGCCACAGGTTACGCGATAGCGGTATGCGGAATTTTGACCCTTCAAGTGTTCCTTATCCACCTCAAGAGTGACCACTAGGACGGCGCTACCGCGAAACCTCGATCGGAATAGTATGAACTAAGAGTGAACAAGCGGCGAAACTGAATCTAACTATGTAGAATGTCAACAATGAAGCTTGGCTCTATTGCCTATCATTCCCGACCCGCCTAAAAAAACGTCTCCGAACGGTTGCAGATAGTTTCAGACCCGGCCTAGGAAGAATTGACTAAGACGAACAGCTGCCTGGAATTATAGTTTCTATTAAAAATACTGAGCCACTGTCATGCACGTACTCGTAGGTACCGGACCGATCGCTAGCGCGGATCGCATGACCAGATCCTTGTTTAATTGCTAACGATTTATTTGCCAGAAATTAGTTTCCTGGCGGCCATTATCGATACTGCTCGTATGGTCGAACGCCCTGTGCTGAGGGCCGTTGGATGTCGTCATTCTGGCGCTGGCGTATTGTCGGGGGGGCCATAAGGGACGAACCCTAATGGAAAAACAAACCCCTCCCTTCCGGTGCCAATATGCATATTTTTCCCAAAAATAAATGAAACTTGATACGGAAAACTGGGGCTGGCTAATTCCAGTCTAAAACAATGCCGGCTCCGCCCTGTGGGGCAACATGTAATGACCCACTGAGTCCATAAAGCGCCACATGACGAATCGGCGGCGTTAACGCCCATTGGGGCGGTAAGGACTCGTGAAGCTTTAGCACCTTCACGTTATGCTATGCACATCTTCACCCCGCTAAGCTCA?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::76f7011c-13a9-45df-b22f-d4942ea08237"
+  },
+  {
+    "answer": "ACGTAGGTAGTCCGAGAACT, GTCATACATCGTACGGAGGGTAGACAG",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "CCACCCGTCAGCGGACACCTGC, TTCAGCTTATTTACACGCGAGTTCCCTA",
+      "CCTACCGTAAAAACAGATATCCAG, AACACTGCAGTAGCCAATCAGAG",
+      "ATTAAACGCTTCTGCGACGGA, AGTATATTGCATAGCGGGGTAC",
+      "ACGTAGGTAGTCCGAGAACT, GTCATACATCGTACGGAGGGTAGACAG"
+    ],
+    "question": "Which primer pair could I use to generate a 391 bp amplicon from the following template: CGCGTCTTCATTATTAAACGCTTCTGCGACGGAATAACCTGCTTACCCGCGGACTCCGCTGATATGATGCCTGTTGTAAGCAATCTCAAGACAAAAGGCGTACGGGCGTAGCGTGCGAGTACATTGGGTACGACTTTAAGGCAGTGGCTAAGCTACCCTTTCAATACGATCCGGCGTTTAGATTGCGTAAAGGCTAGTGGATTGCCCTACCGTAAAAACAGATATCCAGTTCCGATTAGAAGTTCACTTGTTTGGACGTAGGTAGTCCGAGAACTGTGATCGCGCAGATATACGAGTTACTGTTCATACCGCCTGACTAGCGGACTATCTGAGCCTAAGAGCCGTTCAAGACCGTAGTAGCCACCCGTCAGCGGACACCTGCCCCTTTGAGTTGGAGACGGAAGGCAGAAAGAATAATAGTCGCAGGAAATCCGAGAACATGGTTGCTTGGATCTCGTAAGGGCGACGGCCCCAGAGAACGCTAAAGGGTGTACACAGCTGTGATGATTAAGCCCGCAGAGCCGTACCCGTTTGTCATTCTATCCTGGTGCGTTTCTAGCTTGGGTTGACAACTCTGAGGGCAGCCACCGCTGTTGCATGGCAGCGCCTATCCACTCCACTGTCTACCCTCCGTACGATGTATGACTTTCTTCAGCTTATTTACACGCGAGTTCCCTACCTAAATAACACTGCAGTAGCCAATCAGAGGATCTCGCATACTCACCAATAATCTCTCAGCCCCTTAAGTTAGGAAGGTGGGGATAGCATTTGAGCTAACCATGTAAAAATGGCTCCCGTCTATGTGAGAACATCCTTGTCGGGGCAAGCTATACACAAAGGGAGGATCTCTGCAACAATGCGTGTATCACTGATTCCAAGCCACAATATAGCCTACCTCTTGGCGTTCCTGGCTGGAACTAAGTATATTGCATAGCGGGGTACGTTCGAGAGAACGCTCTTAAAGAAAGTGTGAACGAGCCTTGGAGTACTTACGGGGTGA?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::5c03a7c3-04e2-40e4-804c-38d3d755dbcc"
+  },
+  {
+    "answer": "16",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "15",
+      "12",
+      "16",
+      "14"
+    ],
+    "question": "How many open reading frames that encode proteins greater than 35 AAs in length are in the DNA sequence TATTCGGAGTTATTCGCTATGCATGGGGGTCTACTGGCTCGAATCTTCAACACGTCAACACCGCTCTCGGGATTAAATGAGTCGATACATTTACTTGCCAATGACTCAACGTAAAGATCTTACACAGCACATTGGGATGATCGTAACAACTAATTTGCTGAGAATCACAGGCGACGATCATGCAGTTCTCCTGACTCTGGCCTGTAGATAACGCCCTCATGTTCAGCTCGCATCACGTTCGCACGACCGTTTGTTCTGTTATAGGAAGGCGCTGGATCAACCATGTAATAGACAGCCCAGTTGAAGCGGCTGATTCGGAATACCACGACGTTCTTTCCCCCCTGCTCTCTCTACTCATTTGACGGTGAAACACCACTGACTCTCCGTACGCGCCTTCGTGGTTCCAGACGCAGCATGTTTCTAGCCGAATGTACTCACGGGATACAGATTGTGCTTGCGAAACACACTCAAGCAGTTGGCAACGGAATTGGTCCAATTTGCAGGGCCAGCTCCTCTCCGCAAAACCAGTCACCATCTAATGCAACCGAGCCCAATAGTGCAGGAGCGACTACGCGGGAAGTCTTGGGTCGAGACGGACAACAACGAAGTGTTGACAGAGAGCCGTGCCGAGTGCAGACTCGAGCTTCAGGCAGCTTTTGAAAGACGCCACTGAATCAGCTCGTTATTCGAGTTGTGGGCGTACCGGGTCACGCCTCGTAGGCAATGCTACCGAATAGTCCCTTTAAAAGTCATGTGGGAAAAGTGGGAGATTTTGCCCGTTCTGCCGGTGCGACTGCCGACACTACTAAGCCTGAACTGGATCACGTTCCGCTTCCACTGGTCAGCATGCACAAGCTTCGGGAAAAATCGGTGCCTTCCGACTGGAACCCTAACACGCAGGCGTAGCACCGCTCGTTGCTCATGTACCACTATGGCCCTAGTTCCTAATCGCGCGGACAATCACGAAATCATTAAGTTTTGCACAGACTCTAATCAAGACAGAGTTCCGCCATCCATACCGAGCACCTGCTGCCTTATTTCTCCTGTGTCTTGGAGGTTCGCCACTTCGGATGGTCCGAGGGCTGGTGCCAAAGGGTCGGGCCAAATTATGCACGCGAGCGGTATCAAAGGTTCCTATCCCTTAGGTATAGCGGTCCCCCCTCCCCGAAACGCTTCGAACTCGCTGAGATTTAGGTCGCGCAGGAATGCGAATGTGGATAGCACCCAGTCCGATTTGGGCCTGGGTCTCTCTCCACTCGTTTCTCTACAATCGAGTATGGACATGCGTCAGATGATGGGGTCGCGTGCAGCCACCAAGCTAGCCGAGATAATACTGGGGGAAAGTGCCCTGGGTATGTGCCACCGATCCGTTCTCTCCGGGCTTGCGGCACCGGCTCGCGCGTACGTCGCTGGACTCGGACTTTGTTGCGACCTAGAGACTCGAGACGAAGCTATCTTGCGGACACCCTCGTGCCAAACGAATACAATACGTCGAGACTTTGAGATTACTTACCTTTGGCAGTTATCTTCCTAACCGGAGGTTTCAAACGTCGATAATTGCCAAGCCATCTGGACTATCGGTGTGCAGCTATTAACTGCCCTCACATACGATCCCTGTGCCGCAGCCCTTGACCGTAGCTGTGTGTAACTGCAATAGCGGTACGTCGGCGGGCGCCAGCTACGAGGCATCAGCGCAACTTCGATTCTAGGGATACTCGCAAAACTCCGACAGTAGACATTCACTCCTGGGAACATCCATTCCGCCACTTTATCATCACCCCGTTCCTGAGGTAACATACCCGGTTGCACCACACCCCTGACGCAAGACGCCACGTACGCTTCTCCATGTTACACTATGAACTCACCACGAAGACCTCATTACAGTGTCCGCGATACGGTTGGACTTTGTTACATTCAAAAGGAGGCAATTAAAATACGCACCTAAAAAGACCGGATTGTGCGATTTGTAGTTTGGCGGGCTGGGTTTTTCGTTTCGTGTGCCACAGTCTCGTCGACCCGCTCAATCGGGGCCGTAGACTAGCTCCGGCTATCGGACAGGAGGAACAGCGTAACTTCCATTACTGACTGTAGGACGCACTAAAACGTACCGAAAGACCACGGACCGAGGTAAGCTGCTGTTGGCCACAGCTTCAACTCCTTTGGAGCACCACACAGCGAGCAGATTCCTCTTAGTTTGCCGTCTTCTAGACGGTTAACATCTGTCGATCCTCGGGGTTGTCGGTTCTGAGACAGGACGCTGCCGACTTATATAGTTGAGTGGGTGTACCTGTGCCTATGCAGTGGCAGTTGCTTGCGTGGCTTAGGAGTTCGTATTGCGTAATCGTGGTACGCCATTTAGCGATATATCTAACCCACGATAAAGACAGCAGCGACTCTCTCAACGCGCCGTATTCGCCCAGCACGACTCGCGTAGATTTCTTGGGATGCCCGTGCTTGTGGCAACTTGGACGCTTGACGCCTGTTCAGCGCGCCTGTGACCCACCGTTTGAGTGCTGGCCCGGCGCGGACCTGTAAGCATAAACTTTCCCACCCCCAGAAAGGCCGACGACCGTGTACAGCCCAGCTATGAGCGAGTATCCAGTCCTTCAAGCTTTAAGTGACACGCTGTAGTCAACGAAGCCAAAGTTTGGTAGTAGAAGT?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::3e28ee9e-97eb-4bd5-96cf-f3238bc27e64"
+  },
+  {
+    "answer": "Serine",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "V",
+      "Serine",
+      "Asp",
+      "E"
+    ],
+    "question": "What is the AA encoded at position 29 in the longest ORF contained within the sequence GTGAACATCACGACCTCCGTTGCGCTTTAAGCCAAGCAGCCCAGGGAGCAGAAAGTAAGTAAAAGCGAAATTACTCTCAGTGACGACCAGCTCGCAAACGGTTGCGCCGAAAACGCATCATCGTGGGCACAGCACAGCTACGTCCGTATGTCGCGTAACAGTGAGACCTCGGACCGACAGCCCGAAGTACAACCCTACATTGTTTGATGCTGCATCAGAAATTCACTAACATCCATACAGCAGCGTGGGGTTAGCTCATTTTGCGCTATTCTGTCCGGTGCCGTCGCTACTATTGCCTGTAGGGCTTAGTGCGAAGATCATGCAGTTAACGGACCCCATTGCAGAAAAAAAGGAGATATAGACGTCAAAGTGTATACATACCCTAAGTTGCTAATGTTTGTAACCTCATTTATTAGTGAGGCCCGACCGCGTTCGTGGGGACTGTCAGCCAGATACTAACGCCCAAACCATACCGAGTTGATACCCCCCGGACTAAATTATTTATTAAGTCCTAGGACAACTGTAGGGGCGTACTAATTAAATGAGCCTCGAGCCATAAATGTGCCGGCTCGCATAGGAAGTGCACGGCACTAGAGCCGCAGCTGGCTGCAATAGTAGAGCCACATCCCTAGTACCTATCCCGAGTGTCGGCTATCAGAACTTCACCCGTACCGCTCCGGGACATATCTCTTGACATGGTTTCGAATTGTCAACATGAGCAAGTCATCCGACCACTCGTGCTACAAAACTTCAAACCAATGAAACTCCAAAGTGACGAATCCTAGAGTGCGTATGGGATACCCGGCTACACAGAAACCTCTTGTCTCGCCAGGACGACGCGGTTCCAGAATGCGCTCATTGGTGGGGGTGGCCTGAACGTAACAGAGAATCCATTGCCTCCGCGACGTGGAAGGGGGCGCTTCATACACGCATAAGCCCCTATAATCCTACTCCGAAGACCGAGTAGCGCAGACTTATGCTCATACATCGTCTCCTTCTAAGGTTCCCACTCCATATAATAAAGTGACGGGGTGAGCGCGTGGTTTAATCTTAGAAACGGCAGGTATGTCGCTGTGGAAGAGGTTGACTCTGAACTTCCGAGACTCTCGTCGTATGTCT?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::45006824-15bb-4928-95ea-a4c19b6408b0"
+  },
+  {
+    "answer": "IGKV1-6",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "IGKV1-6",
+      "FYTTD1",
+      "ABCC3",
+      "TRIM24"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set HOEK_B_CELL_2011_2012_TIV_ADULT_7DY_DN, which contains genes down-regulated in B cell 7d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 7D. Comment: Down-regulated DE RNA transcripts (down >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::8f89afaa-9fbb-4a67-8dbc-f74d00c90510"
+  },
+  {
+    "answer": "CD8- / IGNF+",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "Notably, STK11 mutation was positively associated with CD8-/IFNG+ and downregulated its RNA and protein expression in LUAD (p < 0.05, Figures 3A-3C, S3A, and S3B)."
+    },
+    "options": [
+      "CD8-/IGNF -",
+      "CD8- / IGNF+",
+      "CD8+/IGNF -",
+      "CD8+/IGNF +",
+      "Eosinophils/endothelial",
+      "Fibroblast/TGFβ"
+    ],
+    "question": "In lung adenocarcinoma, which of the following cancer immune phenotypes is positively associated with STK11 mutation?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::653635b7-3bc6-4a7b-98c7-c02038c0e928"
+  },
+  {
+    "answer": "XbaI, SmaI",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "XbaI, SmaI",
+      "HindIII, BamHI",
+      "HindIII, SmaI",
+      "XbaI, BamHI"
+    ],
+    "question": "I want to clone the pgpB gene from E. coli into the plasmid pUC19. I have the following primers: TCTAGAATGCGTTCGATTGCCAGACGTAC, CCCGGGGCGCAACGAGAACAAGAAAGTTAA. Which enzymes should I use to digest the PCR product and plasmid for this cloning?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::6eee2461-17ad-4342-8e01-1540ee33b10b"
+  },
+  {
+    "answer": "4",
+    "benchmark": "lab_bench",
+    "context": {
+      "paper_title": "Video rate volumetric Ca2+ imaging across cortex using seeded iterative demixing (SID) microscopy",
+      "source": "https://doi.org/10.1038/nmeth.4341"
+    },
+    "options": [
+      "4",
+      "18",
+      "2",
+      "8",
+      "6"
+    ],
+    "question": "How many animals were involved in the recordings for the extraction quality characterizations?",
+    "subtask": "SuppQA",
+    "task_id": "labbench::SuppQA::2a34cefb-d28e-426e-a925-829bda3435d8"
+  },
+  {
+    "answer": "cell–matrix interactions",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "Further snRNA-seq subclustering identified the presence of myonuclei specialized at the myotendinous junction and the NMJ in both main myofibre types (Fig. 2c and Extended Data Fig. 5a,b). Myotendinous junction myonuclei exhibited enrichment in genes associated with cell–matrix interactions (COL22A1, ADGBR4), whereas NMJ myonuclei showed enrichment in genes linked to synaptic transmission responses (PHLDB2, CHRNE). Importantly, subclustering identified other populations enriched in either adult or older adult muscle. For example, ENOX1+ myonuclei specific for type II myofibres were enriched in the adult group (median: adult, 9.13%; older adult, 4.21%). By contrast, TNNT2+, ID1+, DCLK1+ and SAA2+ myonuclei were enriched in the older group: (1) TNNT2+ and DCLK1+ myonuclei were primarily present in type I myofibres (TNNT2+: adult, 0.08%; older adult, 2.45%; DCLK1+: adult, 0.27%; older adult, 2.27%); (2) ID1+, in both types of myofibre (type I: adult, 0.17%; older adult, 1.47%; type II: adult, 0.47%; older adult, 0.76%); and (3) SAA2+ populations, mainly in type II (adult, 0.10%; older adult, 0.98%) (Fig. 2c,d). Most of these myonuclear subpopulations were also detected by snATAC-seq subclustering and showed the same trend after ageing (Extended Data Fig. 5c). All subpopulations were confirmed by Hotspot analysis16, which clusters gene expression profiles into modules (Fig. 2e–g, Extended Data Fig. 5d–f and Supplementary Table 4)."
+    },
+    "options": [
+      "cell–matrix interactions",
+      "synaptic transmission",
+      "signal transduction",
+      "protein synthesis"
+    ],
+    "question": "Based on single-nuclei RNA sequencing data, myotendinous junction myonuclei are enriched for genes involved in which of the following functions?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::e6b0f9e5-e976-47dc-b839-0b2fca967e9e"
+  },
+  {
+    "answer": "V56E",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "A46T",
+      "V56E",
+      "Q34R",
+      "V380L"
+    ],
+    "question": "According to ClinVar, which of the following variants to the following sequence (bracketed by xml tags) is most likely to be pathogenic? <sequence>MIVFVRFNSSHGFPVEVDSDTSIFQLKEVVAKRQGVPADQLRVIFAGKELRNDWTVQNCDLDQQSIVHIVQRPWRKGQEMNATGGDDPRNAAGGCEREPQSLTRVDLSSSVLPGDSVGLAVILHTDSRKDSPPAGSPAGRSIYNSFYVYCKGPCQRVQPGKLRVQCSTCRQATLTLTQGPSCWDDVLIPNRMSGECQSPHCPGTSAEFFFKCGAHPTSDKETSVALHLIATNSRNITCITCTDVRSPVLVFQCNSRHVICLDCFHLYCVTRLNDRQFVHDPQLGYSLPCVAGCPNSLIKELHHFRILGEEQYNRYQQYGAEECVLQMGGVLCPRPGCGAGLLPEPDQRKVTCEGGNGLGCGFAFCRECKEAYHEGECSAVFEASGTTTQAYRVDERAAEQARWEAASKETIKKTTKPCPRCHVPVEKNGGCMHMKCPQPQCRLEWCWNCGCEWNRVCMGDHWFDV</sequence> ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::4f2bda61-b275-409b-8213-6c4c494f3630"
+  },
+  {
+    "answer": "Inhibition",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "Immunoblotting with a pS129 antibody revealed that the fraction of phosphorylated α-syn protein did not change in Tet-RPT2 deltarpn14 (Figure 4h), in contrast to a Tet-RPT2 strain with intact RPT14. These results reveal that elevated levels of Rpn14 inhibit the turnover of phosphorylated α-syn."
+    },
+    "options": [
+      "Promotion",
+      "Inhibition",
+      "No effect"
+    ],
+    "question": "What is the effect of elevated Rpn14 levels on turnover of phophorylated αsyn in yeast?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::400786c1-e6c6-4f46-a501-86fdd048ed88"
+  },
+  {
+    "answer": "32",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "34",
+      "33",
+      "32",
+      "30"
+    ],
+    "question": "How many open reading frames that encode proteins greater than 10 AAs in length are in the DNA sequence GGAATCACGACAATAAGAGGGAGAGGGTGGGACTGAAAGAGAGTAACTACTCCACCTAAGAATCAGGAACGTGTGCACCCTCGACGCCATATGGCGAACAACAGGTTATATCTACCTTTGATCAGGGGAAATGGCCGCTGGTTCATTGCATCCGATCTTCGTCCTGACCCGGGTAGAATGGTCAGGGTAGGGGGGCTCCGGACACGCAGCTATCCGTAGTCCGTTTTTGTCATGGGAAAGGTGGCACCCGGGAGAATTGAGGCCCGACAGCGCGTTTCGAGGCCAGGATGCACTACCGCCGTCGGCCCCAGGTATCCAAACTCAGCAGACTGTCGTATATACAGGAAAGCGACCAATTATTGTGGCCTTATGTCTACTTTTAATGAGTTGCTTACCCTCACTAGACGTGCTGAGAGCATGCCCACTCGAACAGGTCATGCCAATTATTTCCGAATTATAGCGCCATAGGTCCGCCCAACGAGTATCATCGAAGTAGCCGAATAGGTGGGCATAATGCGGTAGACACCGGGCCCCCGGGAAACTAGCAGGTGTTGACACCAGCCCAGGATAATGACCCCGCATCCTATAGCGTCTGAAGCATATCCTCGGAGAGCAACCCTGACGTAGTAACTGCGCGCGAGAGCATTGAGGTGAGTGCGTGGGTCTCATCGGTTCGCTTAAGGCTTGAAGTTCGCCATACTAGTCCAGGTACGCTGGGTTGAAATGACGTTCGGACGAGAGTCCCATAGGGAACGAAAAGCTTATTCGACATCGAACCACTGGGCTTTCGTTTACTCGCCACGCCTCTCCCGCTGTCATGACCCTCGGAGAAATGAGCATACATAGTAGTCGGGACGGTCTTCCATCCCATATTTAAAGGTCGTCATGGAAATAGTACGTTTCATAAGTTCTGTATCAGTTTTATTCAACAGTTCGTGCTAGGTGACCACAGGACGGAGTCGTCAGCTCTAGCGCAGCTATCCCTAAGCATATTCAACCGGAAGAATACCGTTTTCGTTCAATCGCAATGAAACTTTACAACGCACGAATCAGACTGTGCGCCTCCGCTGTGGAAAGTCGTGCAGCAGCAATCGCTGCTGTAACGATACGCATGTATGATCATTATTAGAGCGGCCTCATAGTCATGGTGCGACGTAGGGTGTCTATGTCGGAGCAGAGGGACGTTGGAAGCCAAGATCACCCTCGCCCACTCAAGGAATGGTCAACATGCAAGTTCTAAGGGGGGCGAGCGCGGTCATGCGTATGCGAGTCTGTTTGATTTTACCCCTCCCGTCTCCTCGGCACTCCCCGTACTGAGTTCCACCTCTGCCGGATCCCAATCTCCTATGTTCCCTAAGGACCTAACCGGGAGCGTGGGAAATCTTTAATCCCAAGAAGGGAGCAAGCGATACCTTGAGGCCGGTAAATGATCCTTCGCTAACCATGTGGAGGTCGGGCATGCTTGTAAGGTGACTGGCGTGTCTCGTGAGACCTCACGGATCTAGGACACTCGGGAAGACTCGCATTGTCTAACTAAGCGTAGTCGTCTGGACACATACGGTACTCGTCAAAACGGAGCCGGCACATGCAGGGGCAAGAGTGAACACCCCTTGTAGAAAACAGGGATGCTAAAGCCACCGCTCCGATGTTCCACCACGTTTGCATGTAGCCAGAGAGCGGGCATCGAAAGGTTCGGGTGTGAAGTGATTTCCGACTGATAGGCTCTCCTCTATCCCCACTGCTCTCACTCCAACCAACTAGTCGAGGTGCATAGTTCAAATCCGCGCTCTGCGTCTTCGGGCCAGGTTCTCTCCGAGGAGGTAAGTGCTCCCGGTGCACATTTCTTTGGGATGGTGCGTTACTAACCTCTAACCATGTTACGGCTACTACAACATCAGTGTGAAGGTAAGGGGCGCTTCCGTTGGCTAGCGGACCAAAACTGCTTTAAATCCTTTTGGACCCATCTGCAGATATGAAGTAACCTAAGTCTACCTAGTGAGCTGGCCTGCGCTAGTTTATACTAAGCGAATCCCCTGGGGTTCGCGCCTGTTACCCTATTTGAACCATCAACAAGAGCTAGGGCGAGAACACACTGGTCAAGTAGCATATGTTGTGCCTCCGTCTGAGACTCTGACTCCCGTTTGTTTAGCATATCTTTTACGGTGCCTCGAGAGCTTATTCTATCCAGGGGGCTGGACGACCCGTCCAGTATGAAAGTATATAGGCTACGCACATAGGCGTTCGCACGTCTAACCTGTCGAGTGAAACCATAAAATCCGGCGATACCGTGACCGGAGATTAATGGCTAAAAAAATGCATGTGCCGAAATTGCACGGCTGCGCTGAGCGGTCCTCTGATCAAAGTCGGAACCGAGTAATTGATACTAATAAGATTGATTATCACGCTCTATAGAATAACTCGAGCCTAGCGGTGGAACAATTGCCCCGGCGGCCTTATTATCTGTCGCTCTGGACAGGCTGTTGCACGATAGTTCTACTCCGCGTGTGTTTCGATTTGACCGTACTCTGGACCGGTGGCTAGAGCATGGAAAAATGGTTGCCTTACAGTGGACGGTGTGGGGGCACTAAAGCTTGCCGCAGAGCTCGTTACTACATCACCAAGCTGCACCTTTATCTTTCCGTTCGCTGTTTAATCCGACCCGGTTTATCTTGTGAGGCAAGTCTCGGCTGCTCCCTATTTGGAGTCGTCTCTTCTAGCACTGTCCCCGGGGGGACCGTCTATCACTAGGTCGACTATACTTCGAAGTGAAGAACCATTTTTATGCCCGGAGTCTCCCATGCAGCTCGACAGCCACAGAACCTGTTTTAACTCTAGTGTGAGTATGTTGGAGATTAACCGGCTGACGATTATTGTCTTTAGATGACCAGGAAGGAGTCCATCCTTTACCCTTCTATAGGAAGCAAAACCTAAAGTGTAAGTTAGCCATATGCCACCGCGTTACGTTGCGCCATGTATATTCTTCGGGAATGACCAACG?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::7b7620b7-bf69-4ab3-940b-7f4afc02954b"
+  },
+  {
+    "answer": "G131R",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "T133M",
+      "I10F",
+      "G131R",
+      "P209L"
+    ],
+    "question": "According to ClinVar, which of the following variants to the following sequence (bracketed by xml tags) is most likely to be pathogenic? <sequence>MGKEKTHINIVVIGHVDSGKSTTTGHLIYKCGGIDKRTIEKFEKEAAEMGKGSFKYAWVLDKLKAERERGITIDISLWKFETTKYYITIIDAPGHRDFIKNMITGTSQADCAVLIVAAGVGEFEAGISKNGQTREHALLAYTLGVKQLIVGVNKMDSTEPAYSEKRYDEIVKEVSAYIKKIGYNPATVPFVPISGWHGDNMLEPSPNMPWFKGWKVERKEGNASGVSLLEALDTILPPTRPTDKPLRLPLQDVYKIGGIGTVPVGRVETGILRPGMVVTFAPVNITTEVKSVEMHHEALSEALPGDNVGFNVKNVSVKDIRRGNVCGDSKSDPPQEAAQFTSQVIILNHPGQISAGYSPVIDCHTAHIACKFAELKEKIDRRSGKKLEDNPKSLKSGDAAIVEMVPGKPMCVESFSQYPPLGRFAVRDMRQTVAVGVIKNVEKKSGGAGKVTKSAQKAQKAGK</sequence> ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::1af3a7be-a3e1-46ef-a619-3f605a285f54"
+  },
+  {
+    "answer": "GATTACGCCAAGCTTGCATGCCTGCAGGTCATGACCCAACCCGTTCTGGACA, GAGCTCGGTACCCGGGGATCCTCTAGAGTCTCAGACACTTATAACCTCCTGCTGCGGA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "ATGCCTGCAGGTCGACTCTAGAGGATCCCCATGACCCAACCCGTTCTGGACA, CGACGGCCAGTGAATTCGAGCTCGGTACCCTCAGACACTTATAACCTCCTGCTGCGGA",
+      "GATTACGCCAAGCTTGCATGCCTGCAGGTCATGTGACCCAACCCGTTCTGGAC, GAGCTCGGTACCCGGGGATCCTCTAGAGTCCAGACACTTATAACCTCC",
+      "GATTACGCCAAGCTTGCATGCCTGCAGGTCATGAGTGAACCCCTGTTAAT, GAGCTCGGTACCCGGGGATCCTCTAGAGTCTTACCTTCTTCTCCCCCCCAGCA",
+      "GATTACGCCAAGCTTGCATGCCTGCAGGTCATGACCCAACCCGTTCTGGACA, GAGCTCGGTACCCGGGGATCCTCTAGAGTCTCAGACACTTATAACCTCCTGCTGCGGA"
+    ],
+    "question": "I want to clone the ddpD gene from E. coli into the plasmid pUC19. I'm going to linearize the plasmid with HindII. Which primer pair can I use to amplify the gene for Gibson assembly into the linearized vector?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::799f3052-f6e5-4e2f-84b3-c43ce418d740"
+  },
+  {
+    "answer": "eIF4E-eIF4G",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "4EGI-1 significantly decreased the translation of all constructs, indicating that multitail mRNA still undergoes translation initiation through the canonical eIF4E-eIF4G pathway"
+    },
+    "options": [
+      "eIF4E-eIF4G and 4EGI-1",
+      "Cap-Independent Translational Enhancers",
+      "eIF4E-eIF4G",
+      "4EGI-1",
+      "IRES-Dependent"
+    ],
+    "question": "Which pathway(s) is primarily responsible for translation initiation of multitail mRNAs?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::4949fc05-5f78-4dd0-8d9c-3dbb6004740a"
+  },
+  {
+    "answer": "His",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "T",
+      "His",
+      "Ala",
+      "P"
+    ],
+    "question": "What is the AA encoded at position 10 in the longest ORF contained within the sequence CGCAAGTCTTCCTCTAGTATTCGGATCAAGATGGTGAGTTGAAGGGAGTAGGCTCATGCGGTCTGGTACCGCCCAGGCGAAAGATATACCTACAATGGCCGACTTTCTCGGAAGGATGTCCCAATTAATTCAAATGAGCGATAAGTGAACGCAATCCCGATCTGCAGGCCCACGGTGGGTGCCGATGACTAGCTTAGCGCGTTCAACGCCTCATCAGACGCCCGGCCGTCGGGGGGAGAGGCTTAGTGGGGTGTATGTCCCTGAGAAGAGGGCAATTTCAGAATTTATCATTGCCAATCGAGTATCAGTGTCACGATATCGAGCTTTCAGAGAGAACAGTAGGTTCATTTACAGCTCGCTATTCGCCTTCTCCAAGATAGAAAAAGCAGCAGGCGTACAACGACTCTGCAAACGACGCATGACGTTTGGAGGAAACAGCTCATCCTAAGGCAGCTATCCGGAGATAACCGTCGTTAGGTAACTCACTAACAAATAAGCCTAGGGCTCATACCTTTCAGAGCACGGTTAAGCTACGCCTTTTAGTTGTGGTCCTCGACCTCTTTACACCGTGCAGAGAGCCCACAATCCGAAATTATATATTACTGTCAGCGCCGTGTCCTACGCCCTAGGCAGTAACCGCGATCCCTCATGTTATCTGTGTATTTCTAGCTAGGCAGAAGTGCATCGAAGATGTAGGACAGCATTTCCCCTAGATGCGGAGTCGAAACCCCATCTGCGCGATTTGGGCCTCTTTTAGTTTAGACGAGTTCTATATTTCATTGCTGCGGAAATGGAGGTTTTAATTTCGATGAGACGGCCACTCACGCACTC?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::d3568ca3-1417-484d-8e48-0c3c3dcadf10"
+  },
+  {
+    "answer": "40, 44, 276, 215, 68, 144, 213",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "40, 44, 276, 215, 68, 144, 213",
+      "128, 25, 118, 11, 334, 383, 1",
+      "189, 1, 22, 53, 205, 241, 289",
+      "248, 144, 7, 334, 94, 172, 1"
+    ],
+    "question": "What fragment lengths should I expect to see after digesting the sequence TACGCTCGTCGAACTGAATCACAGGAAGCTTACCATGGGGAATTGGCGCCCGTCAGACCTTATGGTACTAGAGTTCTTCGGGGCTGCTGGGCCTCAAACAAAAATGAGAATACACCACTTGGGTCGTGACAATCATCAAATACGCCCGTCTACGGCGAAGTGGCAAGCCTGAGAGTGCAACGTTGCATTGCCCTCGGACTTTACTGATCGGTCCGTGATATTTCGTCTCCCCTTGCGGATAATCACAGCACCGACAACTCAACTTTGTGTGTTACACCGCAGTAAAAAGAGAGTCTCCCCATTTCGGCTTACGGGGATCCTCCACACATAAGGTTTCATTTCCAAACAGGTCGACACTACAATTTCCTGTGTCTGTCTACTTGTCAGAAGGTTTTTTAACTACCATTATGGATCCGCCCAAGATCAGTGGACTGGTTGTTATCGACGCCAGCCACTGTGACACCTGCATGTACTTTACAATGAGGATCCTATCGTGTTTCGCCGTGGAACTGGTGGCAAGTAAGTTTGAGCTCGCTTGCGCAAAGTACTTGAAAGATGTCGAAGGATTGTGACGCCGCACTTCCCTAGAACCCTTAGGCGCGGTTAAAAGGTATACAAGCTACCCACTCACTCCGTGACTGGGAATTCCTGTTCGTAGGACTTGCGACCTTATCTCCCCGTAATAGCACGCTTACACCGCATCTGTGACGTAAAGCTTGCTTGGCAACCCTGTCAAAGTCTATTCGAACGGCTACGCTTCGTCGCCCGATCAAACTAGGCGAGTAATAATTCGGCCTCCTGAATCCACTAAGCTACTATCGGTTATACTCCTAGTACCATTTTTCCGACGATCCCATCGCAGTTGGTAAGCAGGACACATTTGCAATGGTGAGGTCACAGACCTCGTGCGGTGGTCTAAAGTCTAGTCGTACTTATCCTCAGATAGTAGCTAACATGCAGGTACCGTACAAGTCGCATCGCCGGGTTACTGCCTTTTTCA with the following enzymes: Sse9I, Fnu4HI?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::04ea4c0b-4c10-4b13-813b-b4078e73a709"
+  },
+  {
+    "answer": "P68T",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "V210E",
+      "P68T",
+      "H169Q",
+      "A277T"
+    ],
+    "question": "According to ClinVar, which of the following variants to the following sequence (bracketed by xml tags) is most likely to be pathogenic? <sequence>MCGIWALFGSDDCLSVQCLSAMKIAHRGPDAFRFENVNGYTNCCFGFHRLAVVDPLFGMQPIRVKKYPYLWLCYNGEIYNHKKMQQHFEFEYQTKVDGEIILHLYDKGGIEQTICMLDGVFAFVLLDTANKKVFLGRDTYGVRPLFKAMTEDGFLAVCSEAKGLVTLKHSATPFLKVEPFLPGHYEVLDLKPNGKVASVEMVKYHHCRDVPLHALYDNVEKLFPGFEIETVKNNLRILFNNAVKKRLMTDRRIGCLLSGGLDSSLVAATLLKQLKEAQVQYPLQTFAIGMEDSPDLLAARKVADHIGSEHYEVLFNSEEGIQALDEVIFSLETYDITTVRASVGMYLISKYIRKNTDSVVIFSGEGSDELTQGYIYFHKAPSPEKAEEESERLLRELYLFDVLRADRTTAAHGLELRVPFLDHRFSSYYLSLPPEMRIPKNGIEKHLLRETFEDSNLIPKEILWRPKEAFSDGITSVKNSWFKILQEYVEHQVDDAMMANAAQKFPFNTPKTKEGYYYRQVFERHYPGRADWLSHYWMPKWINATDPSARTLTHYKSAVKA</sequence> ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::784d6fb9-ae2a-4e29-8a6d-90f4ce784e65"
+  },
+  {
+    "answer": "GCATGCATGAAAAATCCCTATTTCCCTACCGC, CCCGGGGAAAATGTCGCTCCGGGTGGGTAA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "CTGCAGATGAAAAATCCCTATTTCCCTACCGC, GAGCTCGAAAATGTCGCTCCGGGTGGGTAA",
+      "GCATGCATGATAACCAATACAAAGCTT, CCCGGGCTGCGCAATATTGTTGGTGCCTGA",
+      "GCATGCGAAAAATCCCTATTTCCCTAC, CCCGGGAAAATGTCGCTCCGGGTGGGTA",
+      "GCATGCATGAAAAATCCCTATTTCCCTACCGC, CCCGGGGAAAATGTCGCTCCGGGTGGGTAA"
+    ],
+    "question": "I want to clone a gene with the sequence ATGAAAAATCCCTATTTCCCTACCGCACTTGGGTTGTATTTTAATTACCTGGTGCATGGTATGGGCGTCCTTTTGATGAGCCTGAATATGGCCTCGCTGGAGACACTTTGGCAGACTAATGCCGCGGGTGTCTCGATAGTTATCTCATCGCTGGGCATTGGTCGATTAAGTGTCTTGCTTTTTGCAGGATTATTATCCGATCGCTTTGGTCGCCGCCCTTTTATCATGCTCGGGATGTGCTGCTATATGGCCTTCTTTTTTGGCATCCTGCAGACCAATAACATCATTATCGCTTATGTTTTTGGCTTTCTGGCGGGAATGGCAAACAGTTTTCTCGATGCAGGCACTTATCCCAGTTTGATGGAAGCTTTTCCACGCTCACCTGGGACAGCCAATATTTTAATTAAAGCATTTGTTTCCAGCGGACAATTTTTATTACCGCTAATCATTAGCCTGTTAGTGTGGGCTGAACTGTGGTTCGGTTGGTCCTTTATGATTGCTGCAGGCATTATGTTTATTAACGCTCTGTTTTTATACCGTTGTACGTTCCCACCCCATCCGGGTCGTCGCTTACCTGTCATAAAGAAAACCACCAGCTCTACGGAACATCGCTGTTCAATTATCGATTTAGCCAGTTATACCTTATATGGCTATATCTCAATGGCAACGTTTTATCTGGTTAGCCAGTGGCTGGCACAGTACGGACAATTTGTTGCAGGCATGTCATACACTATGTCGATCAAACTACTCAGTATCTACACCGTGGGTTCGCTGCTTTGTGTATTTATTACCGCTCCACTCATTCGTAATACCGTTCGCCCAACAACATTACTGATGCTGTACACCTTTATCTCATTTATTGCTCTGTTTACCGTCTGCCTGCATCCCACATTTTATGTGGTGATAATATTTGCTTTTGTCATTGGTTTTACCTCTGCTGGAGGTGTTGTGCAAATTGGCCTGACGTTAATGGCTGAACGTTTCCCTTACGCTAAAGGTAAAGCTACAGGGATCTATTACAGTGCGGGCAGTATTGCGACCTTTACTATTCCGTTGATTACGGCTCATCTGTCCCAAAGAAGTATTGCCGATATTATGTGGTTCGATACCGCCATCGCTGCCATCGGTTTTTTACTGGCACTGTTTATCGGCTTACGCAGCCGCAAAAAAACGCGGCATCACTCGCTAAAGGAAAATGTCGCTCCGGGTGGGTAA into the pUC19 plasmid using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes SphI and SmaI?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::77101ce9-8e55-4f7c-a5e6-d0583d79a3ef"
+  },
+  {
+    "answer": "MAVAYTKGSLAAATTSHRRAATEFPIIDTSWLFYSTTVSTQQGELERSVIRMAPSVVLTRMSLRFC*",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "MAEAYTKGSLAAATTSHRRAATEFPIIDTSWLFYSTTVSTQQGELERSVIRMAPSVVLTRMSLRFC*",
+      "MAVAYTKGSLAAATTSHRRAATEFPIIDTSWLFYSTTVSTQQGELERSVIRMAPSVVLTRMSLRFC*",
+      "ATGGCTGTAGCTTATACAAAAGGGTCGCTAGCTGCCGCAACAACTAGCCATCGAAGAGCCGCGACTGAGTTCCCCATCATCGATACCTCTTGGCTGTTCTATAGCACTACGGTGTCTACGCAACAGGGGGAACTAGAAAGATCTGTGATACGTATGGCCCCCAGCGTGGTACTGACGCGGATGTCCCTTCGATTTTGTTGA",
+      "MAVAYTKGSLAAATTSHRRAATEFPIIDTSWLFYSTTVSTQQGELERSVIRMAPSVVLTRMSLHFC*",
+      "MAVAYTKGSLAAATTSHRRAATEFPIIDTNWLFYSTTVSTQQGELERSVIRMAPSVVLTRMSLRFC*"
+    ],
+    "question": "What is the AA sequence of the longest ORF in the DNA sequence 'GAGGGAGAACTGCTATTGTGAAGATACTCGAAGGAATTATACATGTGCGCAATGAGATTCGATTTTCCGGCTGGCTACGGAGAGGATGGTTTAGGCGGCCCAGAATCGACCATGTAAGGCGCTTCAATGTATGAGAACCGGTAAACGGCTTACGAGTTCGAAACTAATAGAAGCAGCCATGACGGCTATGAATCCTCAAGAAGCGGTATGGTTGGGGCGGCCCTTGACTGATCGGAACGGCAGGAAGAGTCCTTAAAGTCGCGAATCTGGTCCCTTTCCGTCAGTCATGTGCTTAGTCGTTACTAGCCACGTTTATTCTGAATAGTGAAGGGCTAGCGGCAATGTAACCAATTAGACAACCCCTACATTCGACAGTTAATATCCGCAGTTAGGGCCCGAGAACCTCCTCTACCGACGTTATACAAGAGTCCTATACAATTGAATCGGATTAAATGACCTGGCGGGTAAAGCCAAGGTGATAGGTGTTGATTTTCGGCGCCACTGAAAGATGCCCCTGCGAGCCAGTCGAGTACCTGGGCAACCTTGGCTTAGTATGACAGTACCTATATGGGGTAGCACAGGACGAGGGGGCCAGTCGATTGCGGTCCTCTCACCTCCCCTTTCTACCGTTTGCTTCGATATTTTACACCGACTTGCTCCTCCCCTAGGTTGGAGATGCGGGGACGTATCATAGACCGCCGGCCGGTTTCTGTTCCTGATATATGTCTACCCCAAACGGGTCTATAGTGGAACGCAAACCCGAGCGCGTCGTGGTCTACGCCACCCACATCGGCCACGCCTTAAATATACTCCAGAAATTCTAGGTCGGGTGCCTCATTTGGGCAAGTGGACGCTGTCTTGGAGCCGTCAGCCCCTTACAGTTCGTCTCGGTTCTTTGGATTCTCGCTGTTACCTGGGTGGCAGATGGCTGTAGCTTATACAAAAGGGTCGCTAGCTGCCGCAACAACTAGCCATCGAAGAGCCGCGACTGAGTTCCCCATCATCGATACCTCTTGGCTGTTCTATAGCACTACGGTGTCTACGCAACAGGGGGAACTAGAAAGATCTGTGATACGTATGGCCCCCAGCGTGGTACTGACGCGGATGTCCCTTCGATTTTGTTGATAGGATCCGCACAAGATCAGCTTTCTGTACATAAACCCAATCCCAAGACAGTGACTGGGGCCGCATGGACATACTGCCCACCATACACACTATTGCTCAAGCAACTAACAGTTGCGAATGAAACCGAGGTGAAATGTCCCATGGATAGTCATGCCGCGCAACTAGATAACGTCTCCAGGTGCTGTCCTAGCTGAACCTGCAGGAGGACCGTTTCTAGTCGGTCGTCGTGTACTTGAGTCGGACCCTTCGCGACGAATGCCACCAATTACGCGGACATCGCTCCGTGTAGACAATGTCCAGCTACCCCTCCGCGGGTTTGATCCGAACTCTGTGGAACGGCATCATCGATAAATAGGAGGTCTAAAAGCCCATATTGCCACCATCGCATCGGCTGGTCGACACCTTGGCTAAACGGCCGAGAGAGATACCGAATGTTCGAGCGGGTGAAAAGGTTCGAACCTTCTCTTGCAACAATCTTAAACTTACCATCACGGGCGCGGCGGGAACGGTGGACCCCTTATGCAGGTTGGCTTTGGCTGACGTTCGGCGGGTAACGTTATGGCGAATGTTGCACCTTTCCACAGAGCCGTCATACTAGAAAGGCCCATGGTACCTAAACTCCAACCAGCGGAGGGTCGACGTTAATAGAGCCTTCACCCTGGATGATCGAAAGACGCACGAGAATCCGTCTAGGATCCGCCTGATACGAATGAGAGACGCCAGTATAGGTCCATCCGCATATGGGGCACTAATCATGCCGGTCACAGAGAGTTGCACTAGTTACCGATTTTCCGAGAAGGTACGCAAGTGCGGACATCTCTGCCATGCTGGGTATGCGGAAACTGTTGTATCAATGTGCGGTGTCACAATGTTTTAGTCTTCAGATCAGTTACGAAGTGCCTTCTCTAGTTTGGGAATAGGAGAACACTCACGCTACTCACGCAACGAGCCGGTTAGGGTGTCATAATCCCTGGCGTTGTATTTTCTCCAAACCGATAGGTCCCACTGATCACGGGCGAACAAGGATATTGGGCCATCCCTCCCGGTGTCCATCAGTATGGGTATTTGGCGGATCTTGGATCGGAGGTCATCGGGAGGCGATCTAATTGGTACAAGCTCCAATCCTAAGTGATCCTACCTCAGACCCAGGGGAGGATAACTGATGCGCAAGAGGCGAACTTAGAGGGCACCCTAAACAACCTCTATGACAATGCTACGAACCAAGTTCAGATTTAACGCTTCGGCGGGTTGGGAGGGGGCTGATTGTCGATGTCGGCGCAATCGAAGACCGGTTCCGTCTAACAGCGCTGTAATCTAGCAAACATAGAATGGGATGAGTTATGCTAACGCTCCGTAGTTACGGTCAGTCTTCCGGGCAGTGCCCTCCCCCAACTCAATTGCCTACAACATTACTGCTAGGCGCTATCCAGTCGCTTAAACAGCAGAACCAGTCGTGTTCGGGTTTCAAGAATCATGCACCCATCTGTCGATGCGATCCCGCGTAGGACTTCTTAATGGTTTGGTACGCTCTGGACCCCAGGACGGACCCCCATCCAGTCCGTGACCAAAGAATACATAGAAGTAACTACCACCAGCGATTCAGTTGCTCGCTCACTGGAACACTTTAACTTCTAGAGTGAGTTTAGTACCGCCATACCCCCCCGACTGCATAAAAGCAAGGAAGGTTTAGATCTTCATAGTATAAACGAACAGCATTCCAGCGGTCAGCCGTCA'?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::b0f80f7b-fb37-4d03-b8a0-34c1e6c1db96"
+  },
+  {
+    "answer": "Amy1",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "Dicer1",
+      "Amy1",
+      "Acadvl",
+      "Ccr2"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set MP_INCREASED_HEPATOMA_INCIDENCE, which contains mouse genes annotated to increased hepatoma incidence (MP:0010264) retrieved from the Mouse Genome Informatics database via MouseMine ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::de35f777-fd4b-4c69-9bd0-d0501ead23e3"
+  },
+  {
+    "answer": "MLLT3",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "H1-2",
+      "SYNGR2",
+      "MLLT3",
+      "MINDY1"
+    ],
+    "question": "Which of the following genes has a LMX1B binding site located within its promoter region (-1000,+100 bp around its TSS) according to the Gene Transcription Regulation Database? ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::52faaa3b-41e8-45ae-8ac5-f6aac47d7c44"
+  },
+  {
+    "answer": "YWHAG",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "KRTAP23-1",
+      "YWHAG",
+      "SCAND3",
+      "FAM234B"
+    ],
+    "question": "Which of the following human genes encodes a protein that is predicted to interact with the viral protein Dengue virus 2 membrane glycoprotein precursor M (gene: flavivirus polyprotein) according to the P-HIPSter database? ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::a4b43b64-ed28-4220-b5af-8f65f6bb9f40"
+  },
+  {
+    "answer": "GNB5",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GNB5",
+      "SUSD4",
+      "KLRK1",
+      "WNT6"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set RPS14_DN.V1_UP, which contains genes up-regulated in CD34+ hematopoietic progenitor cells after knockdown of RPS14 [GeneID=6208] by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::f9d5a71d-cb11-4dd0-bc35-1f5d74a09f21"
+  },
+  {
+    "answer": "In step 20, incubate sample in the blocking buffer for 10 min at 4°C",
+    "benchmark": "lab_bench",
+    "context": {
+      "protocol": "Protocol for isolating amnion cells from human and non-human Amnion collection\nTiming: 1 h\n1.\tPlace the placenta on a sterile tray. Find the point of rupture in the membranes and lift the fetal membranes (i.e., amnion-chorion-decidua parietalis).\na.\tWith sterile scissors, cut the membranes and place them on the tray with the decidua parietalis on the top and the amnion on the bottom. For a correct orientation: the amnion is smooth and shiny while the decidua parietalis is rough (Figure 1A).\nb.\tWith sterile tweezers, remove the blood clots (Figure 1B).\nc.\tRinse the fetal membranes with washing buffer with antibiotics (Figure 1C).\nd.\tPre-wet a second sterile tray with washing buffer with antibiotics and transfer the fetal membranes.\n2.\tWith a cell scraper, gently remove the chorion-decidua and collect the amnion (Figures 1D and 1E).\n3.\tWeigh and record the amnion weight.\n4.\tPlace the amnion in a pre-wet sterile Petri dish with washing buffer with antibiotics (Figure 1 F).\n5.\tFinely mince the amnion using opposing scalpels (Figure 1G).\n6.\tProceed with either tissue digestion to obtain amnion cell suspension for flow cytometry analysis or RNA extraction for RNA-seq experiments.\n7.\tAfter amnion collection, follow:\na.\tSteps 8–29 for cell isolation and flow cytometry analysis.\nb.\tSteps 30–71 for RNA extraction and RNA-seq library preparation.\nCritical: placenta must be collected and processed within 30 min after delivery.\nAmnion digestion, cell isolation, and cell staining for flow cytometry\nTiming: 3 h\nIn this section, we describe in detail the steps for optimal amnion tissue digestion and for amnion cell isolation. We recommend beginning with fresh tissues for amnion cell isolation\n8.\tPlace the minced amnion in a sterile Erlenmeyer flask and add the digestion buffer (see “Digestion buffer” table above) consisting of:\na.\t1 mL of stock solution of collagenase A.\nb.\t10 mL of stock solution of dispase II.\nc.\tPre-warmed medium at 37°C (89 mL).\n9.\tSeal the flask with parafilm wrapping film and incubate for 30 min at 37°C with rotation (225 RPM) (Figure 2A).\n10.\tMove the flask to the safety cabinet and add 200 μL of stock solution of DNaseI (final concentration 4 μg/mL).\n11.\tSeal the flask and incubate for 30 min at 37°C with rotation (225 RPM).\n12.\tA successful digestion results in the complete amnion dissociation (Figure 2B).\n13.\tFilter the digested amnion through a sterile 70-μm nylon mesh to remove cell clumps of residuals of undigested amnion (Figure 2C).\n14.\tPellet the cell suspension for 7 min at 600 × g (RT) (Figure 2D).\n15.\tGently discard the supernatant (see the troubleshooting section – problem 2).\n16.\tResuspend the cell pellet in 50 mL of sterile PBS 1× (Figure 2E).\n17.\tPellet the cell solution for 7 min at 600 × g (RT).\n18.\tRepeat steps 16 and 17.\n19.\tProceed with cell count with trypan blue exclusion test and record the cell viability.\n20.\tIn FACS tubes or in wells of rounded 96-well, resuspend 1 × 10^6 cells in 50 μL of blocking buffer/tube or well.\n21.\tAdd antibodies: Live/Dead Fixable Aqua Dead Cell Stain Kit and CD45.\n22.\tProtect the tubes/plates from the light and incubate for 20 min at 4°C.\n23.\tAdd 500 μL/tube or 150 μL/well of cold FACS washing buffer.\n24.\tSpin the tubes or plates for 4 min at 930 × g at 4°C.\n25.\tCarefully aspirate the supernatant without disturbing the cell pellet.\n26.\tRepeat steps 23→25.\n27.\tResuspend the cell pellet in 200 μL of BD stabilizing solution.\n28.\tWhere a plate was used for staining, transfer the cell solution in a FACS tube. If not, proceed directly to step 29.\n29.\tAcquire at least 500,000 event/tube. Representative flow cytometry gating strategy is shown in Figure 3.\n"
+    },
+    "options": [
+      "In step 25, centrifuge at 6,000 x g",
+      "In step 20, incubate sample in the blocking buffer for 10 min at 4°C",
+      "In step 16, resuspend cells in 25 mL of sterile PBS",
+      "Repeat step 26 three additional times"
+    ],
+    "question": "While performing the listed protocol, a negative control is observed to have significant signal. Which of the following may address this?",
+    "subtask": "ProtocolQA",
+    "task_id": "labbench::ProtocolQA::efbaa096-4b77-4de2-87ad-d308ff63ede1"
+  },
+  {
+    "answer": "E2",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "ChIP-qPCR experiments using H3K27ac (Histone 3 Lysine 27 Acetylation, super-enhancer marker), H3K4me1 (Histone 3 Lysine 4 Monomethylation, enhancer marker), and FOXP3 antibodies revealed that FOXP3 had a strong binding affinity to segment E2 of the UNC5B-AS1 upstream super enhancer region"
+    },
+    "options": [
+      "E1",
+      "Domain between E1 and E2",
+      "E3",
+      "E2"
+    ],
+    "question": "To which segment of the UNC5B-AS1 upstream super enhancer region does FOXP3 bind?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::224efcd7-3652-47f8-84dd-15b4c6fafae2"
+  },
+  {
+    "answer": "GAGCTCATGCGCGTATTGATCAAAAACGGCA, CCCGGGTTTGTCCCTCCCGTGCTCTAA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GAGCTCATGCGCGTATTGATCAAAAACGGCA, CCCGGGTTTGTCCCTCCCGTGCTCTAA",
+      "GAGCTCATGAAGCGACTTAAAAATGAACTCA, CCCGGGATAGGAGATAAATTGCGATGA",
+      "GAGCTCATGCGCGTATTGATCAAAAACGGCA, GAGCTCTTTGTCCCTCCCGTGCTCTAA",
+      "GAGCTCTGCGCGTATTGATCAAAAACGGC, CCCGGGGTCCCTCCCGTGCTCT"
+    ],
+    "question": "I want to clone the hyuA gene from E. coli into the plasmid pUC19 using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes SacI and XmaI?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::eeb633e2-2b14-49fd-9a49-3f582c4c2b70"
+  },
+  {
+    "answer": "coding strand",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "In all 17 CRISPRi screens, the average effect sizes of sgRNAs targeting coding strands within gene bodies were more than twofold higher than those targeting the template strands (Fig. 6d)."
+    },
+    "options": [
+      "template strand",
+      "coding strand"
+    ],
+    "question": "Does targeting sgRNAs to coding strands or template strands in gene bodies lead to higher effect size on average across multiple CRISPRi screens?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::1ccdc348-50e1-4941-9151-5e50411a2b41"
+  },
+  {
+    "answer": "Gene expression decreases as P. falciparum ages for both males and females with aging.",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "Although using single-cell approaches to study parasites derived from natural infections is in its infancy (11, 68), unexpected observations underscore the importance of exploring natural infections at single cell resolution. We found signatures indicating that males and females may display substantially reduced gene expression as they age."
+    },
+    "options": [
+      "Gene expression increases as P. falciparum ages for both males and females with aging.",
+      "Gene expression increases for P. falciparum males and decreases for females with aging.",
+      "Gene expression decreases for P. falciparum males and increases for females with aging.",
+      "Gene expression decreases as P. falciparum ages for both males and females with aging."
+    ],
+    "question": "How does P. falciparum gene expression change with aging for male and female organisms?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::d1307e50-3c03-4c76-81ee-2decb5de5f14"
+  },
+  {
+    "answer": "CD9",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "STEEP1",
+      "CD9",
+      "RPH3AL",
+      "RNF114"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set GARCIA_PINERES_PBMC_HPV_16_L1_VLP_AGE_18_25YO_STIMULATED_VS_UNSTIMULATED_0DY_VACCINATION_INDEPENDENT_DN, which contains genes down-regulated in peripheral blood mononuclear cell stimulated vs unstimulated in young adults (18-25) after exposure to HPV-16 L1 VLP , time point 0D. Comment: List of Genes induced by VLP directly, independently of vaccination (p<0.05 and FC>1.30). This gene set is a part of the C7 subcollection VAX: vaccine response gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::749fa02f-d3e4-4c65-b25d-adee88dae0a1"
+  },
+  {
+    "answer": "GGTACCATGAACGATATTGCGCATAACCTGGCA, AAGCTTGGTGCGCGTGATTACTCTAAAAAATAA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GGTACCATGAAAGCATGCTTGTTACTA, AAGCTTGAAGAATAAGGAGAATCCGTAA",
+      "GAGCTCATGAACGATATTGCGCATAACCTGGCA, TCTAGAGGTGCGCGTGATTACTCTAAAAAATAA",
+      "GGTACCGAACGATATTGCGCATAAC, AAGCTTTGATTACTCTAAAAAAT",
+      "GGTACCATGAACGATATTGCGCATAACCTGGCA, AAGCTTGGTGCGCGTGATTACTCTAAAAAATAA"
+    ],
+    "question": "I want to clone the yggS gene from E. coli into the plasmid pUC19 using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes KpnI and HindIII?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::da61a94f-1122-4bf0-8671-6888766d5427"
+  },
+  {
+    "answer": "circular dichroism",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "WT PafA is highly stable and remains folded, as inferred from circular dichroism (CD) spectra, even after exposure to 4 M urea for 14 days (fig. S25)."
+    },
+    "options": [
+      "NMR",
+      "x-ray crystallography",
+      "circular dichroism",
+      "cryo EM"
+    ],
+    "question": "What method was used to demonstrate that the enzyme PafA is stable after incubation with 4M urea for 14 days?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::154e7b14-4ed5-4cf3-9149-0c4843fc62cc"
+  },
+  {
+    "answer": "GCATGCATGCGTAACTTCGATTTATCCCCA, GAGCTCGCGAACGTCCCGCGTTAAATAGCTAA",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "GCATGCATGCGTAACTTCGATTTATCCCCA, GAATTCGCGAACGTCCCGCGTTAAATAGCTAA",
+      "GCATGCATGGAACCCCTTCGTGAAAT, GAGCTCAAGAGAACAGGTAAAAACCACTTCATAA",
+      "GCATGCATGCGTAACTTCGATTTATCCCCA, GAGCTCGCGAACGTCCCGCGTTAAATAGCTAA",
+      "GCATGCTGCGTAACTTCGATTTATCCC, GAGCTCGTCCCGCGTTAAATAGCT"
+    ],
+    "question": "I want to clone the ibpB gene from E. coli into the plasmid pUC19 using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes SphI and SstI?",
+    "subtask": "SeqQA",
+    "task_id": "labbench::SeqQA::b0fe709d-7b80-46b1-affd-08763b6f590d"
+  },
+  {
+    "answer": "Lagrange multiplier constraints",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "However,qi0(t) must stay in a Wyckoff position at all times to satisfy eq 1. This can be accomplished via traditional constrained molecular dynamics of Lagrange multipliers."
+    },
+    "options": [
+      "Integrating the generalized coordinates",
+      "Wycoff sites can be constrained via the perturbation-variational expansion theorem",
+      "Bravais Lattice projection tensors",
+      "Symmetry restraints",
+      "Lagrange multiplier constraints"
+    ],
+    "question": "If implementing symmetric molecular dynamics as a holonomic constraint, how can Wyckoff sites be constrained?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::c33446f6-fbff-4186-8a51-28a17f68bd40"
+  },
+  {
+    "answer": "CREBBP",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "APH1A",
+      "FSD1L",
+      "CD19",
+      "CREBBP"
+    ],
+    "question": "Which of the following human genes encodes a protein that is predicted to interact with the viral protein Yaba-like disease virus 72L protein (gene: 72L) according to the P-HIPSter database? ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::d49178fa-5eb0-4dc3-b459-6905bc730970"
+  },
+  {
+    "answer": "CGGTTCT",
+    "benchmark": "lab_bench",
+    "context": {
+      "paper_title": "Immobilized enzyme cascade for targeted glycosylation",
+      "source": "https://doi.org/10.1038/s41589-023-01539-4"
+    },
+    "options": [
+      "CCGTTCT",
+      "GCCAAGA",
+      "AGAACCG",
+      "CGGTTGT",
+      "GGCAAGA",
+      "TCTTGGC",
+      "GCCAACA",
+      "CGGTTCT"
+    ],
+    "question": "What is the purple DNA sequence in Supplementary Note 3?",
+    "subtask": "SuppQA",
+    "task_id": "labbench::SuppQA::d57031ac-e7d7-4274-876b-36449ecdd640"
+  },
+  {
+    "answer": "CCND2",
+    "benchmark": "lab_bench",
+    "context": {},
+    "options": [
+      "CCND2",
+      "TDRKH",
+      "MTNR1A",
+      "MS4A2"
+    ],
+    "question": "Which of the following genes is most likely contained in the gene set GLI1_UP.V1_UP, which contains genes up-regulated in RK3E cells (kidney epithelium) over-expressing GLI1 [GeneID=2735]. This gene set is a part of the C6 collection: oncogenic signature gene sets. ",
+    "subtask": "DbQA",
+    "task_id": "labbench::DbQA::04fe6f2b-73ec-4d63-8bde-9a20d6b1715f"
+  },
+  {
+    "answer": "lipopolysaccharide",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "We showed that administration of exogenous LPS decreased the Dox response and increased lung metastasis formation, similar to HFD-FMT administration."
+    },
+    "options": [
+      "lipoprotein",
+      "peptidoglycan",
+      "teichoic acid",
+      "lipopolysaccharide"
+    ],
+    "question": "Which bacterial cell wall component has been shown to facilitate lung metastasis in breast cancer models via the prostaglandin E2-EP2 pathway?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::7d71dffb-b591-4b88-b0c6-e125a1b083b4"
+  },
+  {
+    "answer": "64%",
+    "benchmark": "lab_bench",
+    "context": {
+      "key_passage": "We first examined RNA-seq data of clones isolated from 11 LTEE lines at 50, 000 generations. In this dataset, 95.0% of windows overlapping annotated protein- or RNA- coding genes and 64.0% of the non-genic windows were transcribed in at least one clone at a relaxed threshold of 1 transcript per million reads (TPM)."
+    },
+    "options": [
+      "95%",
+      "5%",
+      "36%",
+      "64%",
+      "46%"
+    ],
+    "question": "What percentage of non-genic genomic region windows displayed some transcription at a relaxed threshold in the E. Coli Long Term Evolution Experiment lines at 50, 000 generations?",
+    "subtask": "LitQA2",
+    "task_id": "labbench::LitQA2::941c04dc-c89d-4a90-87b0-930625268a38"
+  }
+]

@@ -1,0 +1,5 @@
+stage,n,matching_draft,prefix_tokens,fallback_returns,fallback_matches,agreement_returns,agreement_matches,agreement_fallback_returns,agreement_fallback_matches
+draft,3,0,0,0,0,0,0,0,0
+ledger,5,4,7123,5,4,0,0,5,4
+independent_solution,5,5,54308,5,5,0,0,5,5
+final_answer,6,4,99571,6,4,4,4,6,4

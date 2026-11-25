@@ -1,0 +1,5 @@
+matches_in_pool,n,sc_matches,usc_returned,usc_matches,usc_answer_diff,cisc_returned,cisc_matches,cisc_answer_diff
+0,15,0,15,0,0,15,0,0
+1,5,0,4,0,0,5,0,0
+2,11,10,11,10,0,11,10,0
+3,80,80,74,74,0,80,80,0

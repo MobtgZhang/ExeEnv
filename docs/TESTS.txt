@@ -1,0 +1,13 @@
+test_agreement_skips_only_final (test_audit.AuditTests.test_agreement_skips_only_final) ... ok
+test_explicit_empty_final_is_not_transport_failure (test_audit.AuditTests.test_explicit_empty_final_is_not_transport_failure) ... ok
+test_failed_requests_are_dependencies_not_consumptions (test_audit.AuditTests.test_failed_requests_are_dependencies_not_consumptions) ... ok
+test_fallback_requires_returned_nonempty_draft (test_audit.AuditTests.test_fallback_requires_returned_nonempty_draft) ... ok
+test_loss_dependence_changes_retention_benefit (test_audit.AuditTests.test_loss_dependence_changes_retention_benefit) ... ok
+test_manifest_rejects_tampering (test_audit.AuditTests.test_manifest_rejects_tampering) ... ok
+test_private_evaluator_never_enters_prompt (test_audit.AuditTests.test_private_evaluator_never_enters_prompt) ... ok
+test_strict_score_accepts_choice_not_explanation (test_audit.AuditTests.test_strict_score_accepts_choice_not_explanation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.041s
+
+OK
